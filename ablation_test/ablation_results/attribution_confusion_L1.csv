@@ -1,0 +1,15 @@
+true\predicted,Adobe Firefly,DALL-E 3,GPT-Image 1/1.5,GigaGAN,Grok,Midjourney v6,Nano Banana v1/Pro/2,ProGAN,Real,Stable Diffusion 1.5,Stable Diffusion 3,Stable Diffusion XL,StyleGAN2,StyleGAN3
+Adobe Firefly,2,0,0,0,7,0,53,0,18,20,0,0,0,0
+DALL-E 3,0,0,2,1,4,0,51,1,0,0,1,0,1,39
+GPT-Image 1/1.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GigaGAN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Grok,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Midjourney v6,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nano Banana v1/Pro/2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ProGAN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Real,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Stable Diffusion 1.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Stable Diffusion 3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Stable Diffusion XL,1,0,0,0,16,13,14,0,53,0,0,0,1,2
+StyleGAN2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+StyleGAN3,0,0,0,0,0,0,0,0,0,0,0,0,0,0

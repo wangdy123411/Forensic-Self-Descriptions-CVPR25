@@ -1,0 +1,1001 @@
+image_path,binary_label,binary_name,source_folder,true_source,sampling_seed
+ablation_img\fake\adobe_firefly\r000da54ft.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r00444b95t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r00869422t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r00c4a543t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r01cbb7fdt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0225b88bt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r02513d19t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0281b52at.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r02b3a1ddt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0314c3f9t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0341853dt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r03aa5df1t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r03cef811t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r03ed2669t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0408fe9ft.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r049f471dt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0518cf5dt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r053d2196t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r056c0ee6t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r056daad2t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r05f3f6a5t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r068812d7t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r075baf3ct.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r07f99a1at.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r07ffdc87t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r084889d5t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r08ac875ct.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r08b41f18t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r09a60f63t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r09c8e042t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0a10fe29t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0a8b59bbt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0b13d2a2t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0b99ac3ct.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0ba4c4c0t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0c0d0adct.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0c6cf00bt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0c8f3ce5t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0d203f37t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0e661e0dt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0eb07be3t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0ebdd2d2t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0f4ece9bt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r0fae3dbdt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r101e18b6t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r102b4aa4t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r107730b5t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r10944b31t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r10f2ac48t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1104e9e6t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r11aa1ee3t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r11bf0779t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1218b33at.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1234de87t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r123c6433t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1297fd0bt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r12ed2816t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r137bcd7at.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r137f062ft.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r13b5b161t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r13c7e92dt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1419078bt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r14a51689t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r14a9a843t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r152d9ff5t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r154d7294t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r16698b6et.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1694427et.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r180bcbd7t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r181768b7t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r181d64eat.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r186c09e4t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r18ea00c8t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r191488c6t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1934e29ft.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1986e42bt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r19c9183at.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1a170ddbt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1a7346d0t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1aa4cc99t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1ad9cd64t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1b61c7b1t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1bc4e4act.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1c243af7t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1c5a4928t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1c83ec1dt.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1c9fc42at.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1cad9823t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1cfc8ddat.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1d1cf607t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1d9eaf70t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1db5be20t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1dbe1b11t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1e251abet.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1e8e493ct.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1ee65904t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1ef15cb3t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1eff17eft.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1f1178cet.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\adobe_firefly\r1f5ad4e0t.png,1,fake,adobe_firefly,Adobe Firefly,42
+ablation_img\fake\dall_e_3\r006b0e4bt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r00de2590t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0149a21ct.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0207a52ct.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r022af74ct.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0249f733t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r02513d19t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r027a692ft.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0284aa1at.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0356ea60t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r036e2a9at.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0372042dt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r03c8ddcft.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0417f5e3t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r04317453t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r04395e54t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r046852c1t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r05772356t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r066358d3t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r06691aa5t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r069e346et.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0703243bt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r072421a1t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0773471dt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r07c47354t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r07d13149t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r07d5eb94t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r07ece355t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0809811bt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0833f646t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r083b7636t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r08b05c94t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r09488b39t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0a31a2cct.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0ab7202ft.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0b0cd69et.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0b0e2ba5t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0b6e4254t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0c0d0adct.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0d203f37t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0d796d4ft.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0db31c3ft.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0dd7b354t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0e7b407bt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0eb9e900t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0ed844b5t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0f38373ct.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0fa22d02t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0fbe1b0ft.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r0fc39b66t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r101e18b6t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r113402d4t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r113ee9edt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r11a7deb7t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r11d981d2t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1218b33at.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r123c6433t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r128cc6fbt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r129f09b4t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r13073518t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r133c5a52t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r13907965t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r141665bdt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r14ca1259t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1570dd6at.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1594b4b3t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r15c91802t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r15efd876t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r15f07f9dt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1639a65ct.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1644d874t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r164c1e13t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r16dca6f2t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r179ec4e8t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r17c76042t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r181dd93dt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r18393aeet.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r184f08dat.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r185929e9t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1934e29ft.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r197770adt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r19b49f2ct.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1a343192t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1a8ee526t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1aa4cc99t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1c23e440t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1c24a571t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1c31a90bt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1c6377bat.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1ca2ef38t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1d2bb70at.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1d527f65t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1d53fccat.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1d99d1f3t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1e14f45ct.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1e3b4cdft.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1e69b067t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1ea13eb4t.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1f06581bt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dall_e_3\r1f16e2abt.png,1,fake,dall_e_3,DALL-E 3,42
+ablation_img\fake\dalle2\r002fc3e2t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r00a940e1t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r018e74fet.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r01d9da09t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r02210c2at.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0225b88bt.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r022af74ct.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0249f733t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r027a692ft.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0281b52at.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r029afdb0t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r02d732f8t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r02e1abe2t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0355b2d5t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0372042dt.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r04172edct.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r04aceb4et.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0527f7e6t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r053d2196t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r057282fet.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r05839451t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r061e2ecft.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r063d8a61t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r066358d3t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r070a874ct.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0744a10et.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r07e242b7t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r07e594d6t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r08307e1at.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r083ca67ct.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r089cae91t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r08b05c94t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r09488b39t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r096982ddt.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r09b86185t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0a42c0f6t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0a54ed98t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0c486c0at.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0cc5a33ct.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0d56c1d7t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0d89edd8t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0db31c3ft.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0e5dfc8et.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0e661e0dt.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0e7b407bt.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0f1a3f00t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0f2e6baft.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0f5475b5t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0f91360ct.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0fdfc4f0t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r0ff7a848t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r101e18b6t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r101eab0dt.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r10a9ca2at.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r10f888c2t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r116fa8b7t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r11bf0779t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r123ca9b3t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r125442fat.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r128dfb38t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r12a7e9b5t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r12daa983t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1301676dt.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r13493fa3t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r134ba6abt.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r137bcd7at.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r137f062ft.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r13ae7d1et.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r13b45303t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r14556dabt.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r15a0b476t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r15eef8b9t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1602555bt.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r165355c0t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r171eeaf8t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r180a7062t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1866b73at.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1882b6e6t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r18fafe10t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r191f3cdet.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1a2d8b02t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1a343192t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1aa4db16t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1baf2ce0t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1be4943bt.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1bf4e594t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1bfbaab3t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1c09b002t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1c24a571t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1c402787t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1c717a46t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1cde4afbt.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1d4377f7t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1da851e4t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1dd9d6bft.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1de76a54t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1e56884ft.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1ef15cb3t.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1f1178cet.png,1,fake,dalle2,,42
+ablation_img\fake\dalle2\r1f1a9df4t.png,1,fake,dalle2,,42
+ablation_img\fake\glide\r00444b95t.png,1,fake,glide,,42
+ablation_img\fake\glide\r006fcc20t.png,1,fake,glide,,42
+ablation_img\fake\glide\r007f5116t.png,1,fake,glide,,42
+ablation_img\fake\glide\r01b3f004t.png,1,fake,glide,,42
+ablation_img\fake\glide\r01ef1b4at.png,1,fake,glide,,42
+ablation_img\fake\glide\r0281b52at.png,1,fake,glide,,42
+ablation_img\fake\glide\r028896d3t.png,1,fake,glide,,42
+ablation_img\fake\glide\r0288b58ct.png,1,fake,glide,,42
+ablation_img\fake\glide\r029afdb0t.png,1,fake,glide,,42
+ablation_img\fake\glide\r0342f22ct.png,1,fake,glide,,42
+ablation_img\fake\glide\r0383e9c3t.png,1,fake,glide,,42
+ablation_img\fake\glide\r039a5ef5t.png,1,fake,glide,,42
+ablation_img\fake\glide\r03b0c944t.png,1,fake,glide,,42
+ablation_img\fake\glide\r03ed2669t.png,1,fake,glide,,42
+ablation_img\fake\glide\r040b3002t.png,1,fake,glide,,42
+ablation_img\fake\glide\r045be2act.png,1,fake,glide,,42
+ablation_img\fake\glide\r0465565ct.png,1,fake,glide,,42
+ablation_img\fake\glide\r046852c1t.png,1,fake,glide,,42
+ablation_img\fake\glide\r04851bf9t.png,1,fake,glide,,42
+ablation_img\fake\glide\r052df821t.png,1,fake,glide,,42
+ablation_img\fake\glide\r053d2196t.png,1,fake,glide,,42
+ablation_img\fake\glide\r056daad2t.png,1,fake,glide,,42
+ablation_img\fake\glide\r06b161adt.png,1,fake,glide,,42
+ablation_img\fake\glide\r06b7849at.png,1,fake,glide,,42
+ablation_img\fake\glide\r0701ca45t.png,1,fake,glide,,42
+ablation_img\fake\glide\r070a874ct.png,1,fake,glide,,42
+ablation_img\fake\glide\r07f22efdt.png,1,fake,glide,,42
+ablation_img\fake\glide\r082626aft.png,1,fake,glide,,42
+ablation_img\fake\glide\r084889d5t.png,1,fake,glide,,42
+ablation_img\fake\glide\r08abaa78t.png,1,fake,glide,,42
+ablation_img\fake\glide\r08b04f65t.png,1,fake,glide,,42
+ablation_img\fake\glide\r08b05c94t.png,1,fake,glide,,42
+ablation_img\fake\glide\r08df6903t.png,1,fake,glide,,42
+ablation_img\fake\glide\r0941aa38t.png,1,fake,glide,,42
+ablation_img\fake\glide\r09579ff2t.png,1,fake,glide,,42
+ablation_img\fake\glide\r09696ba3t.png,1,fake,glide,,42
+ablation_img\fake\glide\r09d50960t.png,1,fake,glide,,42
+ablation_img\fake\glide\r09d5cb41t.png,1,fake,glide,,42
+ablation_img\fake\glide\r09dc6407t.png,1,fake,glide,,42
+ablation_img\fake\glide\r0a42c0f6t.png,1,fake,glide,,42
+ablation_img\fake\glide\r0a54ed98t.png,1,fake,glide,,42
+ablation_img\fake\glide\r0adac68bt.png,1,fake,glide,,42
+ablation_img\fake\glide\r0b3220e1t.png,1,fake,glide,,42
+ablation_img\fake\glide\r0b59fc2bt.png,1,fake,glide,,42
+ablation_img\fake\glide\r0bdc7894t.png,1,fake,glide,,42
+ablation_img\fake\glide\r0d0ff43at.png,1,fake,glide,,42
+ablation_img\fake\glide\r0e7b407bt.png,1,fake,glide,,42
+ablation_img\fake\glide\r0eab8214t.png,1,fake,glide,,42
+ablation_img\fake\glide\r0ed844b5t.png,1,fake,glide,,42
+ablation_img\fake\glide\r0f137652t.png,1,fake,glide,,42
+ablation_img\fake\glide\r0f6d3b31t.png,1,fake,glide,,42
+ablation_img\fake\glide\r0f71782et.png,1,fake,glide,,42
+ablation_img\fake\glide\r102b4aa4t.png,1,fake,glide,,42
+ablation_img\fake\glide\r10cf67d1t.png,1,fake,glide,,42
+ablation_img\fake\glide\r10e36316t.png,1,fake,glide,,42
+ablation_img\fake\glide\r11aa1ee3t.png,1,fake,glide,,42
+ablation_img\fake\glide\r121f7893t.png,1,fake,glide,,42
+ablation_img\fake\glide\r125f6e84t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1293f8ect.png,1,fake,glide,,42
+ablation_img\fake\glide\r1297fd0bt.png,1,fake,glide,,42
+ablation_img\fake\glide\r129f09b4t.png,1,fake,glide,,42
+ablation_img\fake\glide\r12cbfb1et.png,1,fake,glide,,42
+ablation_img\fake\glide\r12cf98bet.png,1,fake,glide,,42
+ablation_img\fake\glide\r13fccd2ft.png,1,fake,glide,,42
+ablation_img\fake\glide\r1426cde6t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1461e2d7t.png,1,fake,glide,,42
+ablation_img\fake\glide\r14f241e4t.png,1,fake,glide,,42
+ablation_img\fake\glide\r150b1b51t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1567e512t.png,1,fake,glide,,42
+ablation_img\fake\glide\r15c91802t.png,1,fake,glide,,42
+ablation_img\fake\glide\r16144fa2t.png,1,fake,glide,,42
+ablation_img\fake\glide\r163317d6t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1639a65ct.png,1,fake,glide,,42
+ablation_img\fake\glide\r1644d874t.png,1,fake,glide,,42
+ablation_img\fake\glide\r16d46fa3t.png,1,fake,glide,,42
+ablation_img\fake\glide\r17754c77t.png,1,fake,glide,,42
+ablation_img\fake\glide\r177fb9f1t.png,1,fake,glide,,42
+ablation_img\fake\glide\r17fe8532t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1800ab47t.png,1,fake,glide,,42
+ablation_img\fake\glide\r18d1abact.png,1,fake,glide,,42
+ablation_img\fake\glide\r18d72ab2t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1915909et.png,1,fake,glide,,42
+ablation_img\fake\glide\r19d72b0ct.png,1,fake,glide,,42
+ablation_img\fake\glide\r1aa4cc99t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1ae12b3ft.png,1,fake,glide,,42
+ablation_img\fake\glide\r1b547547t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1b790721t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1bdb6385t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1bfbaab3t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1c9fc42at.png,1,fake,glide,,42
+ablation_img\fake\glide\r1c9fdcf4t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1ca254b2t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1cde4afbt.png,1,fake,glide,,42
+ablation_img\fake\glide\r1d6e15d3t.png,1,fake,glide,,42
+ablation_img\fake\glide\r1dd998dft.png,1,fake,glide,,42
+ablation_img\fake\glide\r1e14f45ct.png,1,fake,glide,,42
+ablation_img\fake\glide\r1e3b4cdft.png,1,fake,glide,,42
+ablation_img\fake\glide\r1e56884ft.png,1,fake,glide,,42
+ablation_img\fake\glide\r1f06581bt.png,1,fake,glide,,42
+ablation_img\fake\glide\r1f446078t.png,1,fake,glide,,42
+ablation_img\fake\midjourney-v5\r010cb248t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r01170470t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r015b453ft.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r018ba134t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r018e74fet.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r019eb1cbt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0282ca06t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r03995a8ct.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r03bf5648t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r043951a3t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r04e818bat.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r04eb0d0ft.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0527f7e6t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r056c0ee6t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r056f233bt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r05f3bc6ct.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r05f66e6dt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r066b256at.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r06888d38t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0701ca45t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0777fea4t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r079d086et.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r07cfb432t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r07e594d6t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r083b7636t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r083ca67ct.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r08b41f18t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r09488b39t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r09ff1dcet.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0a18e454t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0aaa70c3t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0ab86ea2t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0ac70243t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0b5a3035t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0b5b85d0t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0b6e4254t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0b7b1156t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0bbd0b0et.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0bdc7894t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0c764979t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0d203f37t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0d280006t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0db31c3ft.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0de97473t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0deb6dadt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0eb8dfb5t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0f8a1531t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r0fb0a690t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1104e9e6t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1218b33at.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1267fa5bt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r12946364t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r12c64de9t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1378de81t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r14586c63t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r154d7294t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r15f07f9dt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r162b2209t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1639a65ct.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r16654024t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1694427et.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r16ea6386t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r17492cd5t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r187df69ft.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1889220ft.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1904147dt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r19fe3107t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1a1d24b2t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1a28d44bt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1a499b96t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1a7e4791t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1a7feb2bt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1a8ee526t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1a91c337t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1aa7459at.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1ae12b3ft.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1b106abdt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1b8b1b14t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1bca2388t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1c1fef8ft.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1c243af7t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1c31a90bt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1c402787t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1c5ec853t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1c6377bat.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1c717a46t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1ca254b2t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1ca5a385t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1ca6cc12t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1ceba29dt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1d1d501et.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1d47bfc2t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1ddc0c98t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1de108dft.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1e251abet.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1e3b4cdft.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1e56884ft.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1e9ae164t.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1eff17eft.png,1,fake,midjourney-v5,,42
+ablation_img\fake\midjourney-v5\r1f06581bt.png,1,fake,midjourney-v5,,42
+ablation_img\fake\stable-diffusion-1-3\r000da54ft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r001d260dt.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r012b0f30t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r018ba134t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r01b3f004t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0282ca06t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r03c8ddcft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r040b3002t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r042d7b17t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r043951a3t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r05d59d7ct.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r05f3f6a5t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r066358d3t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r06691aa5t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0676c50at.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0701ca45t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r070a874ct.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r085bdbe2t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r089cae91t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r08b05c94t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r097088c1t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r09a992e9t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r09d5cb41t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r09d7cd4et.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r09f764ect.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0a19cb85t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0a42c0f6t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0a779af2t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0a94587ft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0ab7202ft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0b42926ct.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0bbbb097t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0c486c0at.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0c8f3ce5t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0d796d4ft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0db011b4t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0dd60980t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0e63ca9ft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0eb8dfb5t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0eb9e900t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0ebb5ca2t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0ed019a4t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0f137652t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0f98115dt.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r0fbe1b0ft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r10f2ac48t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r110cc74ct.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r115e2464t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1234de87t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r127d47e0t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r129f09b4t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r12f3bbfat.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r133c5a52t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r134ba6abt.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r135df877t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r13b5b161t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r140f3432t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r141665bdt.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r144e095dt.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1468a9e1t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r15d1c836t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r16144fa2t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1618da9dt.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r162b2209t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r16422663t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r165355c0t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r165fbf4ft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r16d46fa3t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r171eeaf8t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r179ed8d7t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r180bcbd7t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1810ba7at.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r184f08dat.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1882b6e6t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1889220ft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r18d1abact.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1900f7c7t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1a4651edt.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1a485a99t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1a7b8c42t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1a7feb2bt.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1aa43470t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1b790721t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1be2a3d5t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1c99500bt.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1cc04f4ft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1d2bb70at.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1d4377f7t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1dbef145t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1de108dft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1e367d35t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1e69b067t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1e7987b3t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1ee6f90et.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1ef8b85ft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1eff17eft.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1f06581bt.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1f16e2abt.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1f40decct.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-3\r1f4f8a51t.png,1,fake,stable-diffusion-1-3,,42
+ablation_img\fake\stable-diffusion-1-4\r00617aa1t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r01170470t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r01c95f68t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r01d9da09t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r028896d3t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r02f9f53et.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0355b2d5t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r03b0c944t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r041c02cat.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r047aa954t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r04e7644dt.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r04e818bat.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r05647b9at.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r059ce7d0t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r05db7e7ft.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0670f47ft.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r068812d7t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r075baf3ct.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r07c47354t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r07e242b7t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r081ad6a3t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r082626aft.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0833f646t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r083ca67ct.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0897d8aat.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0941aa38t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r09670876t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0a2e85f0t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0a5d7cb6t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0af5a8cct.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0c7fcc38t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0d280006t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0e04cc91t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0e9b0485t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0ea0825ft.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0f1a3f00t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0f24ca4dt.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0f3569c0t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0f5beb66t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0f6250d2t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0f979863t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r0fc39b66t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r101d6690t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1077d1f2t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r10c5fc29t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1138e1aft.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1148801et.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r116825e2t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r11bf0779t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r127d47e0t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r12a97b08t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r12c5f70bt.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r133bb357t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r13b45303t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r142335f0t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r142787e2t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r14556dabt.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r14a595b6t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r14c2d3fct.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r14df59fet.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r150b1b51t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r15dcfacct.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r15efd876t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r16144fa2t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r163317d6t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1645a09ct.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r16d6c35dt.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r171d73aat.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r171eeaf8t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r180a7062t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r180bcbd7t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r18d866e1t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r191488c6t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1915909et.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1934e29ft.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r19b49f2ct.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r19be5c05t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r19d47beft.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1a11b3c0t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1a170ddbt.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1a8fe570t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1a9acd94t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1aa43470t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1ad3fa6dt.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1af60295t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1b57dbb2t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1bc3dd23t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1be2a3d5t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1bf00696t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1c243af7t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1c24a571t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1cad9823t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1cb7084et.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1ceba29dt.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1ced1907t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1cfc8ddat.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1dbef145t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1ec70fd3t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1ee6f90et.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-1-4\r1f1a9df4t.png,1,fake,stable-diffusion-1-4,,42
+ablation_img\fake\stable-diffusion-2\r00679daet.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r00d161b7t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r01292fd8t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r012d1dbet.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r01d9da09t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r02508493t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r02513d19t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r02a21f6ct.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r02d732f8t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r02f5c155t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r043951a3t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0487f5cet.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r049f471dt.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r050e1024t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0518cf5dt.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r05772356t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r061db45ft.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r06c4bcb9t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0703243bt.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r072421a1t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r075baf3ct.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0773471dt.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r07db8a54t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r07e242b7t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r07f22efdt.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r08996953t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r08df6903t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r08f2d4c6t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r09245347t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r096982ddt.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r09c8e042t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0a72568ct.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0a94587ft.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0a966704t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0ab7202ft.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0af5a8cct.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0b03e77at.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0b61ed37t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0c486c0at.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0c5e9567t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0c795771t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0cbdc6f8t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0cc5a33ct.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0cea5432t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0d8d62edt.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0db6cc31t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0e04cc91t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0e1a6e2ft.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0e5dfc8et.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0e63ca9ft.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0eb07be3t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0ed019a4t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0eea5a7et.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0f5475b5t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0f8e5907t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0fa077bet.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0fa22d02t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r0fdfc4f0t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r101e18b6t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1023c21et.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r11e134c7t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1234de87t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r123ca9b3t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r125442fat.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r126a22b8t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r12d4cabat.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r133bb357t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r137f062ft.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r13a5bb6bt.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r13e56300t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r146771d7t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r155fe1fat.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r16113cc8t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r163967d4t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r16654024t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r170df29ct.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r171d73aat.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r179bb406t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r17c76042t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1824034et.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r187df69ft.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r18fafe10t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r191f3cdet.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r19924edft.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r19d47beft.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1a877849t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1a8ee526t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1b6c1adbt.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1b9e9917t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1bc3dd23t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1bfbaab3t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1c146589t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1c4d4720t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1ca0784dt.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1ced1907t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1cfc8ddat.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1d1cf607t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1d527f65t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1db61cf8t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-2\r1e9ae164t.png,1,fake,stable-diffusion-2,,42
+ablation_img\fake\stable-diffusion-xl\r00879054t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r00c4a543t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r00d161b7t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r01291f20t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r01474187t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0191aaf4t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r019eb1cbt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0200a7a6t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0281b52at.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r029afdb0t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r02e1abe2t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r038922cbt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r03bf5648t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0408fe9ft.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0417f5e3t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0438eb97t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0518cf5dt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r05718fd6t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0589558at.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r068812d7t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r06888d38t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r07598392t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r07b99141t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r07f22efdt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0809811bt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0833f646t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r084a4ccet.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r087a13a6t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r09445479t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r09d7cd4et.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0a2ff882t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0a31a2cct.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0b07b945t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0b17fd57t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0b50b69ct.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0b5a3035t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0bc87c20t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0bf1bbect.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0c1f588dt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0c486c0at.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0d0ff4c2t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0e63ca9ft.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0e63dd12t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0eb07be3t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0f98115dt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0fb0a690t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r0fbe1b0ft.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r103a4f26t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r10e36316t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r11d981d2t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r123c6433t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r12d4cabat.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r12e170d4t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r133bb357t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r13493fa3t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r13a5bb6bt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r13c85634t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r140f3432t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r141665bdt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1461e2d7t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r14a9a843t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r15885978t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1594b4b3t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r15a0b476t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1602555bt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1639a65ct.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r165fbf4ft.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r169c7350t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r16ea6386t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r171eeaf8t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r173ee7e8t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r17f60607t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r180a7062t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r18fafe10t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1904147dt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r19183258t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r192ae577t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r19835fbft.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r19ba7288t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r19fe3107t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1a11b3c0t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1a1d7e72t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1a28d44bt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1a7feb2bt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1a9de6e9t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1af60295t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1b177fe1t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1b57dbb2t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1b61c7b1t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1b8b1b14t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1bc3a653t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1be4943bt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1bf00696t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1c9fdcf4t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1d6e15d3t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1e69b067t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1ead3024t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1ec70fd3t.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1ef16e0dt.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\fake\stable-diffusion-xl\r1f40decct.png,1,fake,stable-diffusion-xl,Stable Diffusion XL,42
+ablation_img\real\000000005529.jpg,0,real,real,Real,42
+ablation_img\real\000000021167.jpg,0,real,real,Real,42
+ablation_img\real\000000022705.jpg,0,real,real,Real,42
+ablation_img\real\000000025228.jpg,0,real,real,Real,42
+ablation_img\real\000000027620.jpg,0,real,real,Real,42
+ablation_img\real\000000027768.jpg,0,real,real,Real,42
+ablation_img\real\000000039405.jpg,0,real,real,Real,42
+ablation_img\real\000000041990.jpg,0,real,real,Real,42
+ablation_img\real\000000051738.jpg,0,real,real,Real,42
+ablation_img\real\000000061418.jpg,0,real,real,Real,42
+ablation_img\real\000000064898.jpg,0,real,real,Real,42
+ablation_img\real\000000066771.jpg,0,real,real,Real,42
+ablation_img\real\000000075612.jpg,0,real,real,Real,42
+ablation_img\real\000000076731.jpg,0,real,real,Real,42
+ablation_img\real\000000083531.jpg,0,real,real,Real,42
+ablation_img\real\000000088848.jpg,0,real,real,Real,42
+ablation_img\real\000000089648.jpg,0,real,real,Real,42
+ablation_img\real\000000092177.jpg,0,real,real,Real,42
+ablation_img\real\000000097278.jpg,0,real,real,Real,42
+ablation_img\real\000000098392.jpg,0,real,real,Real,42
+ablation_img\real\000000098520.jpg,0,real,real,Real,42
+ablation_img\real\000000107554.jpg,0,real,real,Real,42
+ablation_img\real\000000121673.jpg,0,real,real,Real,42
+ablation_img\real\000000134322.jpg,0,real,real,Real,42
+ablation_img\real\000000137727.jpg,0,real,real,Real,42
+ablation_img\real\000000150649.jpg,0,real,real,Real,42
+ablation_img\real\000000154000.jpg,0,real,real,Real,42
+ablation_img\real\000000156372.jpg,0,real,real,Real,42
+ablation_img\real\000000157138.jpg,0,real,real,Real,42
+ablation_img\real\000000163562.jpg,0,real,real,Real,42
+ablation_img\real\000000181666.jpg,0,real,real,Real,42
+ablation_img\real\000000186632.jpg,0,real,real,Real,42
+ablation_img\real\000000195754.jpg,0,real,real,Real,42
+ablation_img\real\000000197388.jpg,0,real,real,Real,42
+ablation_img\real\000000199236.jpg,0,real,real,Real,42
+ablation_img\real\000000201775.jpg,0,real,real,Real,42
+ablation_img\real\000000205647.jpg,0,real,real,Real,42
+ablation_img\real\000000206411.jpg,0,real,real,Real,42
+ablation_img\real\000000207306.jpg,0,real,real,Real,42
+ablation_img\real\000000210299.jpg,0,real,real,Real,42
+ablation_img\real\000000214205.jpg,0,real,real,Real,42
+ablation_img\real\000000215259.jpg,0,real,real,Real,42
+ablation_img\real\000000219440.jpg,0,real,real,Real,42
+ablation_img\real\000000219578.jpg,0,real,real,Real,42
+ablation_img\real\000000230008.jpg,0,real,real,Real,42
+ablation_img\real\000000230166.jpg,0,real,real,Real,42
+ablation_img\real\000000231549.jpg,0,real,real,Real,42
+ablation_img\real\000000249180.jpg,0,real,real,Real,42
+ablation_img\real\000000249643.jpg,0,real,real,Real,42
+ablation_img\real\000000252294.jpg,0,real,real,Real,42
+ablation_img\real\000000252776.jpg,0,real,real,Real,42
+ablation_img\real\000000255718.jpg,0,real,real,Real,42
+ablation_img\real\000000260657.jpg,0,real,real,Real,42
+ablation_img\real\000000262938.jpg,0,real,real,Real,42
+ablation_img\real\000000263068.jpg,0,real,real,Real,42
+ablation_img\real\000000263299.jpg,0,real,real,Real,42
+ablation_img\real\000000274272.jpg,0,real,real,Real,42
+ablation_img\real\000000278749.jpg,0,real,real,Real,42
+ablation_img\real\000000297085.jpg,0,real,real,Real,42
+ablation_img\real\000000297578.jpg,0,real,real,Real,42
+ablation_img\real\000000307145.jpg,0,real,real,Real,42
+ablation_img\real\000000319617.jpg,0,real,real,Real,42
+ablation_img\real\000000322895.jpg,0,real,real,Real,42
+ablation_img\real\000000326128.jpg,0,real,real,Real,42
+ablation_img\real\000000337055.jpg,0,real,real,Real,42
+ablation_img\real\000000341681.jpg,0,real,real,Real,42
+ablation_img\real\000000343803.jpg,0,real,real,Real,42
+ablation_img\real\000000346638.jpg,0,real,real,Real,42
+ablation_img\real\000000350833.jpg,0,real,real,Real,42
+ablation_img\real\000000358427.jpg,0,real,real,Real,42
+ablation_img\real\000000359833.jpg,0,real,real,Real,42
+ablation_img\real\000000360137.jpg,0,real,real,Real,42
+ablation_img\real\000000360325.jpg,0,real,real,Real,42
+ablation_img\real\000000374551.jpg,0,real,real,Real,42
+ablation_img\real\000000378453.jpg,0,real,real,Real,42
+ablation_img\real\000000397681.jpg,0,real,real,Real,42
+ablation_img\real\000000400573.jpg,0,real,real,Real,42
+ablation_img\real\000000401250.jpg,0,real,real,Real,42
+ablation_img\real\000000426372.jpg,0,real,real,Real,42
+ablation_img\real\000000430875.jpg,0,real,real,Real,42
+ablation_img\real\000000436883.jpg,0,real,real,Real,42
+ablation_img\real\000000437351.jpg,0,real,real,Real,42
+ablation_img\real\000000439994.jpg,0,real,real,Real,42
+ablation_img\real\000000473118.jpg,0,real,real,Real,42
+ablation_img\real\000000477805.jpg,0,real,real,Real,42
+ablation_img\real\000000507042.jpg,0,real,real,Real,42
+ablation_img\real\000000508730.jpg,0,real,real,Real,42
+ablation_img\real\000000517056.jpg,0,real,real,Real,42
+ablation_img\real\000000517687.jpg,0,real,real,Real,42
+ablation_img\real\000000523957.jpg,0,real,real,Real,42
+ablation_img\real\000000529528.jpg,0,real,real,Real,42
+ablation_img\real\000000533145.jpg,0,real,real,Real,42
+ablation_img\real\000000533206.jpg,0,real,real,Real,42
+ablation_img\real\000000540414.jpg,0,real,real,Real,42
+ablation_img\real\000000550714.jpg,0,real,real,Real,42
+ablation_img\real\000000562243.jpg,0,real,real,Real,42
+ablation_img\real\000000563470.jpg,0,real,real,Real,42
+ablation_img\real\000000573258.jpg,0,real,real,Real,42
+ablation_img\real\000000575243.jpg,0,real,real,Real,42
+ablation_img\real\000000580418.jpg,0,real,real,Real,42

@@ -6,3 +6,7 @@ dist/
 build/
 internal/
 weights/
+
+# Local ablation datasets (large image files)
+/ablation_img/
+/ablation_test/ablation_img/
