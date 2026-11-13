@@ -1,0 +1,298 @@
+{
+  "description": "Available original-byte author-release samples, with unavailable paper sources retained as explicit missing placeholders. Some public release sources differ from paper provenance; this is not the exact original FSD split.",
+  "sources": [
+    {
+      "source": "COCO2017",
+      "label": 0,
+      "split": "test",
+      "directories": [
+        "COCO2017/images/val2017"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "ImageNet-1k",
+      "label": 0,
+      "split": "test",
+      "directories": [
+        "GRIP_CLIP_extended/images/test_set/real_imagenet_val"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "ImageNet-22k",
+      "label": 0,
+      "split": "test",
+      "directories": [
+        "ImageNet-22k/samples/test"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "MIDB",
+      "label": 0,
+      "split": "test",
+      "directories": [
+        "MIDB/samples/test"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "BigGAN",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "DMID/images/TestSet/biggan_256",
+        "DMID/images/TestSet/biggan_512"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "DALLE 2",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "Synthbuster/images/synthbuster/dalle2",
+        "DMID/images/TestSet/dalle_2"
+      ],
+      "sample_count": 2000
+    },
+    {
+      "source": "DALLE 3",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "Synthbuster/images/synthbuster/dalle3",
+        "GRIP_CLIP_extended/images/test_set/dalle3_cocoval"
+      ],
+      "sample_count": 2000
+    },
+    {
+      "source": "DALLE M",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "DMID/images/TestSet/dalle-mini_valid"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "EG3D",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "DMID/images/TestSet/eg3d"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "FireFly",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "Synthbuster/images/synthbuster/firefly"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "GigaGAN",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "GRIP_CLIP_extended/images/test_set/GigaGAN_cond_imagenet256",
+        "GRIP_CLIP_extended/images/test_set/GigaGAN_t2i_coco256_diff_noised",
+        "GRIP_CLIP_extended/images/test_set/GigaGAN_t2i_coco256_rep"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "GLIDE",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "Synthbuster/images/synthbuster/glide",
+        "DMID/images/TestSet/glide_text2img_valid"
+      ],
+      "sample_count": 2000
+    },
+    {
+      "source": "Guided Dif",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "DMID/images/TestSet/guided-diffusion_class2image_ImageNet",
+        "DMID/images/TestSet/guided-diffusion_noise2image_LSUNbedrooms",
+        "DMID/images/TestSet/guided-diffusion_noise2image_LSUNcats",
+        "DMID/images/TestSet/guided-diffusion_noise2image_LSUNhorses"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "Latent Dif",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "DMID/images/TestSet/latent-diffusion_class2image_ImageNet",
+        "DMID/images/TestSet/latent-diffusion_text2img_valid",
+        "DMID/images/TestSet/latent-diffusion_noise2image_FFHQ",
+        "DMID/images/TestSet/latent-diffusion_noise2image_LSUNbedrooms",
+        "DMID/images/TestSet/latent-diffusion_noise2image_LSUNchurches"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "MJ v5",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "Synthbuster/images/synthbuster/midjourney-v5"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "MJ v6",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "FakeByGenerator/MJ v6/test"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "ProGAN",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "DMID/images/TestSet/progan_lsun"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "Proj.GAN",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "OSSIA/samples/Proj.GAN"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "SD1.3",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "Synthbuster/images/synthbuster/stable-diffusion-1-3"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "SD1.4",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "Synthbuster/images/synthbuster/stable-diffusion-1-4",
+        "OSSIA/samples/SD1.4"
+      ],
+      "sample_count": 2000
+    },
+    {
+      "source": "SD1.5",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "FakeByGenerator/SD1.5/test"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "SD2.1",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "GRIP_CLIP_extended/images/test_set/stable_diffusion_2_1_256",
+        "GRIP_CLIP_extended/images/test_set/stable_diffusion_2_1_512",
+        "GRIP_CLIP_extended/images/test_set/stable_diffusion_2_1_768"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "SD3.0",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "FakeByGenerator/SD3.0/test"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "SDXL",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "Synthbuster/images/synthbuster/stable-diffusion-xl",
+        "GRIP_CLIP_extended/images/test_set/sdxl_cocoval"
+      ],
+      "sample_count": 2000
+    },
+    {
+      "source": "StyleGAN",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "OSSIA/samples/StyleGAN"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "StyleGAN2",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "DMID/images/TestSet/stylegan2_afhqv2_512x512",
+        "DMID/images/TestSet/stylegan2_ffhq_1024x1024",
+        "DMID/images/TestSet/stylegan2_ffhq_256x256",
+        "DMID/images/TestSet/stylegan2_lsundog_256x256"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "StyleGAN3",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "DMID/images/TestSet/stylegan3_r_afhqv2_512x512",
+        "DMID/images/TestSet/stylegan3_r_ffhqu_1024x1024",
+        "DMID/images/TestSet/stylegan3_t_afhqv2_512x512",
+        "DMID/images/TestSet/stylegan3_t_ffhqu_1024x1024",
+        "DMID/images/TestSet/stylegan3_r_ffhqu_256x256",
+        "DMID/images/TestSet/stylegan3_t_ffhqu_256x256"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "Tam.Xformer",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "OSSIA/samples/Tam.Xformer"
+      ],
+      "sample_count": 1000
+    },
+    {
+      "source": "Synthbuster SD2 (version unverified)",
+      "label": 1,
+      "split": "test",
+      "directory": "Synthbuster/images/synthbuster/stable-diffusion-2",
+      "sample_count": 1000
+    }
+  ],
+  "notes": {
+    "ImageNet-1k": "GRIP release bytes; no checksum equivalence against original ILSVRC archives established.",
+    "ImageNet-22k": "Official originals only per user instruction; no OOD substitute.",
+    "MIDB": "Awaiting author approval.",
+    "SD1.4": "OSSIA stable_diffusion architecture mapped using FSD Table9, combined with Synthbuster.",
+    "ProGAN/StyleGAN2/StyleGAN3": "DMID source rather than the paper OSSIA source.",
+    "DALLE3/SDXL": "Additional images from later GRIP CLIP evaluation release, not FSD own generated image IDs.",
+    "OSSIA": "First unique images in author-shuffled test archive order, not a uniform random sample of the full archive."
+  }
+}

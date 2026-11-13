@@ -1,0 +1,11 @@
+numpy
+scipy
+scikit-learn
+torch
+Pillow
+matplotlib
+plotly
+reportlab
+pyarrow
+requests
+tqdm
