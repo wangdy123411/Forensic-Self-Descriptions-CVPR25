@@ -1,0 +1,201 @@
+{
+  "description": "Directory convention for original-byte evaluation samples. Missing directories are deliberate placeholders, not downloaded data. Edit directory/directories to your verified dataset paths. Original author sample IDs are not available.",
+  "sources": [
+    {
+      "source": "COCO2017",
+      "label": 0,
+      "split": "test",
+      "directory": "COCO2017/images/val2017",
+      "sample_count": 1000
+    },
+    {
+      "source": "ImageNet-1k",
+      "label": 0,
+      "split": "test",
+      "directory": "ImageNet-1k/samples/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "ImageNet-22k",
+      "label": 0,
+      "split": "test",
+      "directory": "ImageNet-22k/samples/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "MIDB",
+      "label": 0,
+      "split": "test",
+      "directory": "MIDB/samples/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "BigGAN",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/BigGAN/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "DALLE 2",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/DALLE 2/test",
+      "sample_count": 2000
+    },
+    {
+      "source": "DALLE 3",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/DALLE 3/test",
+      "sample_count": 2000
+    },
+    {
+      "source": "DALLE M",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/DALLE M/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "EG3D",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/EG3D/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "FireFly",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/FireFly/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "GigaGAN",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/GigaGAN/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "GLIDE",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/GLIDE/test",
+      "sample_count": 2000
+    },
+    {
+      "source": "Guided Dif",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/Guided Dif/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "Latent Dif",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/Latent Dif/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "MJ v5",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/MJ v5/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "MJ v6",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/MJ v6/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "ProGAN",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/ProGAN/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "Proj.GAN",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/Proj.GAN/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "SD1.3",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/SD1.3/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "SD1.4",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/SD1.4/test",
+      "sample_count": 2000
+    },
+    {
+      "source": "SD1.5",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/SD1.5/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "SD2.1",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/SD2.1/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "SD3.0",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/SD3.0/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "SDXL",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/SDXL/test",
+      "sample_count": 2000
+    },
+    {
+      "source": "StyleGAN",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/StyleGAN/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "StyleGAN2",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/StyleGAN2/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "StyleGAN3",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/StyleGAN3/test",
+      "sample_count": 1000
+    },
+    {
+      "source": "Tam.Xformer",
+      "label": 1,
+      "split": "test",
+      "directory": "FakeByGenerator/Tam.Xformer/test",
+      "sample_count": 1000
+    }
+  ]
+}

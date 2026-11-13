@@ -1,0 +1,86 @@
+{
+  "description": "Public-source partial benchmark; SB alone has only 1000 samples per generator. SB stable-diffusion-2 is not automatically equated to paper SD2.1 without generation-version verification. These paths preserve ZIP members. GigaGAN uses the explicitly identified GRIP CLIP extended release, not a claim of exact paper provenance.",
+  "sources": [
+    {
+      "source": "COCO2017",
+      "label": 0,
+      "split": "test",
+      "directory": "COCO2017/images/val2017",
+      "sample_count": 1000
+    },
+    {
+      "source": "GLIDE",
+      "label": 1,
+      "split": "test",
+      "directory": "Synthbuster/images/synthbuster/glide",
+      "sample_count": 1000
+    },
+    {
+      "source": "SD1.4",
+      "label": 1,
+      "split": "test",
+      "directory": "Synthbuster/images/synthbuster/stable-diffusion-1-4",
+      "sample_count": 1000
+    },
+    {
+      "source": "MJ v5",
+      "label": 1,
+      "split": "test",
+      "directory": "Synthbuster/images/synthbuster/midjourney-v5",
+      "sample_count": 1000
+    },
+    {
+      "source": "SDXL",
+      "label": 1,
+      "split": "test",
+      "directory": "Synthbuster/images/synthbuster/stable-diffusion-xl",
+      "sample_count": 1000
+    },
+    {
+      "source": "DALLE 3",
+      "label": 1,
+      "split": "test",
+      "directory": "Synthbuster/images/synthbuster/dalle3",
+      "sample_count": 1000
+    },
+    {
+      "source": "FireFly",
+      "label": 1,
+      "split": "test",
+      "directory": "Synthbuster/images/synthbuster/firefly",
+      "sample_count": 1000
+    },
+    {
+      "source": "SD1.3",
+      "label": 1,
+      "split": "test",
+      "directory": "Synthbuster/images/synthbuster/stable-diffusion-1-3",
+      "sample_count": 1000
+    },
+    {
+      "source": "DALLE 2",
+      "label": 1,
+      "split": "test",
+      "directory": "Synthbuster/images/synthbuster/dalle2",
+      "sample_count": 1000
+    },
+    {
+      "source": "Synthbuster SD2 (version unverified)",
+      "label": 1,
+      "split": "test",
+      "directory": "Synthbuster/images/synthbuster/stable-diffusion-2",
+      "sample_count": 1000
+    },
+    {
+      "source": "GigaGAN",
+      "label": 1,
+      "split": "test",
+      "directories": [
+        "GRIP_CLIP_extended/images/test_set/GigaGAN_cond_imagenet256",
+        "GRIP_CLIP_extended/images/test_set/GigaGAN_t2i_coco256_diff_noised",
+        "GRIP_CLIP_extended/images/test_set/GigaGAN_t2i_coco256_rep"
+      ],
+      "sample_count": 1000
+    }
+  ]
+}

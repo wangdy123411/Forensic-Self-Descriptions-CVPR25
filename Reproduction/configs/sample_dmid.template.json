@@ -1,0 +1,58 @@
+{
+  "note": "Requires replacing the URL with the public binary Google Drive download URL obtained via the normal confirmation for file 1grvgKiIq0ny8ImQzSUXPk3nd-AMEDjNb. Never insert a login page or private credentials. No automatic download or authentication occurs. Original DMID ICASSP2023, distinct from GRIP CLIP expanded test_set.zip.",
+  "archives": [
+    {
+      "id": "DMID_original",
+      "url": "REQUIRES_PUBLIC_BINARY_GOOGLE_DRIVE_URL",
+      "size": 4836562327,
+      "source_page": "https://github.com/grip-unina/DMimageDetection",
+      "public_drive_view": "https://drive.google.com/file/d/1grvgKiIq0ny8ImQzSUXPk3nd-AMEDjNb/view",
+      "groups": [
+        {
+          "source": "DALLE M",
+          "label": 1,
+          "prefixes": [
+            "TestSet/dalle-mini_valid/"
+          ]
+        },
+        {
+          "source": "EG3D",
+          "label": 1,
+          "prefixes": [
+            "TestSet/eg3d/"
+          ]
+        },
+        {
+          "source": "BigGAN",
+          "label": 1,
+          "prefixes": [
+            "TestSet/biggan_256/",
+            "TestSet/biggan_512/"
+          ]
+        },
+        {
+          "source": "Guided Dif",
+          "label": 1,
+          "prefixes": [
+            "TestSet/guided-diffusion_class2image_ImageNet/",
+            "TestSet/guided-diffusion_noise2image_LSUNbedrooms/",
+            "TestSet/guided-diffusion_noise2image_LSUNcats/",
+            "TestSet/guided-diffusion_noise2image_LSUNhorses/"
+          ]
+        },
+        {
+          "source": "Latent Dif",
+          "label": 1,
+          "prefixes": [
+            "TestSet/latent-diffusion_class2image_ImageNet/",
+            "TestSet/latent-diffusion_text2img_valid/",
+            "TestSet/latent-diffusion_noise2image_FFHQ/",
+            "TestSet/latent-diffusion_noise2image_LSUNbedrooms/",
+            "TestSet/latent-diffusion_noise2image_LSUNchurches/"
+          ]
+        }
+      ],
+      "destination": "DMID/images"
+    }
+  ]
+}

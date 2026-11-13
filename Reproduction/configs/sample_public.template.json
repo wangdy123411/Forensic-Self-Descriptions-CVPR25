@@ -1,0 +1,99 @@
+{
+  "note": "No download starts by reading this file. Use sample_remote_zip.py --plan first. Default is 1000 images per generator; use --per-source 2 for a smoke sample. Output is a self-contained data root with manifest.csv; it is not the full original datasets or the original paper split. A 1000-per-generator sample needs an explicit larger --max-transfer-mib after reviewing the plan.",
+  "archives": [
+    {
+      "id": "Synthbuster",
+      "url": "https://zenodo.org/records/10066460/files/synthbuster.zip?download=1",
+      "size": 12372557226,
+      "source_page": "https://zenodo.org/records/10066460",
+      "whole_archive_md5_reference_only": "0695bd328e16ea21c5c9cc2ae1d994ff",
+      "note": "Partial range sampling verifies ZIP member CRC and records SHA256. It cannot verify the whole-archive MD5. The publisher calls the folder stable-diffusion-2; its exact model version is not assumed to be paper SD2.1.",
+      "groups": [
+        {
+          "source": "DALLE 2",
+          "label": 1,
+          "prefixes": [
+            "synthbuster/dalle2/"
+          ]
+        },
+        {
+          "source": "DALLE 3",
+          "label": 1,
+          "prefixes": [
+            "synthbuster/dalle3/"
+          ]
+        },
+        {
+          "source": "FireFly",
+          "label": 1,
+          "prefixes": [
+            "synthbuster/firefly/"
+          ]
+        },
+        {
+          "source": "MJ v5",
+          "label": 1,
+          "prefixes": [
+            "synthbuster/midjourney-v5/"
+          ]
+        },
+        {
+          "source": "SD1.3",
+          "label": 1,
+          "prefixes": [
+            "synthbuster/stable-diffusion-1-3/"
+          ]
+        },
+        {
+          "source": "SD1.4",
+          "label": 1,
+          "prefixes": [
+            "synthbuster/stable-diffusion-1-4/"
+          ]
+        },
+        {
+          "source": "Synthbuster SD2 (version unverified)",
+          "label": 1,
+          "prefixes": [
+            "synthbuster/stable-diffusion-2/"
+          ]
+        },
+        {
+          "source": "SDXL",
+          "label": 1,
+          "prefixes": [
+            "synthbuster/stable-diffusion-xl/"
+          ]
+        },
+        {
+          "source": "GLIDE",
+          "label": 1,
+          "prefixes": [
+            "synthbuster/glide/"
+          ]
+        }
+      ],
+      "destination": "Synthbuster/images"
+    },
+    {
+      "id": "GRIP_CLIP_extended",
+      "url": "https://www.grip.unina.it/download/prog/DMimageDetection/test_set.zip",
+      "size": 12360821701,
+      "source_page": "https://github.com/grip-unina/ClipBased-SyntheticImageDetection/blob/main/data/test_set/README.md",
+      "whole_archive_md5_reference_only": "4a61d5185acc034e2a9884ccc3ff4e09",
+      "note": "CVPRW2024 GRIP CLIP expanded test set, distinct from the ICASSP2023 original DMID TestSet.zip.",
+      "groups": [
+        {
+          "source": "GigaGAN",
+          "label": 1,
+          "prefixes": [
+            "test_set/GigaGAN_cond_imagenet256/",
+            "test_set/GigaGAN_t2i_coco256_diff_noised/",
+            "test_set/GigaGAN_t2i_coco256_rep/"
+          ]
+        }
+      ],
+      "destination": "GRIP_CLIP_extended/images"
+    }
+  ]
+}

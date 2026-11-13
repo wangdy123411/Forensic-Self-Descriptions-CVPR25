@@ -1,0 +1,11 @@
+{
+  "sources": [
+    {
+      "source": "COCO2017",
+      "label": 0,
+      "split": "test",
+      "directory": "COCO2017/images/val2017",
+      "sample_count": 1000
+    }
+  ]
+}
