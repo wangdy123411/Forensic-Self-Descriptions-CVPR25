@@ -1,0 +1,10 @@
+{
+  "metrics": "results\\main\\metrics.csv",
+  "metrics_sha256": "1bdb849ef3245c645b61deafa91f538a5cd3f4b32a8da7a94482dd387f7f00c7",
+  "main_test_originals": 300,
+  "comparison_originals": 25,
+  "comparison_cases": 175,
+  "comparison_summary_sha256": "706de800a86ec3252b5b78d760c4ffdb8d2a052163eee35e7efbfaf6abc1b3bf",
+  "figure": "Clean and half-size resized AUROCs for four generators; pointwise source-stratified bootstrap intervals for resized cases",
+  "table": "Main 300-original cohort; macro AUROC and released-threshold rates; no task metric is computed across mismatched cohorts"
+}

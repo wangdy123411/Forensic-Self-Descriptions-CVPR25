@@ -1,0 +1,270 @@
+condition,source,attribution_pred,n,known_source_mapping
+blur_sigma05,Adobe Firefly,Adobe Firefly,46,True
+blur_sigma05,Adobe Firefly,Nano Banana v1/Pro/2,2,True
+blur_sigma05,Adobe Firefly,Real,2,True
+blur_sigma05,DALL-E 3,GPT-Image 1/1.5,2,True
+blur_sigma05,DALL-E 3,GigaGAN,1,True
+blur_sigma05,DALL-E 3,Grok,1,True
+blur_sigma05,DALL-E 3,Midjourney v6,2,True
+blur_sigma05,DALL-E 3,Nano Banana v1/Pro/2,2,True
+blur_sigma05,DALL-E 3,Real,1,True
+blur_sigma05,DALL-E 3,Stable Diffusion 3,7,True
+blur_sigma05,DALL-E 3,Stable Diffusion XL,34,True
+blur_sigma05,GLIDE,GigaGAN,14,False
+blur_sigma05,GLIDE,ProGAN,12,False
+blur_sigma05,GLIDE,StyleGAN2,24,False
+blur_sigma05,Stable Diffusion XL,Grok,6,True
+blur_sigma05,Stable Diffusion XL,Midjourney v6,11,True
+blur_sigma05,Stable Diffusion XL,Nano Banana v1/Pro/2,5,True
+blur_sigma05,Stable Diffusion XL,Real,23,True
+blur_sigma05,Stable Diffusion XL,Stable Diffusion 1.5,1,True
+blur_sigma05,Stable Diffusion XL,Stable Diffusion XL,4,True
+blur_sigma10,Adobe Firefly,Nano Banana v1/Pro/2,4,True
+blur_sigma10,Adobe Firefly,Real,46,True
+blur_sigma10,DALL-E 3,Nano Banana v1/Pro/2,1,True
+blur_sigma10,DALL-E 3,ProGAN,22,True
+blur_sigma10,DALL-E 3,StyleGAN2,27,True
+blur_sigma10,GLIDE,GigaGAN,1,False
+blur_sigma10,GLIDE,ProGAN,5,False
+blur_sigma10,GLIDE,StyleGAN2,44,False
+blur_sigma10,Stable Diffusion XL,Grok,11,True
+blur_sigma10,Stable Diffusion XL,Midjourney v6,7,True
+blur_sigma10,Stable Diffusion XL,Nano Banana v1/Pro/2,6,True
+blur_sigma10,Stable Diffusion XL,Real,25,True
+blur_sigma10,Stable Diffusion XL,Stable Diffusion XL,1,True
+blur_sigma20,Adobe Firefly,Nano Banana v1/Pro/2,11,True
+blur_sigma20,Adobe Firefly,Real,39,True
+blur_sigma20,DALL-E 3,DALL-E 3,2,True
+blur_sigma20,DALL-E 3,GigaGAN,1,True
+blur_sigma20,DALL-E 3,Grok,3,True
+blur_sigma20,DALL-E 3,Midjourney v6,9,True
+blur_sigma20,DALL-E 3,Nano Banana v1/Pro/2,1,True
+blur_sigma20,DALL-E 3,ProGAN,1,True
+blur_sigma20,DALL-E 3,Real,2,True
+blur_sigma20,DALL-E 3,Stable Diffusion 3,28,True
+blur_sigma20,DALL-E 3,Stable Diffusion XL,3,True
+blur_sigma20,GLIDE,ProGAN,31,False
+blur_sigma20,GLIDE,StyleGAN2,19,False
+blur_sigma20,Stable Diffusion XL,Grok,2,True
+blur_sigma20,Stable Diffusion XL,Midjourney v6,12,True
+blur_sigma20,Stable Diffusion XL,Nano Banana v1/Pro/2,16,True
+blur_sigma20,Stable Diffusion XL,Real,18,True
+blur_sigma20,Stable Diffusion XL,Stable Diffusion XL,2,True
+clean,Adobe Firefly,Adobe Firefly,50,True
+clean,DALL-E 3,DALL-E 3,6,True
+clean,DALL-E 3,GPT-Image 1/1.5,1,True
+clean,DALL-E 3,Grok,1,True
+clean,DALL-E 3,Midjourney v6,10,True
+clean,DALL-E 3,Nano Banana v1/Pro/2,5,True
+clean,DALL-E 3,Stable Diffusion 3,16,True
+clean,DALL-E 3,Stable Diffusion XL,11,True
+clean,GLIDE,GigaGAN,15,False
+clean,GLIDE,ProGAN,29,False
+clean,GLIDE,StyleGAN2,6,False
+clean,Stable Diffusion XL,Grok,3,True
+clean,Stable Diffusion XL,Midjourney v6,19,True
+clean,Stable Diffusion XL,Nano Banana v1/Pro/2,5,True
+clean,Stable Diffusion XL,Real,20,True
+clean,Stable Diffusion XL,Stable Diffusion XL,3,True
+crop_area025,Adobe Firefly,DALL-E 3,3,True
+crop_area025,Adobe Firefly,GPT-Image 1/1.5,1,True
+crop_area025,Adobe Firefly,Midjourney v6,1,True
+crop_area025,Adobe Firefly,Nano Banana v1/Pro/2,27,True
+crop_area025,Adobe Firefly,Real,4,True
+crop_area025,Adobe Firefly,Stable Diffusion 1.5,13,True
+crop_area025,Adobe Firefly,StyleGAN2,1,True
+crop_area025,DALL-E 3,GigaGAN,17,True
+crop_area025,DALL-E 3,Real,6,True
+crop_area025,DALL-E 3,StyleGAN2,18,True
+crop_area025,DALL-E 3,StyleGAN3,9,True
+crop_area025,GLIDE,GPT-Image 1/1.5,1,False
+crop_area025,GLIDE,Real,49,False
+crop_area025,Stable Diffusion XL,Real,50,True
+crop_area050,Adobe Firefly,Real,50,True
+crop_area050,DALL-E 3,Grok,2,True
+crop_area050,DALL-E 3,Nano Banana v1/Pro/2,11,True
+crop_area050,DALL-E 3,Real,37,True
+crop_area050,GLIDE,Real,50,False
+crop_area050,Stable Diffusion XL,Real,50,True
+crop_area075,Adobe Firefly,Adobe Firefly,32,True
+crop_area075,Adobe Firefly,Nano Banana v1/Pro/2,2,True
+crop_area075,Adobe Firefly,Real,16,True
+crop_area075,DALL-E 3,Grok,13,True
+crop_area075,DALL-E 3,Midjourney v6,30,True
+crop_area075,DALL-E 3,Nano Banana v1/Pro/2,6,True
+crop_area075,DALL-E 3,Real,1,True
+crop_area075,GLIDE,Real,50,False
+crop_area075,Stable Diffusion XL,Grok,6,True
+crop_area075,Stable Diffusion XL,Midjourney v6,4,True
+crop_area075,Stable Diffusion XL,Nano Banana v1/Pro/2,2,True
+crop_area075,Stable Diffusion XL,Real,36,True
+crop_area075,Stable Diffusion XL,Stable Diffusion XL,2,True
+jpeg_q50,Adobe Firefly,Adobe Firefly,4,True
+jpeg_q50,Adobe Firefly,Grok,1,True
+jpeg_q50,Adobe Firefly,Nano Banana v1/Pro/2,17,True
+jpeg_q50,Adobe Firefly,Real,28,True
+jpeg_q50,DALL-E 3,DALL-E 3,2,True
+jpeg_q50,DALL-E 3,GPT-Image 1/1.5,25,True
+jpeg_q50,DALL-E 3,Nano Banana v1/Pro/2,13,True
+jpeg_q50,DALL-E 3,Real,2,True
+jpeg_q50,DALL-E 3,Stable Diffusion 3,6,True
+jpeg_q50,DALL-E 3,Stable Diffusion XL,2,True
+jpeg_q50,GLIDE,ProGAN,49,False
+jpeg_q50,GLIDE,Real,1,False
+jpeg_q50,Stable Diffusion XL,Grok,6,True
+jpeg_q50,Stable Diffusion XL,Midjourney v6,5,True
+jpeg_q50,Stable Diffusion XL,Nano Banana v1/Pro/2,14,True
+jpeg_q50,Stable Diffusion XL,Real,25,True
+jpeg_q75,Adobe Firefly,Adobe Firefly,26,True
+jpeg_q75,Adobe Firefly,Nano Banana v1/Pro/2,8,True
+jpeg_q75,Adobe Firefly,Real,16,True
+jpeg_q75,DALL-E 3,DALL-E 3,2,True
+jpeg_q75,DALL-E 3,GPT-Image 1/1.5,13,True
+jpeg_q75,DALL-E 3,Grok,1,True
+jpeg_q75,DALL-E 3,Midjourney v6,6,True
+jpeg_q75,DALL-E 3,Nano Banana v1/Pro/2,9,True
+jpeg_q75,DALL-E 3,Real,2,True
+jpeg_q75,DALL-E 3,Stable Diffusion 3,10,True
+jpeg_q75,DALL-E 3,Stable Diffusion XL,7,True
+jpeg_q75,GLIDE,GigaGAN,1,False
+jpeg_q75,GLIDE,ProGAN,48,False
+jpeg_q75,GLIDE,Real,1,False
+jpeg_q75,Stable Diffusion XL,Grok,6,True
+jpeg_q75,Stable Diffusion XL,Midjourney v6,9,True
+jpeg_q75,Stable Diffusion XL,Nano Banana v1/Pro/2,8,True
+jpeg_q75,Stable Diffusion XL,Real,26,True
+jpeg_q75,Stable Diffusion XL,Stable Diffusion XL,1,True
+jpeg_q95,Adobe Firefly,Adobe Firefly,50,True
+jpeg_q95,DALL-E 3,DALL-E 3,7,True
+jpeg_q95,DALL-E 3,GPT-Image 1/1.5,1,True
+jpeg_q95,DALL-E 3,GigaGAN,1,True
+jpeg_q95,DALL-E 3,Grok,1,True
+jpeg_q95,DALL-E 3,Midjourney v6,13,True
+jpeg_q95,DALL-E 3,Nano Banana v1/Pro/2,3,True
+jpeg_q95,DALL-E 3,Stable Diffusion 3,15,True
+jpeg_q95,DALL-E 3,Stable Diffusion XL,9,True
+jpeg_q95,GLIDE,GigaGAN,2,False
+jpeg_q95,GLIDE,ProGAN,45,False
+jpeg_q95,GLIDE,StyleGAN2,3,False
+jpeg_q95,Stable Diffusion XL,Grok,3,True
+jpeg_q95,Stable Diffusion XL,Midjourney v6,18,True
+jpeg_q95,Stable Diffusion XL,Nano Banana v1/Pro/2,5,True
+jpeg_q95,Stable Diffusion XL,Real,23,True
+jpeg_q95,Stable Diffusion XL,Stable Diffusion XL,1,True
+resize050_jpeg50,Adobe Firefly,GPT-Image 1/1.5,5,True
+resize050_jpeg50,Adobe Firefly,Grok,2,True
+resize050_jpeg50,Adobe Firefly,Midjourney v6,9,True
+resize050_jpeg50,Adobe Firefly,Nano Banana v1/Pro/2,23,True
+resize050_jpeg50,Adobe Firefly,Real,7,True
+resize050_jpeg50,Adobe Firefly,Stable Diffusion 1.5,2,True
+resize050_jpeg50,Adobe Firefly,Stable Diffusion 3,1,True
+resize050_jpeg50,Adobe Firefly,Stable Diffusion XL,1,True
+resize050_jpeg50,DALL-E 3,GigaGAN,40,True
+resize050_jpeg50,DALL-E 3,Real,2,True
+resize050_jpeg50,DALL-E 3,StyleGAN2,5,True
+resize050_jpeg50,DALL-E 3,StyleGAN3,3,True
+resize050_jpeg50,GLIDE,Real,50,False
+resize050_jpeg50,Stable Diffusion XL,Grok,2,True
+resize050_jpeg50,Stable Diffusion XL,Real,47,True
+resize050_jpeg50,Stable Diffusion XL,Stable Diffusion 1.5,1,True
+resize050_jpeg75,Adobe Firefly,GPT-Image 1/1.5,6,True
+resize050_jpeg75,Adobe Firefly,Grok,6,True
+resize050_jpeg75,Adobe Firefly,Midjourney v6,15,True
+resize050_jpeg75,Adobe Firefly,Nano Banana v1/Pro/2,17,True
+resize050_jpeg75,Adobe Firefly,Real,2,True
+resize050_jpeg75,Adobe Firefly,Stable Diffusion 1.5,2,True
+resize050_jpeg75,Adobe Firefly,Stable Diffusion 3,1,True
+resize050_jpeg75,Adobe Firefly,Stable Diffusion XL,1,True
+resize050_jpeg75,DALL-E 3,GigaGAN,26,True
+resize050_jpeg75,DALL-E 3,ProGAN,1,True
+resize050_jpeg75,DALL-E 3,Real,5,True
+resize050_jpeg75,DALL-E 3,StyleGAN2,16,True
+resize050_jpeg75,DALL-E 3,StyleGAN3,2,True
+resize050_jpeg75,GLIDE,Real,50,False
+resize050_jpeg75,Stable Diffusion XL,Grok,1,True
+resize050_jpeg75,Stable Diffusion XL,Real,49,True
+resize075_jpeg75,Adobe Firefly,Nano Banana v1/Pro/2,2,True
+resize075_jpeg75,Adobe Firefly,Real,48,True
+resize075_jpeg75,DALL-E 3,Grok,5,True
+resize075_jpeg75,DALL-E 3,Nano Banana v1/Pro/2,12,True
+resize075_jpeg75,DALL-E 3,Real,30,True
+resize075_jpeg75,DALL-E 3,Stable Diffusion 1.5,3,True
+resize075_jpeg75,GLIDE,Real,50,False
+resize075_jpeg75,Stable Diffusion XL,Real,50,True
+resize_025,Adobe Firefly,GigaGAN,5,True
+resize_025,Adobe Firefly,Real,42,True
+resize_025,Adobe Firefly,StyleGAN2,1,True
+resize_025,Adobe Firefly,StyleGAN3,2,True
+resize_025,DALL-E 3,GigaGAN,1,True
+resize_025,DALL-E 3,ProGAN,46,True
+resize_025,DALL-E 3,StyleGAN3,3,True
+resize_025,GLIDE,Real,50,False
+resize_025,Stable Diffusion XL,Real,50,True
+resize_050,Adobe Firefly,GPT-Image 1/1.5,2,True
+resize_050,Adobe Firefly,Grok,3,True
+resize_050,Adobe Firefly,Midjourney v6,32,True
+resize_050,Adobe Firefly,Nano Banana v1/Pro/2,4,True
+resize_050,Adobe Firefly,Real,4,True
+resize_050,Adobe Firefly,Stable Diffusion 3,3,True
+resize_050,Adobe Firefly,Stable Diffusion XL,2,True
+resize_050,DALL-E 3,GigaGAN,23,True
+resize_050,DALL-E 3,Real,5,True
+resize_050,DALL-E 3,StyleGAN2,9,True
+resize_050,DALL-E 3,StyleGAN3,13,True
+resize_050,GLIDE,Real,50,False
+resize_050,Stable Diffusion XL,Real,50,True
+resize_075,Adobe Firefly,Nano Banana v1/Pro/2,5,True
+resize_075,Adobe Firefly,Real,45,True
+resize_075,DALL-E 3,Grok,6,True
+resize_075,DALL-E 3,Nano Banana v1/Pro/2,10,True
+resize_075,DALL-E 3,Real,27,True
+resize_075,DALL-E 3,Stable Diffusion 1.5,7,True
+resize_075,GLIDE,Real,50,False
+resize_075,Stable Diffusion XL,Grok,1,True
+resize_075,Stable Diffusion XL,Nano Banana v1/Pro/2,4,True
+resize_075,Stable Diffusion XL,Real,45,True
+sharpen_050,Adobe Firefly,Adobe Firefly,50,True
+sharpen_050,DALL-E 3,DALL-E 3,6,True
+sharpen_050,DALL-E 3,GPT-Image 1/1.5,4,True
+sharpen_050,DALL-E 3,Midjourney v6,15,True
+sharpen_050,DALL-E 3,Nano Banana v1/Pro/2,4,True
+sharpen_050,DALL-E 3,Stable Diffusion 3,18,True
+sharpen_050,DALL-E 3,Stable Diffusion XL,3,True
+sharpen_050,GLIDE,GigaGAN,12,False
+sharpen_050,GLIDE,ProGAN,33,False
+sharpen_050,GLIDE,StyleGAN2,5,False
+sharpen_050,Stable Diffusion XL,Grok,2,True
+sharpen_050,Stable Diffusion XL,Midjourney v6,19,True
+sharpen_050,Stable Diffusion XL,Nano Banana v1/Pro/2,5,True
+sharpen_050,Stable Diffusion XL,Real,20,True
+sharpen_050,Stable Diffusion XL,Stable Diffusion 1.5,1,True
+sharpen_050,Stable Diffusion XL,Stable Diffusion XL,3,True
+sharpen_100,Adobe Firefly,Adobe Firefly,50,True
+sharpen_100,DALL-E 3,DALL-E 3,8,True
+sharpen_100,DALL-E 3,GPT-Image 1/1.5,6,True
+sharpen_100,DALL-E 3,Midjourney v6,13,True
+sharpen_100,DALL-E 3,Nano Banana v1/Pro/2,3,True
+sharpen_100,DALL-E 3,Stable Diffusion 3,20,True
+sharpen_100,GLIDE,GigaGAN,11,False
+sharpen_100,GLIDE,ProGAN,36,False
+sharpen_100,GLIDE,StyleGAN2,3,False
+sharpen_100,Stable Diffusion XL,Grok,4,True
+sharpen_100,Stable Diffusion XL,Midjourney v6,18,True
+sharpen_100,Stable Diffusion XL,Nano Banana v1/Pro/2,6,True
+sharpen_100,Stable Diffusion XL,Real,20,True
+sharpen_100,Stable Diffusion XL,Stable Diffusion XL,2,True
+sharpen_200,Adobe Firefly,Adobe Firefly,50,True
+sharpen_200,DALL-E 3,DALL-E 3,13,True
+sharpen_200,DALL-E 3,GPT-Image 1/1.5,9,True
+sharpen_200,DALL-E 3,Midjourney v6,8,True
+sharpen_200,DALL-E 3,Nano Banana v1/Pro/2,2,True
+sharpen_200,DALL-E 3,Real,1,True
+sharpen_200,DALL-E 3,Stable Diffusion 3,17,True
+sharpen_200,GLIDE,GigaGAN,9,False
+sharpen_200,GLIDE,ProGAN,37,False
+sharpen_200,GLIDE,StyleGAN2,4,False
+sharpen_200,Stable Diffusion XL,Grok,6,True
+sharpen_200,Stable Diffusion XL,Midjourney v6,22,True
+sharpen_200,Stable Diffusion XL,Nano Banana v1/Pro/2,3,True
+sharpen_200,Stable Diffusion XL,Real,18,True
+sharpen_200,Stable Diffusion XL,Stable Diffusion XL,1,True

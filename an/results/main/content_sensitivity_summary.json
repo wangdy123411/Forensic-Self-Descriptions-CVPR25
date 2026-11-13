@@ -1,0 +1,147 @@
+{
+  "status": "complete_for_expected_test_pairs",
+  "analysis": "supplementary_archive_stem_proxy_cluster_bootstrap",
+  "bootstrap_draws": 1000,
+  "seed": 20261108,
+  "cluster_definition": "Synthbuster dataset + archive-member filename stem, shared across generator directories; other original IDs are independent",
+  "cluster_identity_confirmed": false,
+  "real_resampling": "original IDs independently within each real-source stratum",
+  "real_fake_content_dependence_modeled": false,
+  "fake_resampling": "sample the observed number of fake proxy clusters with replacement; shared multiplicity across all images in a cluster",
+  "fake_source_counts_fixed": false,
+  "macro_weighting": "equal generator AUROC in every valid draw",
+  "paired_clean_processed_weights": true,
+  "main_analysis_unchanged": true,
+  "main_point_estimates_verified": [
+    "auroc",
+    "clean_auroc",
+    "auroc_delta"
+  ],
+  "records_sha256": "ad2b760a9319b5cdb3d01845150d402c320b3346257057ee6e77b2a6c8777735",
+  "test_real_source_counts": {
+    "COCO2017": 100
+  },
+  "n_fake_originals": 200,
+  "n_fake_proxy_clusters": 181,
+  "n_fake_with_archive_stem_proxy": 200,
+  "n_cross_generator_shared_proxy_clusters": 18,
+  "n_fake_in_cross_generator_shared_proxy_clusters": 37,
+  "largest_fake_proxy_cluster": 3,
+  "coverage": [
+    {
+      "condition": "clean",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "jpeg_q95",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "jpeg_q75",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "jpeg_q50",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "resize_075",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "resize_050",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "resize_025",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "crop_area075",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "crop_area050",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "crop_area025",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "blur_sigma05",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "blur_sigma10",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "blur_sigma20",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "sharpen_050",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "sharpen_100",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "sharpen_200",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "resize075_jpeg75",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "resize050_jpeg75",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    },
+    {
+      "condition": "resize050_jpeg50",
+      "paired_test": 300,
+      "expected_test": 300,
+      "missing_expected_test": 0
+    }
+  ],
+  "warnings": []
+}

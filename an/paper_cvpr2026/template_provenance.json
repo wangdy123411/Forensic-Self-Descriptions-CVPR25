@@ -1,0 +1,15 @@
+{
+  "official_template_commit": "12909ae437f6dbc7435069cfdb4ca44c18e6a02f",
+  "files": [
+    {
+      "path": "cvpr.sty",
+      "url": "https://raw.githubusercontent.com/cvpr-org/author-kit/12909ae437f6dbc7435069cfdb4ca44c18e6a02f/cvpr.sty",
+      "sha256": "2602473285d1a7df2a445ac89b76e1afa0acab78e056f0369d19770245190153"
+    },
+    {
+      "path": "ieeenat_fullname.bst",
+      "url": "https://raw.githubusercontent.com/cvpr-org/author-kit/12909ae437f6dbc7435069cfdb4ca44c18e6a02f/ieeenat_fullname.bst",
+      "sha256": "e38e6166bd7b1e6d23a1b79dcdb55c656e4fcdbe91bdf6b50d827e6b5d1aacfc"
+    }
+  ]
+}

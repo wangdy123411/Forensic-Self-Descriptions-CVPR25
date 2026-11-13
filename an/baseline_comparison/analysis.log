@@ -1,0 +1,12 @@
+
+Started 2026-11-08T11:20:34.714416+00:00
+{
+  "status": "complete",
+  "expected_cases": 175,
+  "completed_cases": 175,
+  "independently_recomputed_numeric_pass": {
+    "upstream_vs_an_numeric_pass": true,
+    "upstream_vs_main_numeric_pass": true,
+    "an_vs_main_numeric_pass": true
+  }
+}

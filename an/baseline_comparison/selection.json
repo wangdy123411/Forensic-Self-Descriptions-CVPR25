@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-11-08T08:37:34.117873+00:00",
+  "purpose": "Frozen score-blind cohort for paired literal-upstream versus FFT FSD comparison",
+  "selection_seed": 20261108,
+  "selection_algorithm": "For each listed source, keep test originals only, rank by SHA256(f'{image_id}|20261108|comparison'.encode('utf-8')), take the first5; globally sort the25selected originals by the same hash.",
+  "selection_inputs": "Only main selected_manifest image_id, source, and split; no score or model output is read or used for selection",
+  "input_metadata": {
+    "path": "an/results/main/run_metadata.json",
+    "sha256": "23570ceb2f6a64ca6a64b2dbd00cc242966c306aaabb6b977faaf2bb81e301eb"
+  },
+  "original_manifest_references": {
+    "manifest_real.csv": "bf8d2ff63b05e459b495ffd65614819748304dc3bfb00eaf33dba5477c8c9050",
+    "manifest_fake.csv": "d5fd7bd2e98585e1b8142f2b5ef77277b0d3d0104ddac4498d06523a5f3476d0"
+  },
+  "manifest": {
+    "path": "an/baseline_comparison/manifest.csv",
+    "sha256": "4e35b9a5aa687008fe73e4eba94a1c0ab6a3a8adb919d6c8462ecbab4aa17150",
+    "originals": 25,
+    "split": "test",
+    "source_counts": {
+      "DALL-E 3": 5,
+      "GLIDE": 5,
+      "COCO2017": 5,
+      "Adobe Firefly": 5,
+      "Stable Diffusion XL": 5
+    },
+    "label_counts": {
+      "1": 20,
+      "0": 5
+    }
+  },
+  "candidate_test_counts_by_source": {
+    "COCO2017": 100,
+    "DALL-E 3": 50,
+    "Adobe Firefly": 50,
+    "Stable Diffusion XL": 50,
+    "GLIDE": 50
+  },
+  "conditions": [
+    "clean",
+    "jpeg_q95",
+    "jpeg_q75",
+    "jpeg_q50",
+    "resize_075",
+    "resize_050",
+    "resize_025",
+    "crop_area075",
+    "crop_area050",
+    "crop_area025",
+    "blur_sigma05",
+    "blur_sigma10",
+    "blur_sigma20",
+    "sharpen_050",
+    "sharpen_100",
+    "sharpen_200",
+    "resize075_jpeg75",
+    "resize050_jpeg75",
+    "resize050_jpeg50"
+  ],
+  "condition_configuration": [
+    {
+      "name": "clean",
+      "family": "clean",
+      "severity": 0.0,
+      "factor": null,
+      "quality": null,
+      "radius": null,
+      "percent": null
+    },
+    {
+      "name": "jpeg_q95",
+      "family": "jpeg",
+      "severity": 1,
+      "factor": null,
+      "quality": 95,
+      "radius": null,
+      "percent": null
+    },
+    {
+      "name": "jpeg_q75",
+      "family": "jpeg",
+      "severity": 2,
+      "factor": null,
+      "quality": 75,
+      "radius": null,
+      "percent": null
+    },
+    {
+      "name": "jpeg_q50",
+      "family": "jpeg",
+      "severity": 3,
+      "factor": null,
+      "quality": 50,
+      "radius": null,
+      "percent": null
+    },
+    {
+      "name": "resize_075",
+      "family": "resize",
+      "severity": 1,
+      "factor": 0.75,
+      "quality": null,
+      "radius": null,
+      "percent": null
+    },
+    {
+      "name": "resize_050",
+      "family": "resize",
+      "severity": 2,
+      "factor": 0.5,
+      "quality": null,
+      "radius": null,
+      "percent": null
+    },
+    {
+      "name": "resize_025",
+      "family": "resize",
+      "severity": 3,
+      "factor": 0.25,
+      "quality": null,
+      "radius": null,
+      "percent": null
+    },
+    {
+      "name": "crop_area075",
+      "family": "crop",
+      "severity": 1,
+      "factor": 0.75,
+      "quality": null,
+      "radius": null,
+      "percent": null
+    },
+    {
+      "name": "crop_area050",
+      "family": "crop",
+      "severity": 2,
+      "factor": 0.5,
+      "quality": null,
+      "radius": null,
+      "percent": null
+    },
+    {
+      "name": "crop_area025",
+      "family": "crop",
+      "severity": 3,
+      "factor": 0.25,
+      "quality": null,
+      "radius": null,
+      "percent": null
+    },
+    {
+      "name": "blur_sigma05",
+      "family": "blur",
+      "severity": 1,
+      "factor": null,
+      "quality": null,
+      "radius": 0.5,
+      "percent": null
+    },
+    {
+      "name": "blur_sigma10",
+      "family": "blur",
+      "severity": 2,
+      "factor": null,
+      "quality": null,
+      "radius": 1.0,
+      "percent": null
+    },
+    {
+      "name": "blur_sigma20",
+      "family": "blur",
+      "severity": 3,
+      "factor": null,
+      "quality": null,
+      "radius": 2.0,
+      "percent": null
+    },
+    {
+      "name": "sharpen_050",
+      "family": "sharpen",
+      "severity": 1,
+      "factor": null,
+      "quality": null,
+      "radius": 1.0,
+      "percent": 50
+    },
+    {
+      "name": "sharpen_100",
+      "family": "sharpen",
+      "severity": 2,
+      "factor": null,
+      "quality": null,
+      "radius": 1.0,
+      "percent": 100
+    },
+    {
+      "name": "sharpen_200",
+      "family": "sharpen",
+      "severity": 3,
+      "factor": null,
+      "quality": null,
+      "radius": 1.0,
+      "percent": 200
+    },
+    {
+      "name": "resize075_jpeg75",
+      "family": "resize_jpeg",
+      "severity": 1,
+      "factor": 0.75,
+      "quality": 75,
+      "radius": null,
+      "percent": null
+    },
+    {
+      "name": "resize050_jpeg75",
+      "family": "resize_jpeg",
+      "severity": 2,
+      "factor": 0.5,
+      "quality": 75,
+      "radius": null,
+      "percent": null
+    },
+    {
+      "name": "resize050_jpeg50",
+      "family": "resize_jpeg",
+      "severity": 3,
+      "factor": 0.5,
+      "quality": 50,
+      "radius": null,
+      "percent": null
+    }
+  ],
+  "expected_image_condition_cases_per_implementation": 475,
+  "image_ids_in_manifest_order": [
+    "synthbuster_59d7b980131c06dc",
+    "synthbuster_79b911e16f23e0ac",
+    "coco2017_000000344059",
+    "coco2017_000000187144",
+    "synthbuster_b66eea22fc3bafc5",
+    "coco2017_000000490125",
+    "coco2017_000000340894",
+    "synthbuster_6e26bcf710c666bb",
+    "coco2017_000000132116",
+    "synthbuster_929b5c7dd72e99ba",
+    "synthbuster_f0b722f655f8efb1",
+    "synthbuster_f01a6d84223ab23c",
+    "synthbuster_cab0be8d788ba938",
+    "synthbuster_c26c24108e9ee1ca",
+    "synthbuster_4f7c5acf55e93c14",
+    "synthbuster_e84e4872e51b3602",
+    "synthbuster_15b06a756cb7d9e4",
+    "synthbuster_bf8a82337278e468",
+    "synthbuster_a655b0bac25390b0",
+    "synthbuster_0fd9b3cf41edaa59",
+    "synthbuster_7d3067e81619f219",
+    "synthbuster_281023e19781b422",
+    "synthbuster_1fba50af824bfc40",
+    "synthbuster_c9b927a13218a65b",
+    "synthbuster_1d24309ecb4d7a05"
+  ],
+  "smoke_examples": {
+    "selection": "First globally ranked selected original of each binary label; deterministic examples, not a performance-based representative selection",
+    "real": {
+      "image_id": "coco2017_000000344059",
+      "path": "an/data/images/coco2017/000000344059.jpg",
+      "label": 0,
+      "source": "COCO2017",
+      "sha256": "633eed113cdef492bb09c27d838ee82b81623be11e5a35019404380fe7bd320b",
+      "width": "640",
+      "height": "427",
+      "format": "JPEG",
+      "archive_member": "val2017/000000344059.jpg",
+      "comparison_rank_sha256": "011a8ddc88434825d2d37720fcebf21e0f334597cdfc99941bac3c08ec886477"
+    },
+    "fake": {
+      "image_id": "synthbuster_59d7b980131c06dc",
+      "path": "an/data/images/synthbuster/dall_e_3/synthbuster_59d7b980131c06dc.png",
+      "label": 1,
+      "source": "DALL-E 3",
+      "sha256": "a3ad27a3e2958f787ce56d30b13732cfee756ddd163ad2c75010778e5cf82652",
+      "width": "1024",
+      "height": "1024",
+      "format": "PNG",
+      "archive_member": "synthbuster/dalle3/r177dd68et.png",
+      "comparison_rank_sha256": "00c99b42b5381c25b3769b9f685e72a5d86d0a818d10fa4d1bd450bed8acc6f3"
+    }
+  },
+  "planned_comparison_controls": {
+    "primary_max_size": 1024,
+    "num_scales": 3,
+    "kernel_size": 11,
+    "resize_mode": "resize_and_crop",
+    "fallback_max_size": 512,
+    "fallback_note": "Use512only if literal1024cannot run within GPU memory; compare both implementations at identical512settings and label as a separate numerical comparison, not a reproduction of the1024main study."
+  },
+  "notes": [
+    "Original main manifests and results remain unchanged.",
+    "No calibration original enters this comparison cohort.",
+    "Native file SHA256 values rechecked during selection.",
+    "No GPU job or additional download was run to create this selection."
+  ]
+}

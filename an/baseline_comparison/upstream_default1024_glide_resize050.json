@@ -1,0 +1,55 @@
+{
+  "started_utc": "2026-11-08T08:44:20.255759+00:00",
+  "image": "an\\data\\images\\synthbuster\\glide\\synthbuster_79b911e16f23e0ac.png",
+  "image_sha256": "8550a0dba0b68c8d55172a59b26dbdb8c37bfd41a895bfd88b6c2242276468ac",
+  "condition": "resize_050",
+  "device": "cuda",
+  "torch": "2.10.0+cu128",
+  "api": "Unmodified fsd.detector.FSDDetector.attribute",
+  "source_modified": false,
+  "default_max_size": 1024,
+  "requested_max_size": 1024,
+  "fsd_config": {
+    "kernel_size": 11,
+    "num_scales": 3,
+    "max_size": 1024,
+    "resize_mode": "resize_and_crop"
+  },
+  "input_size": [
+    128,
+    128
+  ],
+  "patch_storage_bytes": 10657726464,
+  "cuda_before": {
+    "free_bytes": 4895801344,
+    "total_bytes": 6442123264,
+    "gpu": "NVIDIA GeForce RTX 2060"
+  },
+  "inference_seconds": 90.50643670000136,
+  "result": {
+    "source": "Real",
+    "confidence": 0.7249077389608344,
+    "scores": {
+      "DALL-E 3": 0.028616317857814173,
+      "Adobe Firefly": 0.000334572343626141,
+      "GigaGAN": 0.00571284270545891,
+      "GPT-Image 1/1.5": 0.016940328628601165,
+      "Grok": 0.035424081021798476,
+      "Midjourney v6": 0.04963405834786913,
+      "Nano Banana v1/Pro/2": 0.03634322661505007,
+      "ProGAN": 0.0062209244073583815,
+      "Stable Diffusion 1.5": 0.002929039145419731,
+      "Stable Diffusion 3": 0.03718570587750871,
+      "Stable Diffusion XL": 0.03898102014177949,
+      "StyleGAN2": 0.013400536080850364,
+      "StyleGAN3": 0.003369607866030789,
+      "Real": 0.7249077389608344
+    },
+    "z_score": 0.4943286176204703,
+    "is_fake": false
+  },
+  "status": "success",
+  "process_seconds": 92.02385610004421,
+  "peak_cuda_allocated_mib": 10886.36865234375,
+  "finished_utc": "2026-11-08T08:45:52.290721+00:00"
+}

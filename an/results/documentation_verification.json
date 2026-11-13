@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "local_links_checked": 22,
+  "documents": {
+    "an\\RESULTS.md": 8,
+    "an\\README.md": 13,
+    "an\\docs\\dataset_access.md": 0,
+    "an\\docs\\experiment_plan.md": 0,
+    "an\\docs\\implementation_notes.md": 0,
+    "an\\docs\\research.md": 1
+  },
+  "broken": []
+}

@@ -1,0 +1,335 @@
+{
+  "revision_date_singapore": "2026-11-09",
+  "revision": "Shorter, fluent prose with core settings and minimal parentheses",
+  "pages": 1,
+  "paper_points": [
+    612,
+    792
+  ],
+  "body_style": "official CVPR 2026, 10pt two-column",
+  "table_count": 1,
+  "figure_count": 1,
+  "references": 3,
+  "latex_errors_or_unresolved_references": false,
+  "latest_page_visually_reviewed": true,
+  "main_experiment_records_unchanged": true,
+  "rationale_evidence": [
+    {
+      "path": "an/docs/experiment_plan.md",
+      "sha256": "964b9d9b1e5afb2412cc83315491460aad1855e11e7bae6ed0ff544b62b9b10d"
+    },
+    {
+      "path": "an/robustness/transforms.py",
+      "sha256": "4ac018213e80c8000c14ebe7c48dacfda801fdbc0ee1191bc0594755a7f93f0d"
+    },
+    {
+      "path": "an/results/main/run_metadata.json",
+      "sha256": "23570ceb2f6a64ca6a64b2dbd00cc242966c306aaabb6b977faaf2bb81e301eb"
+    }
+  ],
+  "artifact_hashes": [
+    {
+      "path": "main.tex",
+      "bytes": 497,
+      "sha256": "ce6aeebaf756273ced5d0b5b4ca56f2134709e2ccc39c54a019a2b2e2ca5cb35"
+    },
+    {
+      "path": "subsection.tex",
+      "bytes": 3763,
+      "sha256": "9476f6ed19e574a777c3898f6e3ed17e899406631df52b252a37a6b89aa2043f"
+    },
+    {
+      "path": "processing_table.tex",
+      "bytes": 404,
+      "sha256": "466af1d336c15618f84694750fcae751104aaafd54f94b75dc8442b28a7d42dc"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 969,
+      "sha256": "72797c47156dc4a8c1af91e22543ed0f26c33934dce728bcbb9516a5c2de6f6f"
+    },
+    {
+      "path": "cvpr.sty",
+      "bytes": 17969,
+      "sha256": "2602473285d1a7df2a445ac89b76e1afa0acab78e056f0369d19770245190153"
+    },
+    {
+      "path": "ieeenat_fullname.bst",
+      "bytes": 26900,
+      "sha256": "e38e6166bd7b1e6d23a1b79dcdb55c656e4fcdbe91bdf6b50d827e6b5d1aacfc"
+    },
+    {
+      "path": "build.py",
+      "bytes": 2156,
+      "sha256": "ee04e482a35a350f11135ab07ffe023ee79e85ea061b2bc49e57f962dc7f35b4"
+    },
+    {
+      "path": "make_assets.py",
+      "bytes": 4488,
+      "sha256": "cfbc96c3723566a4889311cad4a060fda182645d3893a97e1054ff480499a77d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7233,
+      "sha256": "e9b64c5516051d12f84701f04253fc0a5ee877da3f3d335eec2df5a2f190b390"
+    },
+    {
+      "path": "figure_table_data.csv",
+      "bytes": 13357,
+      "sha256": "c8e065be8ffeb51f01b09957724883e4c437f7a99f459e60ae8cee23002e9d62"
+    },
+    {
+      "path": "template_provenance.json",
+      "bytes": 615,
+      "sha256": "93681bed2eb3a357824b5c45e507940eba83d601683ff8da94596339d07be4dd"
+    },
+    {
+      "path": "latex_dependencies.json",
+      "bytes": 1531,
+      "sha256": "aefac04bd50033c6559ba79e845d47e286d04f52a2e2ace214fbe3fc36b7332f"
+    },
+    {
+      "path": "data_provenance.json",
+      "bytes": 600,
+      "sha256": "4791dc74bd89090d58ce145bdfe1ab68bf3fa2367bea90594cb764a3e364f204"
+    },
+    {
+      "path": "figures/generator_sensitivity.pdf",
+      "bytes": 36598,
+      "sha256": "25b51726e13abf486649ecc08069843e8ada7cd2a08c0e5cb41e8046daca2077"
+    },
+    {
+      "path": "figures/generator_sensitivity.png",
+      "bytes": 35101,
+      "sha256": "b3340c1667aecd812f83861ff744f81f27ed0db2f7c8f2f4d21a1e012387554a"
+    },
+    {
+      "path": "texmf/tex/latex/caption/bicaption.sty",
+      "bytes": 13911,
+      "sha256": "ec034dbc5ac337dca9aa8640333af1dd3cc741936eb99e05461c2ad4de791836"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption-ams-smf.sto",
+      "bytes": 2176,
+      "sha256": "f0851f21412799b46080856f26a9e3148bc42e2bd2c446da9e7f34fb35753489"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption-beamer.sto",
+      "bytes": 4350,
+      "sha256": "bd1f2324e42b1712d3e3df3afa82e826f2da899be43168eb118ac3ac85984e13"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption-elsarticle.sto",
+      "bytes": 1752,
+      "sha256": "763f74ad990a9bd968d5837683e345d4ea1d35acb1f5e2cd4c915941a9c6b937"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption-koma.sto",
+      "bytes": 6333,
+      "sha256": "51c72dcb8ca0fd4f844f39d3712b00bf2523b87a3d431ccde0963551470490eb"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption-light.sty",
+      "bytes": 3491,
+      "sha256": "12b2a37057062d15058510f22169066d156fb860f73f2286c6c365439d2abb52"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption-memoir.sto",
+      "bytes": 3194,
+      "sha256": "01b64e369cf6a7e8e9d005e8eaf5692248cfb154157e87f119fe2c612f7ee1b4"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption-ntg.sto",
+      "bytes": 1874,
+      "sha256": "ca0abd6fe5e1bf64f95f06f32d993e47869373a1c2b5913d30fb4bf8fc12e276"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption-thesis.sto",
+      "bytes": 1887,
+      "sha256": "c546b8d0fb190bb6bda5bc0da53b54a6e439ad55889dc022998297d181a7ae3d"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption.sty",
+      "bytes": 56128,
+      "sha256": "94b3a07d83bfdc9171d3fcb5ea510e6a9ce01ff9bebac37a1dc066e55f6ad48f"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption2.sty",
+      "bytes": 15825,
+      "sha256": "a6e3fd7957ba743f8f682c313206f9196b01e26162eec9ac5f3cd87b7a711fb5"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption2_1995-10-09.sty",
+      "bytes": 12382,
+      "sha256": "d13c30e0f846268d209f033e2b9591be117ce1f381dcd8d323cc7bf58ba381ce"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption2_2005-10-03.sty",
+      "bytes": 16064,
+      "sha256": "cfb51c165ce102d964d03f9b193146a55b9f58ce7b3da9911f95e8271f667565"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption3.sty",
+      "bytes": 72619,
+      "sha256": "73f00aabd0be454c9e552841856c573e096ef42d032fe9fd1801763b1b37bea5"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption3_2007-04-11.sty",
+      "bytes": 21800,
+      "sha256": "1cd72cabbf9eca7e300fdc896f5bbfc4684a95646c2857b90b389a237c144bf9"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption3_2010-01-14.sty",
+      "bytes": 67103,
+      "sha256": "2dc3ea01d9336a1ee74f1a30814b315f7573280d9de09e035f7e7c6e2ee0474d"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption3_2011-11-01.sty",
+      "bytes": 59956,
+      "sha256": "c30bae8f6a9069e6f9717e041862a84a4d8c8963bce6463180f3f5626afccf02"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption3_2019-09-01.sty",
+      "bytes": 68742,
+      "sha256": "c2a3cfd06689737d7addd3617349254eacdade1cbac26bc81901af7ccae9872b"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption3_2020-07-29.sty",
+      "bytes": 65171,
+      "sha256": "122138087f4e65ea91af5a91f4edd5e87b05da96ff88da5e2b4167b58919fa8a"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption3_2020-10-26.sty",
+      "bytes": 67868,
+      "sha256": "e870563e97a878679f3f8419f979657244fdc5f287765bb97b974334c02c7d3a"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption_1995-04-05.sty",
+      "bytes": 5958,
+      "sha256": "d40535a80cd82b5526400ccfae9b6d085641699375882585fcfbd628fc9aed6a"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption_2007-04-16.sty",
+      "bytes": 18092,
+      "sha256": "9f17f9ff268a4dada6a175b947b125009e961240c51330b3ae4d8896d7401669"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption_2010-01-09.sty",
+      "bytes": 62950,
+      "sha256": "d21392785f3e0102693673c57684125fb0918e15c2a1a6a02d9df5453b5fcfeb"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption_2011-11-10.sty",
+      "bytes": 64847,
+      "sha256": "798270def02c873464761deb60262d4488c4cbb00b464893c411c7cfb0525b74"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption_2019-09-01.sty",
+      "bytes": 69056,
+      "sha256": "8a4cbd71fb150f742ffb349b97f23c9e065af2a7777528fea7d48ed7746d8cc0"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption_2020-07-29.sty",
+      "bytes": 56647,
+      "sha256": "02202165da31b69e1224c9fbf1942c39074ca9185dd8441cb94452f7649c68d1"
+    },
+    {
+      "path": "texmf/tex/latex/caption/caption_2020-10-26.sty",
+      "bytes": 52093,
+      "sha256": "77dcf8d037c73cc420de8c048b4bd54170f0275390f86ce102a61f0805641207"
+    },
+    {
+      "path": "texmf/tex/latex/caption/ltcaption.sty",
+      "bytes": 7418,
+      "sha256": "314e0af4d7edcc038eb4dab681b2ccb472d4282f282f4188c8154c2403eb842e"
+    },
+    {
+      "path": "texmf/tex/latex/caption/subcaption.sty",
+      "bytes": 12494,
+      "sha256": "5b6b3644307e6db3b04f0f3e2bd0709b8a84add87094da9e5395285e0b705d7e"
+    },
+    {
+      "path": "texmf/tex/latex/cleveref/cleveref.sty",
+      "bytes": 329481,
+      "sha256": "58d7e2b67b8b165ec1c7e12dd2ea6edc807d5a61f68cb316267cea44fe128ef9"
+    },
+    {
+      "path": "texmf/tex/latex/enumitem/enumitem.sty",
+      "bytes": 52272,
+      "sha256": "628ef5b6916c682f586a066e735ceb6191e73fe3216dfb2fb4aa8e2f4c819dba"
+    },
+    {
+      "path": "texmf/tex/latex/grfext/grfext.sty",
+      "bytes": 7133,
+      "sha256": "6e17c14b47713579d5af357dbcdf4fc742863e319f94da74cb5c1d57a745f96b"
+    },
+    {
+      "path": "texmf/tex/latex/lineno/ednmath0.sty",
+      "bytes": 7028,
+      "sha256": "acb69b274f9c2c6aad7af394bf381fd430977413d38db56d1e81fb5c53c04abf"
+    },
+    {
+      "path": "texmf/tex/latex/lineno/edtable.sty",
+      "bytes": 24477,
+      "sha256": "8040dab34e8894edcae1abcffa7131bd3013ea40af2028b9dab64759cc7ad7a3"
+    },
+    {
+      "path": "texmf/tex/latex/lineno/fnlineno.sty",
+      "bytes": 49351,
+      "sha256": "6bfeb2044a54cf83bcbe262e8e2b6a3f2f0f8914a5abe6e648fc577ce6c348d7"
+    },
+    {
+      "path": "texmf/tex/latex/lineno/lineno.sty",
+      "bytes": 155535,
+      "sha256": "567b1567b54b3c2f598217d4953edf5dbfba4782975d5b9b8160d1d5779df68e"
+    },
+    {
+      "path": "texmf/tex/latex/lineno/vplref.sty",
+      "bytes": 2316,
+      "sha256": "bd210c95eec30dcc9ddd330b010b7d56df08a4796390b6298ef7b8e4cb37fc42"
+    },
+    {
+      "path": "texmf/tex/latex/silence/silence.sty",
+      "bytes": 17540,
+      "sha256": "833b1882b2702e40668c3487c3922dc6f01fa20249fa38398c263d8238cfc1a4"
+    },
+    {
+      "path": "texmf/tlpkg/tlpobj/caption.tlpobj",
+      "bytes": 2350,
+      "sha256": "5e5bed6b06a1f9219af347d11017075918dc33c22f3641de2cd99206c629c951"
+    },
+    {
+      "path": "texmf/tlpkg/tlpobj/cleveref.tlpobj",
+      "bytes": 1089,
+      "sha256": "ac85a338ee6d44da5cd811c8bb1f3801e4ae61e7822752850dba95bf115763f5"
+    },
+    {
+      "path": "texmf/tlpkg/tlpobj/enumitem.tlpobj",
+      "bytes": 895,
+      "sha256": "16c451b71915eecc633a20934d542290f6793bd161f95e4cb796befbc08d1de5"
+    },
+    {
+      "path": "texmf/tlpkg/tlpobj/grfext.tlpobj",
+      "bytes": 584,
+      "sha256": "c4bf19cdba492fa8f55d4ed8f5b60ae237f016c69b489d498b621f5ba35c7ee6"
+    },
+    {
+      "path": "texmf/tlpkg/tlpobj/lineno.tlpobj",
+      "bytes": 882,
+      "sha256": "9ba9b026df639fee12ffb7bc18e36a5e7e988c0b10aaaa5d6e066906fa8d0bb3"
+    },
+    {
+      "path": "texmf/tlpkg/tlpobj/silence.tlpobj",
+      "bytes": 746,
+      "sha256": "f53c3265c0f4d9c643b8e02d154b2854d3fac6bc9518491c408ae1a81d4bef8e"
+    },
+    {
+      "path": "output/pdf/robustness_subsection.pdf",
+      "bytes": 151840,
+      "sha256": "1e74ba882eac13ae6492a8c910039a802d559745886318797f2f010037c2a599"
+    }
+  ],
+  "standalone_source_bundle_compiles": true,
+  "standalone_build_pdf_text_matches": true,
+  "approximate_subsection_page_fraction": 0.75
+}

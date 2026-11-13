@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AN | FSD robustness reports</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f4f6f8; color: #202c37; font: 17px/1.65 system-ui, sans-serif; }
+    main { max-width: 980px; margin: auto; padding: 56px 28px 64px; }
+    .eyebrow { color: #486173; font-size: .8rem; font-weight: 650; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 8px 0 14px; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; letter-spacing: -.035em; }
+    h2 { margin: 0 0 12px; font-size: 1.2rem; line-height: 1.4; }
+    p { margin: 0 0 16px; }
+    a { color: #174e79; text-underline-offset: .18em; }
+    a:hover { color: #0b2d47; }
+    a:focus-visible { outline: 3px solid #ba651a; outline-offset: 4px; }
+    .lead { max-width: 760px; color: #455462; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; margin: 24px 0 32px; }
+    .primary { padding: 11px 18px; border-radius: 6px; color: #fff; background: #173e5b; font-weight: 650; text-decoration: none; }
+    .primary:hover { color: #fff; background: #0f2d44; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+    section { padding: 26px; border: 1px solid #dce3e9; border-radius: 8px; background: #fff; }
+    ul { margin: 0; padding-left: 1.2rem; }
+    li { margin: 6px 0; }
+    footer { margin-top: 24px; color: #455462; font-size: .9rem; }
+    footer p:last-child { margin-bottom: 0; }
+    @media (max-width: 650px) { main { padding: 30px 18px; } .grid { grid-template-columns: 1fr; } }
+    @media print { body { background: #fff; } main { padding: 0; } section { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">AN · Experiments</div>
+    <h1>FSD processing robustness</h1>
+    <p class="lead">Reports, publication assets, and supporting evidence from the completed COCO and Synthbuster study. The CVPR subsection presents the main findings; the detailed reports retain the full protocol and limitations.</p>
+    <nav class="actions" aria-label="Publication files">
+      <a class="primary" href="../paper_cvpr2026/output/pdf/robustness_subsection.pdf">Read the paper PDF</a>
+      <a href="../paper_cvpr2026/subsection.tex">Subsection LaTeX</a>
+      <a href="../paper_cvpr2026/output/robustness_latex_source.zip">Complete LaTeX source</a>
+    </nav>
+  </header>
+  <div class="grid">
+    <section aria-labelledby="study-title">
+      <h2 id="study-title">Robustness study</h2>
+      <p>300 test originals under 19 conditions, plus 100 clean calibration originals: 5,800 cases. Resizing and cropping produced the largest detection losses.</p>
+      <ul>
+        <li><a href="../RESULTS.md">Findings and recommendations</a></li>
+        <li><a href="../results/main/report.md">Full report</a> · <a href="../docs/experiment_plan.md">Protocol</a></li>
+        <li><a href="../results/main/metrics.csv">Detection metrics</a> · <a href="../results/main/auroc_intervals.csv">Uncertainty intervals</a></li>
+        <li><a href="../results/main/plots/auroc_by_condition.png">Processing chart</a> · <a href="../results/main/plots/source_auroc_heatmap.png">Generator comparison</a></li>
+        <li><a href="../results/main/plots/feature_residual_drift.png">Residual and descriptor changes</a></li>
+      </ul>
+    </section>
+    <section aria-labelledby="validation-title">
+      <h2 id="validation-title">Implementation validation</h2>
+      <p>25 originals under seven conditions: 175 matched pairs. The original and AN implementations agree on every detection decision and source prediction checked.</p>
+      <ul>
+        <li><a href="../baseline_comparison/RESULTS.md">Comparison findings</a></li>
+        <li><a href="../baseline_comparison/run1024/report.md">Full comparison report</a></li>
+        <li><a href="../baseline_comparison/run1024/comparison.csv">Numerical agreement</a></li>
+        <li><a href="../baseline_comparison/run1024/metrics.csv">Matched task metrics</a></li>
+        <li><a href="../baseline_comparison/run1024/runtime.csv">Runtime and memory</a></li>
+      </ul>
+    </section>
+  </div>
+  <footer>
+    <p>The optimized extractor improves efficiency on the tested hardware. No robustness mitigation was tested. The smaller validation cohort should not be substituted for the broader robustness study.</p>
+    <p>The portable bundle includes reports, evidence, and source. It excludes raw images, weights, the virtual environment, and per-image arrays. Inference requires the full working repository. See the <a href="../README.md">reproduction guide</a>.</p>
+  </footer>
+</main>
+</body>
+</html>

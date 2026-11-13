@@ -1,0 +1,18 @@
+{
+  "status": "resolved_ac_restored",
+  "description": "The laptop switched to battery during the direct comparison; the GPU reported P8, 300MHz SM, 405MHz memory and a10W current power limit despite80W requested/default.",
+  "last_normal_telemetry_utc": "2026-11-08T10:01:28.410029+00:00",
+  "first_low_power_telemetry_utc": "2026-11-08T10:02:28.475510+00:00",
+  "first_confirmed_battery_utc": "2026-11-08T10:06:23.076567+00:00",
+  "battery_percent_at_confirmation": 87,
+  "timing_window_start_utc": "2026-11-08T10:01:28.410029+00:00",
+  "timing_window_end_utc": "2026-11-08T10:11:01.037496+00:00",
+  "timing_policy": "Retain all cases for numerical/task comparisons and report all-case timings. Supplementary timing should flag any case overlapping the conservative interruption window, from the last preceding normal telemetry sample until confirmed AC restoration plus60seconds. Do not silently exclude these cases.",
+  "source": "Local nvidia-smi, GPU telemetry CSV, and Windows GetSystemPowerStatus observations",
+  "software_or_driver_power_settings_changed": false,
+  "confirmed_ac_restore_utc": "2026-11-08T10:10:01.037496+00:00",
+  "restored_gpu_sm_mhz": 1860,
+  "restored_gpu_memory_mhz": 5500,
+  "restored_gpu_power_w": 66.15,
+  "user_confirmed_charger_reconnected": true
+}

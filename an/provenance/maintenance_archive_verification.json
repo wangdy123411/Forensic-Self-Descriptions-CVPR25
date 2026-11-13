@@ -1,0 +1,12 @@
+{
+  "archive": "an/provenance/maintenance_records.zip",
+  "archive_sha256": "02e7f01de9f441d328adc80942048b658f5dc4bb4435e679abb02299602d6b46",
+  "all_non_tooling_files_preserved": true,
+  "verified_files": 83,
+  "excluded_disposable_directories": [
+    "black-cache",
+    "pip-cache",
+    "tooling"
+  ],
+  "bytes": 1231319
+}

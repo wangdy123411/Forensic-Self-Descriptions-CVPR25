@@ -1,0 +1,2 @@
+This is a validated analysis-only merge. Do not run inference or resume scoring here.
+Resume original phases, then merge to a new output directory if further results are needed.

@@ -1,0 +1,24 @@
+{
+  "manifest": "an/data/manifest_fake.csv",
+  "manifest_sha256": "d5fd7bd2e98585e1b8142f2b5ef77277b0d3d0104ddac4498d06523a5f3476d0",
+  "original_count": 200,
+  "requested_counts": {
+    "synthetic_test_per_source": 50,
+    "coco_test": 0,
+    "coco_calibration": 0,
+    "raise_test": 0,
+    "raise_calibration": 0
+  },
+  "actual_counts": {
+    "Adobe Firefly | test | JPEG": 50,
+    "DALL-E 3 | test | PNG": 50,
+    "GLIDE | test | PNG": 50,
+    "Stable Diffusion XL | test | PNG": 50
+  },
+  "input_manifest_snapshots_sha256": {
+    "an/data/manifest_synthbuster.csv": "7a1cecf195ca60cbcf8d0b1bc5bfbbcca8b886cbb3e6f86d5693cd215dbf81f7"
+  },
+  "selection": "First requested count per source/split in acquisition's pre-existing deterministic seeded rank; no repartitioning",
+  "validation": "Unique image IDs, resolved original paths and SHA256; recorded hashes/dimensions verified against native image bytes; real-only calibration",
+  "limitations": "Not the FSD paper's unpublished ID split; overlap with released pretrained source models is unknown"
+}

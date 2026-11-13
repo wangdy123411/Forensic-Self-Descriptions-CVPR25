@@ -1,0 +1,11 @@
+{
+  "dataset": "Synthbuster",
+  "url": "https://zenodo.org/records/10066460/files/synthbuster.zip?download=1",
+  "seed": 20261108,
+  "count": 200,
+  "downloaded_bytes": 234087804,
+  "archive_bytes": 12372557226,
+  "selection": "SHA256(seed|archive_member) ranking within source; native bytes",
+  "split_policy": "Real calibration/test disjoint original images; synthetic test only",
+  "not_claimed": "Exact FSD paper sample IDs or disjointness from unpublished checkpoint training IDs"
+}

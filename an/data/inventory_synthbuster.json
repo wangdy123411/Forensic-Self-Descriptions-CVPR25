@@ -1,0 +1,15 @@
+{
+  "url": "https://zenodo.org/records/10066460/files/synthbuster.zip?download=1",
+  "archive_bytes": 12372557226,
+  "folders": {
+    "synthbuster\\glide": 1000,
+    "synthbuster\\stable-diffusion-1-4": 1000,
+    "synthbuster\\midjourney-v5": 1000,
+    "synthbuster\\stable-diffusion-xl": 1000,
+    "synthbuster\\dalle3": 1000,
+    "synthbuster\\firefly": 1000,
+    "synthbuster\\stable-diffusion-2": 1000,
+    "synthbuster\\stable-diffusion-1-3": 1000,
+    "synthbuster\\dalle2": 1000
+  }
+}

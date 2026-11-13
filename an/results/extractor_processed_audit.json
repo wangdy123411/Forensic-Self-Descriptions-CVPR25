@@ -1,0 +1,2981 @@
+{
+  "purpose": "implementation validation, not accuracy evaluation",
+  "torch": "2.10.0+cu128",
+  "device": "cuda",
+  "fsd_config": {
+    "kernel_size": 11,
+    "num_scales": 3,
+    "max_size": 1024,
+    "resize_mode": "resize_and_crop"
+  },
+  "results": [
+    {
+      "image_id": "coco2017_000000459634",
+      "source": "COCO2017",
+      "label": 0,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\coco2017\\000000459634.jpg",
+      "texture_selection_metric": 13.486589566929133,
+      "condition": "clean",
+      "processed_size": [
+        640,
+        533
+      ],
+      "relative_l2": 1.4574316391679337e-11,
+      "max_abs_difference": 3.688320759920316e-10,
+      "absolute_z_difference": 1.3252954289555419e-11,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 2.950109774246812e-07,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -2.2435503256572673,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -4978.215481042897,
+            "Adobe Firefly": -12228.246183527455,
+            "GigaGAN": -4663.211197184001,
+            "GPT-Image 1/1.5": -4218.016896768263,
+            "Grok": -6721.126416871094,
+            "Midjourney v6": -6782.4269836859185,
+            "Nano Banana v1/Pro/2": -5527.321815512339,
+            "ProGAN": -3864.1629564969726,
+            "Stable Diffusion 1.5": -12267.697917521991,
+            "Stable Diffusion 3": -5957.68561466633,
+            "Stable Diffusion XL": -6641.446654307214,
+            "StyleGAN2": -4678.257186035881,
+            "StyleGAN3": -4704.0504022753485,
+            "Real": -2894.9140965055785
+          },
+          "seconds": 15.535540100070648,
+          "diagnostics": {
+            "input_height": 533,
+            "input_width": 640,
+            "raw_residual_shape": [
+              519,
+              626
+            ],
+            "raw_residual_rms_channels": [
+              12.25387477987306,
+              12.589226228350995,
+              12.285565453410225,
+              12.439499776612516,
+              12.349638738084206,
+              12.57901309399279,
+              12.758568083709882,
+              12.55355778276657
+            ],
+            "raw_residual_rms": 12.477180958071674,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9963382360825189,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9960170769411558,
+              0.9965394627121008,
+              0.9960117902737323,
+              0.9962943004131893,
+              0.9960442475917503,
+              0.9964369611599851,
+              0.9966845518540346,
+              0.9965727286750541
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              6.0426069956359605,
+              6.208004467308644,
+              6.057035935998038,
+              6.1215024059961936,
+              6.0647653062588045,
+              6.163525624735297,
+              6.210370908506756,
+              6.192268981834655
+            ],
+            "residual_rms": 6.132864574546397,
+            "residual_abs_mean": 3.273215044432403,
+            "constraint_max_abs_error": 1.637801005927031e-12,
+            "kkt_relative_residual": 9.668622880786557e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 15.42892600002233
+          }
+        },
+        "fft": {
+          "z_score": -2.2435503256705203,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -4978.215480962094,
+            "Adobe Firefly": -12228.246183298614,
+            "GigaGAN": -4663.211197313536,
+            "GPT-Image 1/1.5": -4218.016896739415,
+            "Grok": -6721.12641672161,
+            "Midjourney v6": -6782.426983527332,
+            "Nano Banana v1/Pro/2": -5527.321815406298,
+            "ProGAN": -3864.1629566319443,
+            "Stable Diffusion 1.5": -12267.69791722698,
+            "Stable Diffusion 3": -5957.685614511463,
+            "Stable Diffusion XL": -6641.446654148953,
+            "StyleGAN2": -4678.2571861621545,
+            "StyleGAN3": -4704.050402413825,
+            "Real": -2894.914096414508
+          },
+          "seconds": 1.466139500029385,
+          "diagnostics": {
+            "input_height": 533,
+            "input_width": 640,
+            "raw_residual_shape": [
+              519,
+              626
+            ],
+            "raw_residual_rms_channels": [
+              12.25387477987306,
+              12.589226228350995,
+              12.285565453410225,
+              12.439499776612516,
+              12.349638738084206,
+              12.57901309399279,
+              12.758568083709882,
+              12.55355778276657
+            ],
+            "raw_residual_rms": 12.477180958071674,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9963382360825189,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9960170769411558,
+              0.9965394627121008,
+              0.9960117902737323,
+              0.9962943004131893,
+              0.9960442475917503,
+              0.9964369611599851,
+              0.9966845518540346,
+              0.9965727286750541
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              6.0426069956359605,
+              6.208004467308644,
+              6.057035935998038,
+              6.1215024059961936,
+              6.0647653062588045,
+              6.163525624735297,
+              6.210370908506756,
+              6.192268981834655
+            ],
+            "residual_rms": 6.132864574546397,
+            "residual_abs_mean": 3.273215044432403,
+            "constraint_max_abs_error": 1.6200374375330284e-12,
+            "kkt_relative_residual": 9.193376201137939e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.4465778999729082
+          }
+        }
+      }
+    },
+    {
+      "image_id": "coco2017_000000459634",
+      "source": "COCO2017",
+      "label": 0,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\coco2017\\000000459634.jpg",
+      "texture_selection_metric": 13.486589566929133,
+      "condition": "blur_sigma20",
+      "processed_size": [
+        640,
+        533
+      ],
+      "relative_l2": 1.74936678184624e-11,
+      "max_abs_difference": 2.936282328391826e-10,
+      "absolute_z_difference": 1.1760831891693968e-11,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 3.680906957015395e-08,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -0.02673841515141973,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -2646.9145084032416,
+            "Adobe Firefly": -8327.004328793699,
+            "GigaGAN": -3934.367273662411,
+            "GPT-Image 1/1.5": -2604.5789684668184,
+            "Grok": -3795.736407826902,
+            "Midjourney v6": -3780.5233240532966,
+            "Nano Banana v1/Pro/2": -3015.9406641493215,
+            "ProGAN": -3023.0500496527548,
+            "Stable Diffusion 1.5": -8246.419865789865,
+            "Stable Diffusion 3": -3491.0708293080634,
+            "Stable Diffusion XL": -4008.08638585167,
+            "StyleGAN2": -3939.5122927575153,
+            "StyleGAN3": -4203.6383186890835,
+            "Real": -608.103821643372
+          },
+          "seconds": 14.950093399966136,
+          "diagnostics": {
+            "input_height": 533,
+            "input_width": 640,
+            "raw_residual_shape": [
+              519,
+              626
+            ],
+            "raw_residual_rms_channels": [
+              0.48603090116944864,
+              0.4704370796109098,
+              0.48492023878842005,
+              0.4800813552227028,
+              0.4867521440335848,
+              0.47644826299990933,
+              0.4783163707726381,
+              0.4735000528550514
+            ],
+            "raw_residual_rms": 0.47959387454690244,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9675272716850526,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9694796268904907,
+              0.9662031721413065,
+              0.9662845643020105,
+              0.9694976536672307,
+              0.9670188923553075,
+              0.965928616214915,
+              0.9673374036098501,
+              0.9680287519300091
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.2230370208817103,
+              0.22190499354538326,
+              0.22280182849592364,
+              0.22267822692612585,
+              0.22272701718829438,
+              0.22185405648765943,
+              0.22303112820656784,
+              0.22206599744097216
+            ],
+            "residual_rms": 0.2225130120651453,
+            "residual_abs_mean": 0.16183454866625901,
+            "constraint_max_abs_error": 1.9628743075372768e-13,
+            "kkt_relative_residual": 7.709753391562211e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 14.928137599956244
+          }
+        },
+        "fft": {
+          "z_score": -0.026738415139658897,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -2646.9145083804165,
+            "Adobe Firefly": -8327.004328784433,
+            "GigaGAN": -3934.367273625602,
+            "GPT-Image 1/1.5": -2604.57896849854,
+            "Grok": -3795.736407825325,
+            "Midjourney v6": -3780.523324069912,
+            "Nano Banana v1/Pro/2": -3015.940664144404,
+            "ProGAN": -3023.0500496360423,
+            "Stable Diffusion 1.5": -8246.41986581012,
+            "Stable Diffusion 3": -3491.070829334012,
+            "Stable Diffusion XL": -4008.0863858341922,
+            "StyleGAN2": -3939.5122927577645,
+            "StyleGAN3": -4203.638318703951,
+            "Real": -608.1038216513676
+          },
+          "seconds": 0.9988331000786275,
+          "diagnostics": {
+            "input_height": 533,
+            "input_width": 640,
+            "raw_residual_shape": [
+              519,
+              626
+            ],
+            "raw_residual_rms_channels": [
+              0.48603090116944864,
+              0.4704370796109098,
+              0.48492023878842005,
+              0.4800813552227028,
+              0.4867521440335848,
+              0.47644826299990933,
+              0.4783163707726381,
+              0.4735000528550514
+            ],
+            "raw_residual_rms": 0.47959387454690244,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9675272716850526,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9694796268904907,
+              0.9662031721413065,
+              0.9662845643020105,
+              0.9694976536672307,
+              0.9670188923553075,
+              0.965928616214915,
+              0.9673374036098501,
+              0.9680287519300091
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.2230370208817103,
+              0.22190499354538326,
+              0.22280182849592364,
+              0.22267822692612585,
+              0.22272701718829438,
+              0.22185405648765943,
+              0.22303112820656784,
+              0.22206599744097216
+            ],
+            "residual_rms": 0.2225130120651453,
+            "residual_abs_mean": 0.16183454866625901,
+            "constraint_max_abs_error": 1.9539925233402755e-13,
+            "kkt_relative_residual": 7.89169161665388e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 0.9679011000553146
+          }
+        }
+      }
+    },
+    {
+      "image_id": "coco2017_000000459634",
+      "source": "COCO2017",
+      "label": 0,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\coco2017\\000000459634.jpg",
+      "texture_selection_metric": 13.486589566929133,
+      "condition": "resize_025",
+      "processed_size": [
+        160,
+        133
+      ],
+      "relative_l2": 9.758211823499636e-09,
+      "max_abs_difference": 1.70988790348936e-08,
+      "absolute_z_difference": 1.7919510320041354e-09,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 2.2138796339277178e-05,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": 0.5307408128084231,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -2082.351194630514,
+            "Adobe Firefly": -4929.09821639327,
+            "GigaGAN": -3120.2128930879458,
+            "GPT-Image 1/1.5": -2631.811454930219,
+            "Grok": -1953.9638543032063,
+            "Midjourney v6": -1679.0220717318925,
+            "Nano Banana v1/Pro/2": -1953.7861612061818,
+            "ProGAN": -3412.6448643068234,
+            "Stable Diffusion 1.5": -3346.1728095802796,
+            "Stable Diffusion 3": -1661.0809013222752,
+            "Stable Diffusion XL": -1968.694383102149,
+            "StyleGAN2": -2709.8158522360573,
+            "StyleGAN3": -3505.261948483524,
+            "Real": 339.5465833962368
+          },
+          "seconds": 15.781641899957322,
+          "diagnostics": {
+            "input_height": 133,
+            "input_width": 160,
+            "raw_residual_shape": [
+              119,
+              146
+            ],
+            "raw_residual_rms_channels": [
+              7.7353855835477345,
+              8.113575400082498,
+              7.829662694680951,
+              7.7949561191223635,
+              7.895916899960813,
+              7.955658651044091,
+              8.006761640408897,
+              7.910970244628112
+            ],
+            "raw_residual_rms": 7.906175949465376,
+            "native_residual_patch_shape": [
+              119,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9813448847721868,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9805458440880193,
+              0.982223010321562,
+              0.9802448983380807,
+              0.9814226079616992,
+              0.9810430801499701,
+              0.9813488974163911,
+              0.9818509022584064,
+              0.9819925064645022
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              3.941429469003371,
+              4.040639243257052,
+              3.940121398124137,
+              3.971112863072677,
+              3.945361290814883,
+              3.985636432950955,
+              3.994453958515908,
+              4.014122629293182
+            ],
+            "residual_rms": 3.9792578164295853,
+            "residual_abs_mean": 2.130849827303752,
+            "constraint_max_abs_error": 1.149080830487037e-13,
+            "kkt_relative_residual": 7.979846176812248e-16,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 15.75864170002751
+          }
+        },
+        "fft": {
+          "z_score": 0.5307408146003741,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -2082.351187415674,
+            "Adobe Firefly": -4929.098194254474,
+            "GigaGAN": -3120.212880433729,
+            "GPT-Image 1/1.5": -2631.8114415251034,
+            "Grok": -1953.9638697999428,
+            "Midjourney v6": -1679.022065218719,
+            "Nano Banana v1/Pro/2": -1953.7861479628461,
+            "ProGAN": -3412.6448596359105,
+            "Stable Diffusion 1.5": -3346.1728114902344,
+            "Stable Diffusion 3": -1661.0809015835089,
+            "Stable Diffusion XL": -1968.6943882539995,
+            "StyleGAN2": -2709.8158506774853,
+            "StyleGAN3": -3505.261949703586,
+            "Real": 339.5465860142043
+          },
+          "seconds": 0.8919483000645414,
+          "diagnostics": {
+            "input_height": 133,
+            "input_width": 160,
+            "raw_residual_shape": [
+              119,
+              146
+            ],
+            "raw_residual_rms_channels": [
+              7.7353855835477345,
+              8.113575400082498,
+              7.829662694680951,
+              7.7949561191223635,
+              7.895916899960813,
+              7.955658651044091,
+              8.006761640408897,
+              7.910970244628112
+            ],
+            "raw_residual_rms": 7.906175949465376,
+            "native_residual_patch_shape": [
+              119,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9813448847721868,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9805458440880193,
+              0.982223010321562,
+              0.9802448983380807,
+              0.9814226079616992,
+              0.9810430801499701,
+              0.9813488974163911,
+              0.9818509022584064,
+              0.9819925064645022
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              3.941429469003371,
+              4.040639243257052,
+              3.940121398124137,
+              3.971112863072677,
+              3.945361290814883,
+              3.985636432950955,
+              3.994453958515908,
+              4.014122629293182
+            ],
+            "residual_rms": 3.9792578164295853,
+            "residual_abs_mean": 2.130849827303752,
+            "constraint_max_abs_error": 8.171241461241152e-14,
+            "kkt_relative_residual": 7.326927395081383e-16,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 0.8698296999791637
+          }
+        }
+      }
+    },
+    {
+      "image_id": "coco2017_000000459634",
+      "source": "COCO2017",
+      "label": 0,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\coco2017\\000000459634.jpg",
+      "texture_selection_metric": 13.486589566929133,
+      "condition": "jpeg_q50",
+      "processed_size": [
+        640,
+        533
+      ],
+      "relative_l2": 2.7812173258284722e-11,
+      "max_abs_difference": 6.394991203251266e-10,
+      "absolute_z_difference": 2.8628655002194137e-11,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 9.713039617054164e-08,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -2.566483588393519,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -4440.63723190611,
+            "Adobe Firefly": -8748.253013829979,
+            "GigaGAN": -6397.948609991105,
+            "GPT-Image 1/1.5": -4655.26360522905,
+            "Grok": -5390.479904056586,
+            "Midjourney v6": -5318.672232044476,
+            "Nano Banana v1/Pro/2": -4552.291227181328,
+            "ProGAN": -5515.688977920972,
+            "Stable Diffusion 1.5": -8133.854660600981,
+            "Stable Diffusion 3": -3970.318213373092,
+            "Stable Diffusion XL": -5401.429666007292,
+            "StyleGAN2": -6083.446848207217,
+            "StyleGAN3": -7618.607464914545,
+            "Real": -2327.540411923238
+          },
+          "seconds": 16.14075789996423,
+          "diagnostics": {
+            "input_height": 533,
+            "input_width": 640,
+            "raw_residual_shape": [
+              519,
+              626
+            ],
+            "raw_residual_rms_channels": [
+              9.111981457412844,
+              9.229803225062447,
+              9.149202905840237,
+              9.11566655524086,
+              9.168733168342612,
+              9.189942409127474,
+              9.241208015294008,
+              9.156727069920223
+            ],
+            "raw_residual_rms": 9.170516955319847,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9942288988945773,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9939821129537528,
+              0.994380839390915,
+              0.9941116387556171,
+              0.9943390461189757,
+              0.9940060345975098,
+              0.9941408553960066,
+              0.9942991418392555,
+              0.994551192258279
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              4.8220213930848885,
+              4.898576361439663,
+              4.842651761075398,
+              4.833388922334497,
+              4.835304517412895,
+              4.863622304010394,
+              4.870598026060954,
+              4.870016283900676
+            ],
+            "residual_rms": 4.854580834981067,
+            "residual_abs_mean": 2.188418590921831,
+            "constraint_max_abs_error": 1.3011813848606835e-12,
+            "kkt_relative_residual": 9.7230426916083e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 16.119611800066195
+          }
+        },
+        "fft": {
+          "z_score": -2.5664835883648904,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -4440.637231871067,
+            "Adobe Firefly": -8748.253013732849,
+            "GigaGAN": -6397.948609945443,
+            "GPT-Image 1/1.5": -4655.26360518516,
+            "Grok": -5390.479903989069,
+            "Midjourney v6": -5318.672231986391,
+            "Nano Banana v1/Pro/2": -4552.291227163724,
+            "ProGAN": -5515.688977922582,
+            "Stable Diffusion 1.5": -8133.854660506341,
+            "Stable Diffusion 3": -3970.318213337245,
+            "Stable Diffusion XL": -5401.429665968328,
+            "StyleGAN2": -6083.446848161139,
+            "StyleGAN3": -7618.607464856109,
+            "Real": -2327.540411887009
+          },
+          "seconds": 0.952979400055483,
+          "diagnostics": {
+            "input_height": 533,
+            "input_width": 640,
+            "raw_residual_shape": [
+              519,
+              626
+            ],
+            "raw_residual_rms_channels": [
+              9.111981457412844,
+              9.229803225062447,
+              9.149202905840237,
+              9.11566655524086,
+              9.168733168342612,
+              9.189942409127474,
+              9.241208015294008,
+              9.156727069920223
+            ],
+            "raw_residual_rms": 9.170516955319847,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9942288988945773,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9939821129537528,
+              0.994380839390915,
+              0.9941116387556171,
+              0.9943390461189757,
+              0.9940060345975098,
+              0.9941408553960066,
+              0.9942991418392555,
+              0.994551192258279
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              4.8220213930848885,
+              4.898576361439663,
+              4.842651761075398,
+              4.833388922334497,
+              4.835304517412895,
+              4.863622304010394,
+              4.870598026060954,
+              4.870016283900676
+            ],
+            "residual_rms": 4.854580834981067,
+            "residual_abs_mean": 2.188418590921831,
+            "constraint_max_abs_error": 9.610090501155355e-13,
+            "kkt_relative_residual": 9.95093087482777e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 0.9297458999790251
+          }
+        }
+      }
+    },
+    {
+      "image_id": "synthbuster_c0c25e4965e67a10",
+      "source": "DALL-E 3",
+      "label": 1,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\synthbuster\\dall_e_3\\synthbuster_c0c25e4965e67a10.png",
+      "texture_selection_metric": 17.832431102362207,
+      "condition": "clean",
+      "processed_size": [
+        1024,
+        1024
+      ],
+      "relative_l2": 1.1296037780715122e-10,
+      "max_abs_difference": 3.493382028096903e-09,
+      "absolute_z_difference": 2.5226043476322957e-10,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 1.851281922427006e-06,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -7.705817153311,
+          "attribution_prediction": "DALL-E 3",
+          "attribution_loglik": {
+            "DALL-E 3": -5085.2217218835785,
+            "Adobe Firefly": -10474.12540669657,
+            "GigaGAN": -7455.77177777581,
+            "GPT-Image 1/1.5": -6756.698839107207,
+            "Grok": -7057.856890509521,
+            "Midjourney v6": -5320.802226687678,
+            "Nano Banana v1/Pro/2": -6467.831936914231,
+            "ProGAN": -8081.9746720628955,
+            "Stable Diffusion 1.5": -9154.473860253565,
+            "Stable Diffusion 3": -5509.8413784380955,
+            "Stable Diffusion XL": -7008.252478086417,
+            "StyleGAN2": -7547.747613092905,
+            "StyleGAN3": -8181.226537548421,
+            "Real": -5595.76119574075
+          },
+          "seconds": 17.211691300035454,
+          "diagnostics": {
+            "input_height": 1024,
+            "input_width": 1024,
+            "raw_residual_shape": [
+              1010,
+              1010
+            ],
+            "raw_residual_rms_channels": [
+              10.260783384603252,
+              10.488092744194475,
+              10.35510973208792,
+              10.331985833622932,
+              10.43023614623718,
+              10.532990743799353,
+              10.6165459418001,
+              10.418460257820849
+            ],
+            "raw_residual_rms": 10.429831469514033,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9954913327773017,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9960595218233113,
+              0.9953797449548991,
+              0.9954369126398329,
+              0.9951112128075886,
+              0.9954471938131921,
+              0.9955502449561867,
+              0.99562681528698,
+              0.9951483347668638
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              4.783653999921846,
+              4.910884569490317,
+              4.827649876018895,
+              4.839564861539943,
+              4.838053342868502,
+              4.893173475034615,
+              4.927677482395632,
+              4.8890782155415415
+            ],
+            "residual_rms": 4.863932593510612,
+            "residual_abs_mean": 2.77881214949509,
+            "constraint_max_abs_error": 1.7709211874716857e-10,
+            "kkt_relative_residual": 2.997826607546426e-14,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 17.189812000025995
+          }
+        },
+        "fft": {
+          "z_score": -7.7058171535632605,
+          "attribution_prediction": "DALL-E 3",
+          "attribution_loglik": {
+            "DALL-E 3": -5085.221722543113,
+            "Adobe Firefly": -10474.125408547852,
+            "GigaGAN": -7455.771778247625,
+            "GPT-Image 1/1.5": -6756.698840436834,
+            "Grok": -7057.856891092112,
+            "Midjourney v6": -5320.802226715898,
+            "Nano Banana v1/Pro/2": -6467.831937382166,
+            "ProGAN": -8081.974672374881,
+            "Stable Diffusion 1.5": -9154.473860107706,
+            "Stable Diffusion 3": -5509.841377934938,
+            "Stable Diffusion XL": -7008.252477199447,
+            "StyleGAN2": -7547.747612556065,
+            "StyleGAN3": -8181.226536601366,
+            "Real": -5595.761195971801
+          },
+          "seconds": 1.1108050000621006,
+          "diagnostics": {
+            "input_height": 1024,
+            "input_width": 1024,
+            "raw_residual_shape": [
+              1010,
+              1010
+            ],
+            "raw_residual_rms_channels": [
+              10.260783384603252,
+              10.488092744194475,
+              10.35510973208792,
+              10.331985833622932,
+              10.43023614623718,
+              10.532990743799353,
+              10.6165459418001,
+              10.418460257820849
+            ],
+            "raw_residual_rms": 10.429831469514033,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9954913327773017,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9960595218233113,
+              0.9953797449548991,
+              0.9954369126398329,
+              0.9951112128075886,
+              0.9954471938131921,
+              0.9955502449561867,
+              0.99562681528698,
+              0.9951483347668638
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              4.783653999921846,
+              4.910884569490317,
+              4.827649876018895,
+              4.839564861539943,
+              4.838053342868502,
+              4.893173475034615,
+              4.927677482395632,
+              4.8890782155415415
+            ],
+            "residual_rms": 4.863932593510612,
+            "residual_abs_mean": 2.77881214949509,
+            "constraint_max_abs_error": 9.991296678890649e-11,
+            "kkt_relative_residual": 3.059044022777952e-14,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.088852099957876
+          }
+        }
+      }
+    },
+    {
+      "image_id": "synthbuster_c0c25e4965e67a10",
+      "source": "DALL-E 3",
+      "label": 1,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\synthbuster\\dall_e_3\\synthbuster_c0c25e4965e67a10.png",
+      "texture_selection_metric": 17.832431102362207,
+      "condition": "blur_sigma20",
+      "processed_size": [
+        1024,
+        1024
+      ],
+      "relative_l2": 9.098387300315521e-11,
+      "max_abs_difference": 2.9622260200312667e-09,
+      "absolute_z_difference": 7.615179598019495e-10,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 6.266191121540032e-07,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -6.907295141434419,
+          "attribution_prediction": "Stable Diffusion 3",
+          "attribution_loglik": {
+            "DALL-E 3": -6735.279829476196,
+            "Adobe Firefly": -10773.912995751254,
+            "GigaGAN": -6358.769773406424,
+            "GPT-Image 1/1.5": -6649.429863911576,
+            "Grok": -5685.291178195873,
+            "Midjourney v6": -6137.777424841628,
+            "Nano Banana v1/Pro/2": -6132.742478267477,
+            "ProGAN": -7703.064627201562,
+            "Stable Diffusion 1.5": -9582.856219799021,
+            "Stable Diffusion 3": -5271.963217495414,
+            "Stable Diffusion XL": -5886.739825608444,
+            "StyleGAN2": -7783.6364784343305,
+            "StyleGAN3": -8030.996303704283,
+            "Real": -5785.719079672388
+          },
+          "seconds": 17.55611200002022,
+          "diagnostics": {
+            "input_height": 1024,
+            "input_width": 1024,
+            "raw_residual_shape": [
+              1010,
+              1010
+            ],
+            "raw_residual_rms_channels": [
+              0.4551235502599848,
+              0.4418394644978785,
+              0.4544029398048873,
+              0.4501843538255801,
+              0.45567720465329337,
+              0.44747197665854704,
+              0.44705555614266484,
+              0.44514148528994796
+            ],
+            "raw_residual_rms": 0.4496373593604655,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9553007614235891,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9534187634754479,
+              0.9577346287465388,
+              0.9533087321285598,
+              0.9533937557667413,
+              0.9554061479296182,
+              0.9567441855505058,
+              0.9553381559749087,
+              0.9569068912121395
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.213165167026375,
+              0.21200179436012576,
+              0.21299453833018714,
+              0.21255840649751706,
+              0.21274678597089874,
+              0.21219811032012884,
+              0.2122967077633745,
+              0.21222326072195574
+            ],
+            "residual_rms": 0.2125234505470974,
+            "residual_abs_mean": 0.15174534219452473,
+            "constraint_max_abs_error": 6.973976951485383e-12,
+            "kkt_relative_residual": 1.6919131931468877e-14,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 17.533609300036915
+          }
+        },
+        "fft": {
+          "z_score": -6.907295142195937,
+          "attribution_prediction": "Stable Diffusion 3",
+          "attribution_loglik": {
+            "DALL-E 3": -6735.2798298092175,
+            "Adobe Firefly": -10773.912995837252,
+            "GigaGAN": -6358.769773831055,
+            "GPT-Image 1/1.5": -6649.429864347981,
+            "Grok": -5685.291178625376,
+            "Midjourney v6": -6137.777425380695,
+            "Nano Banana v1/Pro/2": -6132.742478866357,
+            "ProGAN": -7703.064627828181,
+            "Stable Diffusion 1.5": -9582.856219952764,
+            "Stable Diffusion 3": -5271.963218019575,
+            "Stable Diffusion XL": -5886.739826047078,
+            "StyleGAN2": -7783.636478861005,
+            "StyleGAN3": -8030.996304076892,
+            "Real": -5785.719080178915
+          },
+          "seconds": 1.0849671999458224,
+          "diagnostics": {
+            "input_height": 1024,
+            "input_width": 1024,
+            "raw_residual_shape": [
+              1010,
+              1010
+            ],
+            "raw_residual_rms_channels": [
+              0.4551235502599848,
+              0.4418394644978785,
+              0.4544029398048873,
+              0.4501843538255801,
+              0.45567720465329337,
+              0.44747197665854704,
+              0.44705555614266484,
+              0.44514148528994796
+            ],
+            "raw_residual_rms": 0.4496373593604655,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9553007614235891,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9534187634754479,
+              0.9577346287465388,
+              0.9533087321285598,
+              0.9533937557667413,
+              0.9554061479296182,
+              0.9567441855505058,
+              0.9553381559749087,
+              0.9569068912121395
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.213165167026375,
+              0.21200179436012576,
+              0.21299453833018714,
+              0.21255840649751706,
+              0.21274678597089874,
+              0.21219811032012884,
+              0.2122967077633745,
+              0.21222326072195574
+            ],
+            "residual_rms": 0.2125234505470974,
+            "residual_abs_mean": 0.15174534219452473,
+            "constraint_max_abs_error": 1.1937117960769683e-11,
+            "kkt_relative_residual": 1.7207050149039915e-14,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.062680699978955
+          }
+        }
+      }
+    },
+    {
+      "image_id": "synthbuster_c0c25e4965e67a10",
+      "source": "DALL-E 3",
+      "label": 1,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\synthbuster\\dall_e_3\\synthbuster_c0c25e4965e67a10.png",
+      "texture_selection_metric": 17.832431102362207,
+      "condition": "resize_025",
+      "processed_size": [
+        256,
+        256
+      ],
+      "relative_l2": 7.380424024389259e-11,
+      "max_abs_difference": 5.451203932693716e-10,
+      "absolute_z_difference": 2.0388135624216375e-10,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 5.414403858594596e-07,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -10.011468295737863,
+          "attribution_prediction": "ProGAN",
+          "attribution_loglik": {
+            "DALL-E 3": -7477.040658951414,
+            "Adobe Firefly": -19209.474668765706,
+            "GigaGAN": -776.7747721520528,
+            "GPT-Image 1/1.5": -5424.194372935984,
+            "Grok": -10851.880166410974,
+            "Midjourney v6": -11234.395003098749,
+            "Nano Banana v1/Pro/2": -9369.49265472263,
+            "ProGAN": -335.00488444781377,
+            "Stable Diffusion 1.5": -21002.811254470267,
+            "Stable Diffusion 3": -10892.880685896955,
+            "Stable Diffusion XL": -10495.275243756514,
+            "StyleGAN2": -1303.5291784636993,
+            "StyleGAN3": -2156.973032622972,
+            "Real": -6263.1990324816925
+          },
+          "seconds": 18.83543410000857,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              7.448523508779035,
+              7.761187653057905,
+              7.556649553735716,
+              7.527172628503496,
+              7.564011980422646,
+              7.7046405017469315,
+              7.697805989386944,
+              7.672731387308886
+            ],
+            "raw_residual_rms": 7.617255107626137,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9703720931023688,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9677368028005758,
+              0.9724386614552465,
+              0.968845452651993,
+              0.9697702992028626,
+              0.9693227328496993,
+              0.9709173346387969,
+              0.9715296183821017,
+              0.9719839954431251
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              3.958215759464108,
+              4.060685176315517,
+              3.9913833447934457,
+              3.984305772148987,
+              3.9865402642465173,
+              4.0348040322885925,
+              4.027949424333361,
+              4.031272558405321
+            ],
+            "residual_rms": 4.009522282224888,
+            "residual_abs_mean": 2.0888286240271166,
+            "constraint_max_abs_error": 1.1746159600534156e-12,
+            "kkt_relative_residual": 3.287758794984102e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 18.81295529997442
+          }
+        },
+        "fft": {
+          "z_score": -10.011468295533982,
+          "attribution_prediction": "ProGAN",
+          "attribution_loglik": {
+            "DALL-E 3": -7477.040658740349,
+            "Adobe Firefly": -19209.47466830472,
+            "GigaGAN": -776.7747720011372,
+            "GPT-Image 1/1.5": -5424.19437251552,
+            "Grok": -10851.880165970097,
+            "Midjourney v6": -11234.395002583935,
+            "Nano Banana v1/Pro/2": -9369.492654308455,
+            "ProGAN": -335.0048844544418,
+            "Stable Diffusion 1.5": -21002.811253928827,
+            "Stable Diffusion 3": -10892.880685584354,
+            "Stable Diffusion XL": -10495.275243483477,
+            "StyleGAN2": -1303.5291785385907,
+            "StyleGAN3": -2156.973032367992,
+            "Real": -6263.1990321352605
+          },
+          "seconds": 1.0536088000517339,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              7.448523508779035,
+              7.761187653057905,
+              7.556649553735716,
+              7.527172628503496,
+              7.564011980422646,
+              7.7046405017469315,
+              7.697805989386944,
+              7.672731387308886
+            ],
+            "raw_residual_rms": 7.617255107626137,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9703720931023688,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9677368028005758,
+              0.9724386614552465,
+              0.968845452651993,
+              0.9697702992028626,
+              0.9693227328496993,
+              0.9709173346387969,
+              0.9715296183821017,
+              0.9719839954431251
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              3.958215759464108,
+              4.060685176315517,
+              3.9913833447934457,
+              3.984305772148987,
+              3.9865402642465173,
+              4.0348040322885925,
+              4.027949424333361,
+              4.031272558405321
+            ],
+            "residual_rms": 4.009522282224888,
+            "residual_abs_mean": 2.0888286240271166,
+            "constraint_max_abs_error": 1.5127898933542383e-12,
+            "kkt_relative_residual": 3.2890300588358173e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.0313566999975592
+          }
+        }
+      }
+    },
+    {
+      "image_id": "synthbuster_c0c25e4965e67a10",
+      "source": "DALL-E 3",
+      "label": 1,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\synthbuster\\dall_e_3\\synthbuster_c0c25e4965e67a10.png",
+      "texture_selection_metric": 17.832431102362207,
+      "condition": "jpeg_q50",
+      "processed_size": [
+        1024,
+        1024
+      ],
+      "relative_l2": 1.1003882450102568e-10,
+      "max_abs_difference": 3.827714145643313e-09,
+      "absolute_z_difference": 2.0619506102548257e-09,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 1.5701380107202567e-06,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -9.635564802397484,
+          "attribution_prediction": "DALL-E 3",
+          "attribution_loglik": {
+            "DALL-E 3": -6345.76890922188,
+            "Adobe Firefly": -10557.313510795575,
+            "GigaGAN": -7818.32095779307,
+            "GPT-Image 1/1.5": -7077.535267874939,
+            "Grok": -7778.433283967587,
+            "Midjourney v6": -7530.0182253448465,
+            "Nano Banana v1/Pro/2": -6970.775982831849,
+            "ProGAN": -9627.379911778202,
+            "Stable Diffusion 1.5": -10464.515207562767,
+            "Stable Diffusion 3": -7151.127647345105,
+            "Stable Diffusion XL": -7860.221815323889,
+            "StyleGAN2": -9502.620932607504,
+            "StyleGAN3": -9858.369911632275,
+            "Real": -7041.501490878371
+          },
+          "seconds": 19.21024030004628,
+          "diagnostics": {
+            "input_height": 1024,
+            "input_width": 1024,
+            "raw_residual_shape": [
+              1010,
+              1010
+            ],
+            "raw_residual_rms_channels": [
+              6.690904728037618,
+              6.8379946978423005,
+              6.731123681440163,
+              6.706006010178187,
+              6.7393666081357875,
+              6.767779711121169,
+              6.742164253976959,
+              6.793528911485416
+            ],
+            "raw_residual_rms": 6.751255796023229,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9923800391468256,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9930683875693087,
+              0.9917986679057872,
+              0.9932788073641218,
+              0.9914192692441821,
+              0.9926729988166628,
+              0.992353161169843,
+              0.9925521087152224,
+              0.9913296743594523
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              3.4313749455221467,
+              3.493289103301449,
+              3.448181370959484,
+              3.4588568904598245,
+              3.453836945755643,
+              3.460756054433768,
+              3.4510918882482513,
+              3.482283229124377
+            ],
+            "residual_rms": 3.4600072679991514,
+            "residual_abs_mean": 1.441296207212415,
+            "constraint_max_abs_error": 2.162678924833017e-10,
+            "kkt_relative_residual": 2.7831188957579276e-14,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 19.187992400024086
+          }
+        },
+        "fft": {
+          "z_score": -9.635564804459435,
+          "attribution_prediction": "DALL-E 3",
+          "attribution_loglik": {
+            "DALL-E 3": -6345.768909516356,
+            "Adobe Firefly": -10557.313511690354,
+            "GigaGAN": -7818.320958576653,
+            "GPT-Image 1/1.5": -7077.535269445077,
+            "Grok": -7778.433285069582,
+            "Midjourney v6": -7530.018225681213,
+            "Nano Banana v1/Pro/2": -6970.775983962768,
+            "ProGAN": -9627.37991257491,
+            "Stable Diffusion 1.5": -10464.515206550755,
+            "Stable Diffusion 3": -7151.12764781946,
+            "Stable Diffusion XL": -7860.221814238849,
+            "StyleGAN2": -9502.620932653776,
+            "StyleGAN3": -9858.36991079999,
+            "Real": -7041.50149134875
+          },
+          "seconds": 1.191287099965848,
+          "diagnostics": {
+            "input_height": 1024,
+            "input_width": 1024,
+            "raw_residual_shape": [
+              1010,
+              1010
+            ],
+            "raw_residual_rms_channels": [
+              6.690904728037618,
+              6.8379946978423005,
+              6.731123681440163,
+              6.706006010178187,
+              6.7393666081357875,
+              6.767779711121169,
+              6.742164253976959,
+              6.793528911485416
+            ],
+            "raw_residual_rms": 6.751255796023229,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9923800391468256,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9930683875693087,
+              0.9917986679057872,
+              0.9932788073641218,
+              0.9914192692441821,
+              0.9926729988166628,
+              0.992353161169843,
+              0.9925521087152224,
+              0.9913296743594523
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              3.4313749455221467,
+              3.493289103301449,
+              3.448181370959484,
+              3.4588568904598245,
+              3.453836945755643,
+              3.460756054433768,
+              3.4510918882482513,
+              3.482283229124377
+            ],
+            "residual_rms": 3.4600072679991514,
+            "residual_abs_mean": 1.441296207212415,
+            "constraint_max_abs_error": 3.88574505905126e-10,
+            "kkt_relative_residual": 2.891201672056753e-14,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.16843359998893
+          }
+        }
+      }
+    },
+    {
+      "image_id": "synthbuster_48fd98f26ad58ff6",
+      "source": "GLIDE",
+      "label": 1,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\synthbuster\\glide\\synthbuster_48fd98f26ad58ff6.png",
+      "texture_selection_metric": 9.02466781496063,
+      "condition": "clean",
+      "processed_size": [
+        256,
+        256
+      ],
+      "relative_l2": 1.839938264380164e-10,
+      "max_abs_difference": 1.0881772150028723e-09,
+      "absolute_z_difference": 5.538360881018889e-10,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 2.1779051166959107e-06,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -19.328506705957796,
+          "attribution_prediction": "GigaGAN",
+          "attribution_loglik": {
+            "DALL-E 3": -11733.00571039463,
+            "Adobe Firefly": -26809.27158917652,
+            "GigaGAN": -719.3362372308009,
+            "GPT-Image 1/1.5": -7011.541217189111,
+            "Grok": -14880.272453987245,
+            "Midjourney v6": -15539.314504103744,
+            "Nano Banana v1/Pro/2": -13163.260376460377,
+            "ProGAN": -1456.8323953798524,
+            "Stable Diffusion 1.5": -27757.54952216173,
+            "Stable Diffusion 3": -15034.75736884483,
+            "Stable Diffusion XL": -13213.596097261494,
+            "StyleGAN2": -733.7513138530381,
+            "StyleGAN3": -2525.7525148082914,
+            "Real": -10177.43677290303
+          },
+          "seconds": 19.906065199989825,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              1.1523394406178813,
+              1.129531614329336,
+              1.1523368502829172,
+              1.1378218699295488,
+              1.1482414174090008,
+              1.1378798794840352,
+              1.1309867595213818,
+              1.12701503408118
+            ],
+            "raw_residual_rms": 1.139559651160735,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.8118189935450923,
+            "native_residual_patch_hf_fraction_channels": [
+              0.8170070954111782,
+              0.8077447719505798,
+              0.8183504675913166,
+              0.8104540905754081,
+              0.8148238379294207,
+              0.8106980722792985,
+              0.8027277033351395,
+              0.8111069067225353
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.7956185357451544,
+              0.7814596404964872,
+              0.7951382211751423,
+              0.78654357457957,
+              0.7920331817184901,
+              0.7882107343434285,
+              0.7836693139574012,
+              0.7775776099409034
+            ],
+            "residual_rms": 0.7875548286809411,
+            "residual_abs_mean": 0.3507140567158026,
+            "constraint_max_abs_error": 7.679412661332208e-13,
+            "kkt_relative_residual": 2.262848838675687e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 19.879421399906278
+          }
+        },
+        "fft": {
+          "z_score": -19.32850670540396,
+          "attribution_prediction": "GigaGAN",
+          "attribution_loglik": {
+            "DALL-E 3": -11733.00570908584,
+            "Adobe Firefly": -26809.271586998613,
+            "GigaGAN": -719.3362374790438,
+            "GPT-Image 1/1.5": -7011.54121680514,
+            "Grok": -14880.27245266367,
+            "Midjourney v6": -15539.314502981973,
+            "Nano Banana v1/Pro/2": -13163.260375139937,
+            "ProGAN": -1456.832394953072,
+            "Stable Diffusion 1.5": -27757.549520272067,
+            "Stable Diffusion 3": -15034.757367289849,
+            "Stable Diffusion XL": -13213.59609599687,
+            "StyleGAN2": -733.7513133700171,
+            "StyleGAN3": -2525.7525148800587,
+            "Real": -10177.436771742
+          },
+          "seconds": 1.1384122000308707,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              1.1523394406178813,
+              1.129531614329336,
+              1.1523368502829172,
+              1.1378218699295488,
+              1.1482414174090008,
+              1.1378798794840352,
+              1.1309867595213818,
+              1.12701503408118
+            ],
+            "raw_residual_rms": 1.139559651160735,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.8118189935450923,
+            "native_residual_patch_hf_fraction_channels": [
+              0.8170070954111782,
+              0.8077447719505798,
+              0.8183504675913166,
+              0.8104540905754081,
+              0.8148238379294207,
+              0.8106980722792985,
+              0.8027277033351395,
+              0.8111069067225353
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.7956185357451544,
+              0.7814596404964872,
+              0.7951382211751423,
+              0.78654357457957,
+              0.7920331817184901,
+              0.7882107343434285,
+              0.7836693139574012,
+              0.7775776099409034
+            ],
+            "residual_rms": 0.7875548286809411,
+            "residual_abs_mean": 0.3507140567158026,
+            "constraint_max_abs_error": 6.235012506294879e-13,
+            "kkt_relative_residual": 2.171781363832772e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.1100820999126881
+          }
+        }
+      }
+    },
+    {
+      "image_id": "synthbuster_48fd98f26ad58ff6",
+      "source": "GLIDE",
+      "label": 1,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\synthbuster\\glide\\synthbuster_48fd98f26ad58ff6.png",
+      "texture_selection_metric": 9.02466781496063,
+      "condition": "blur_sigma20",
+      "processed_size": [
+        256,
+        256
+      ],
+      "relative_l2": 2.820719624939898e-11,
+      "max_abs_difference": 1.3365331064107977e-10,
+      "absolute_z_difference": 5.334506170129316e-10,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 6.187547114677727e-07,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -12.861655158446842,
+          "attribution_prediction": "StyleGAN2",
+          "attribution_loglik": {
+            "DALL-E 3": -8262.071275549015,
+            "Adobe Firefly": -20634.14657175842,
+            "GigaGAN": -1142.751137344825,
+            "GPT-Image 1/1.5": -5839.419262127874,
+            "Grok": -11432.746374580403,
+            "Midjourney v6": -12287.79565838262,
+            "Nano Banana v1/Pro/2": -9945.83140756129,
+            "ProGAN": -267.8224640953413,
+            "Stable Diffusion 1.5": -22255.119887052308,
+            "Stable Diffusion 3": -10930.080482073328,
+            "Stable Diffusion XL": -10648.198914796983,
+            "StyleGAN2": -244.28933408546357,
+            "StyleGAN3": -2249.2953726408086,
+            "Real": -6886.1099382169905
+          },
+          "seconds": 20.600933699985035,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              0.485152179376509,
+              0.4618608760185065,
+              0.48477403855488715,
+              0.4753452434293518,
+              0.4823484654929379,
+              0.46691777527231004,
+              0.46809347672040535,
+              0.46715259062161757
+            ],
+            "raw_residual_rms": 0.4740335393934964,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9777015042284595,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9787073023935039,
+              0.9769637823236088,
+              0.9772491644666275,
+              0.9784010022534956,
+              0.9772384037649121,
+              0.9770846480111909,
+              0.9774586622671448,
+              0.9783462718040218
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.22747613229457883,
+              0.22366848869933764,
+              0.2273856438748239,
+              0.22566366933794757,
+              0.22600268966955694,
+              0.22384637462820578,
+              0.2243094122689218,
+              0.2242371374741934
+            ],
+            "residual_rms": 0.22532829597259188,
+            "residual_abs_mean": 0.1576393146166335,
+            "constraint_max_abs_error": 2.2115642650533118e-13,
+            "kkt_relative_residual": 2.7076311956118618e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 20.55514879990369
+          }
+        },
+        "fft": {
+          "z_score": -12.861655158980293,
+          "attribution_prediction": "StyleGAN2",
+          "attribution_loglik": {
+            "DALL-E 3": -8262.071275888495,
+            "Adobe Firefly": -20634.14657236852,
+            "GigaGAN": -1142.7511373270504,
+            "GPT-Image 1/1.5": -5839.419262281976,
+            "Grok": -11432.74637499428,
+            "Midjourney v6": -12287.795658775383,
+            "Nano Banana v1/Pro/2": -9945.831407944377,
+            "ProGAN": -267.8224641385185,
+            "Stable Diffusion 1.5": -22255.119887671062,
+            "Stable Diffusion 3": -10930.08048248589,
+            "Stable Diffusion XL": -10648.198915201496,
+            "StyleGAN2": -244.28933408963985,
+            "StyleGAN3": -2249.295372625256,
+            "Real": -6886.109938538686
+          },
+          "seconds": 1.210454799933359,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              0.485152179376509,
+              0.4618608760185065,
+              0.48477403855488715,
+              0.4753452434293518,
+              0.4823484654929379,
+              0.46691777527231004,
+              0.46809347672040535,
+              0.46715259062161757
+            ],
+            "raw_residual_rms": 0.4740335393934964,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9777015042284595,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9787073023935039,
+              0.9769637823236088,
+              0.9772491644666275,
+              0.9784010022534956,
+              0.9772384037649121,
+              0.9770846480111909,
+              0.9774586622671448,
+              0.9783462718040218
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.22747613229457883,
+              0.22366848869933764,
+              0.2273856438748239,
+              0.22566366933794757,
+              0.22600268966955694,
+              0.22384637462820578,
+              0.2243094122689218,
+              0.2242371374741934
+            ],
+            "residual_rms": 0.22532829597259188,
+            "residual_abs_mean": 0.1576393146166335,
+            "constraint_max_abs_error": 2.8954616482224083e-13,
+            "kkt_relative_residual": 2.395030495050377e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.1401274999370798
+          }
+        }
+      }
+    },
+    {
+      "image_id": "synthbuster_48fd98f26ad58ff6",
+      "source": "GLIDE",
+      "label": 1,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\synthbuster\\glide\\synthbuster_48fd98f26ad58ff6.png",
+      "texture_selection_metric": 9.02466781496063,
+      "condition": "resize_025",
+      "processed_size": [
+        64,
+        64
+      ],
+      "relative_l2": 1.7797517058278812e-06,
+      "max_abs_difference": 2.278221353839427e-06,
+      "absolute_z_difference": 1.7778414309332913e-06,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 0.004900229335362383,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -0.24890959332417112,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -2169.6193372678003,
+            "Adobe Firefly": -6906.749263939292,
+            "GigaGAN": -3932.5016201462986,
+            "GPT-Image 1/1.5": -2747.4868262568325,
+            "Grok": -3125.693504249177,
+            "Midjourney v6": -3055.4433884852156,
+            "Nano Banana v1/Pro/2": -2581.5862515535687,
+            "ProGAN": -2947.8557621175146,
+            "Stable Diffusion 1.5": -7378.518649274682,
+            "Stable Diffusion 3": -3456.232684431769,
+            "Stable Diffusion XL": -3870.3386064969413,
+            "StyleGAN2": -3550.4618434342638,
+            "StyleGAN3": -4658.981909527708,
+            "Real": -582.7813055492155
+          },
+          "seconds": 21.15026729996316,
+          "diagnostics": {
+            "input_height": 64,
+            "input_width": 64,
+            "raw_residual_shape": [
+              50,
+              50
+            ],
+            "raw_residual_rms_channels": [
+              7.451580716485685,
+              7.368866378562923,
+              7.312150979550754,
+              7.1813168692842275,
+              7.288554774260321,
+              7.153849639255533,
+              7.194484668039627,
+              7.261403136727028
+            ],
+            "raw_residual_rms": 7.277141362817404,
+            "native_residual_patch_shape": [
+              50,
+              50
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9652591332345293,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9637440060089749,
+              0.96664301986867,
+              0.9635402741044496,
+              0.9656714065852924,
+              0.9641889155195318,
+              0.964573084085157,
+              0.9658382511323983,
+              0.9676416813615675
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              4.325220956672602,
+              4.320045339812512,
+              4.299706358261784,
+              4.264819636411241,
+              4.285662594078322,
+              4.255367639690956,
+              4.270287803599938,
+              4.273014322767647
+            ],
+            "residual_rms": 4.286833859444438,
+            "residual_abs_mean": 1.881085659905375,
+            "constraint_max_abs_error": 2.930988785010413e-14,
+            "kkt_relative_residual": 7.142262185153944e-16,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 21.12203850003425
+          }
+        },
+        "fft": {
+          "z_score": -0.24890781548274019,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -2169.6173323814855,
+            "Adobe Firefly": -6906.746190747538,
+            "GigaGAN": -3932.504567542579,
+            "GPT-Image 1/1.5": -2747.4876088194947,
+            "Grok": -3125.6931860415716,
+            "Midjourney v6": -3055.4425157222254,
+            "Nano Banana v1/Pro/2": -2581.586287227829,
+            "ProGAN": -2947.8550306282996,
+            "Stable Diffusion 1.5": -7378.513749045346,
+            "Stable Diffusion 3": -3456.2302468333155,
+            "Stable Diffusion XL": -3870.3364522730467,
+            "StyleGAN2": -3550.4606565795116,
+            "StyleGAN3": -4658.9862009446015,
+            "Real": -582.78022191899
+          },
+          "seconds": 1.2064634000416845,
+          "diagnostics": {
+            "input_height": 64,
+            "input_width": 64,
+            "raw_residual_shape": [
+              50,
+              50
+            ],
+            "raw_residual_rms_channels": [
+              7.451580716485685,
+              7.368866378562923,
+              7.312150979550754,
+              7.1813168692842275,
+              7.288554774260321,
+              7.153849639255533,
+              7.194484668039627,
+              7.261403136727028
+            ],
+            "raw_residual_rms": 7.277141362817404,
+            "native_residual_patch_shape": [
+              50,
+              50
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9652591332345293,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9637440060089749,
+              0.96664301986867,
+              0.9635402741044496,
+              0.9656714065852924,
+              0.9641889155195318,
+              0.964573084085157,
+              0.9658382511323983,
+              0.9676416813615675
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              4.325220956672602,
+              4.320045339812512,
+              4.299706358261784,
+              4.264819636411241,
+              4.285662594078322,
+              4.255367639690956,
+              4.270287803599938,
+              4.273014322767647
+            ],
+            "residual_rms": 4.286833859444438,
+            "residual_abs_mean": 1.881085659905375,
+            "constraint_max_abs_error": 3.2862601528904634e-14,
+            "kkt_relative_residual": 7.29284971983735e-16,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.1703702999511734
+          }
+        }
+      }
+    },
+    {
+      "image_id": "synthbuster_48fd98f26ad58ff6",
+      "source": "GLIDE",
+      "label": 1,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\synthbuster\\glide\\synthbuster_48fd98f26ad58ff6.png",
+      "texture_selection_metric": 9.02466781496063,
+      "condition": "jpeg_q50",
+      "processed_size": [
+        256,
+        256
+      ],
+      "relative_l2": 1.8552654345202544e-10,
+      "max_abs_difference": 1.860634313288756e-09,
+      "absolute_z_difference": 9.585185978266964e-10,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 2.2665990400128067e-06,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -8.048170861177836,
+          "attribution_prediction": "ProGAN",
+          "attribution_loglik": {
+            "DALL-E 3": -8772.136538524335,
+            "Adobe Firefly": -18801.325511683313,
+            "GigaGAN": -3202.1272233272884,
+            "GPT-Image 1/1.5": -8537.54389461094,
+            "Grok": -11892.98876380536,
+            "Midjourney v6": -13073.14629473237,
+            "Nano Banana v1/Pro/2": -10345.20784510655,
+            "ProGAN": -931.178726746554,
+            "Stable Diffusion 1.5": -22520.26880967626,
+            "Stable Diffusion 3": -12331.794996752951,
+            "Stable Diffusion XL": -12831.715236865484,
+            "StyleGAN2": -3043.1788332070064,
+            "StyleGAN3": -3234.6879074482185,
+            "Real": -7827.123511345075
+          },
+          "seconds": 21.790700200013816,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              1.5353337567618306,
+              1.5294490901127977,
+              1.5294882053244996,
+              1.5457771518424843,
+              1.5204916876156185,
+              1.5356844960704452,
+              1.552424178131054,
+              1.5399415214085361
+            ],
+            "raw_residual_rms": 1.536102535602178,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9023443110767472,
+            "native_residual_patch_hf_fraction_channels": [
+              0.8963131794049357,
+              0.9057192854426421,
+              0.8979315703695726,
+              0.9015606556160938,
+              0.9004524767791814,
+              0.9035578752472099,
+              0.9058202189092914,
+              0.9069586815632037
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.9563887774025761,
+              0.9493504722312511,
+              0.954663386019439,
+              0.955401707607173,
+              0.9500949264472704,
+              0.9532505245060919,
+              0.9560339769148302,
+              0.9494589588787153
+            ],
+            "residual_rms": 0.9530845075014807,
+            "residual_abs_mean": 0.3608449176626731,
+            "constraint_max_abs_error": 1.0946799022804043e-12,
+            "kkt_relative_residual": 3.4394735885003226e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 21.74355159990955
+          }
+        },
+        "fft": {
+          "z_score": -8.048170862136354,
+          "attribution_prediction": "ProGAN",
+          "attribution_loglik": {
+            "DALL-E 3": -8772.13653951282,
+            "Adobe Firefly": -18801.32551384352,
+            "GigaGAN": -3202.127223426464,
+            "GPT-Image 1/1.5": -8537.543895880148,
+            "Grok": -11892.98876557265,
+            "Midjourney v6": -13073.14629665251,
+            "Nano Banana v1/Pro/2": -10345.207846642148,
+            "ProGAN": -931.1787268334649,
+            "Stable Diffusion 1.5": -22520.26881194286,
+            "Stable Diffusion 3": -12331.794998332403,
+            "Stable Diffusion XL": -12831.715237982446,
+            "StyleGAN2": -3043.178832977816,
+            "StyleGAN3": -3234.6879082866053,
+            "Real": -7827.12351275002
+          },
+          "seconds": 1.4186656998936087,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              1.5353337567618306,
+              1.5294490901127977,
+              1.5294882053244996,
+              1.5457771518424843,
+              1.5204916876156185,
+              1.5356844960704452,
+              1.552424178131054,
+              1.5399415214085361
+            ],
+            "raw_residual_rms": 1.536102535602178,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9023443110767472,
+            "native_residual_patch_hf_fraction_channels": [
+              0.8963131794049357,
+              0.9057192854426421,
+              0.8979315703695726,
+              0.9015606556160938,
+              0.9004524767791814,
+              0.9035578752472099,
+              0.9058202189092914,
+              0.9069586815632037
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.9563887774025761,
+              0.9493504722312511,
+              0.954663386019439,
+              0.955401707607173,
+              0.9500949264472704,
+              0.9532505245060919,
+              0.9560339769148302,
+              0.9494589588787153
+            ],
+            "residual_rms": 0.9530845075014807,
+            "residual_abs_mean": 0.3608449176626731,
+            "constraint_max_abs_error": 1.1020073742429304e-12,
+            "kkt_relative_residual": 3.3326490763923265e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.3737885999726132
+          }
+        }
+      }
+    },
+    {
+      "image_id": "synthbuster_081c8399f77fa9b7",
+      "source": "Stable Diffusion XL",
+      "label": 1,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\synthbuster\\stable_diffusion_xl\\synthbuster_081c8399f77fa9b7.png",
+      "texture_selection_metric": 16.314468503937007,
+      "condition": "clean",
+      "processed_size": [
+        1280,
+        768
+      ],
+      "relative_l2": 7.862197096795849e-12,
+      "max_abs_difference": 1.1430678625856672e-10,
+      "absolute_z_difference": 6.012024211798916e-11,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 2.506676537450403e-07,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -0.885171360958586,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -2453.2201205746715,
+            "Adobe Firefly": -6745.541366768371,
+            "GigaGAN": -5710.014014323244,
+            "GPT-Image 1/1.5": -4034.8064770613755,
+            "Grok": -1767.0806270950136,
+            "Midjourney v6": -4093.6985406012977,
+            "Nano Banana v1/Pro/2": -2032.4455870034078,
+            "ProGAN": -4144.734939666683,
+            "Stable Diffusion 1.5": -5360.686345739667,
+            "Stable Diffusion 3": -3771.514589891786,
+            "Stable Diffusion XL": -3541.6630399054684,
+            "StyleGAN2": -4296.965027021612,
+            "StyleGAN3": -6090.506680863446,
+            "Real": -1290.374179335598
+          },
+          "seconds": 23.248930800007656,
+          "diagnostics": {
+            "input_height": 768,
+            "input_width": 1280,
+            "raw_residual_shape": [
+              754,
+              1266
+            ],
+            "raw_residual_rms_channels": [
+              3.0797338107727863,
+              3.105358963504856,
+              3.0831090817255826,
+              3.0852021016565505,
+              3.0604139183054695,
+              3.077452224426322,
+              3.0653119415936274,
+              3.1071689544253522
+            ],
+            "raw_residual_rms": 3.0830084740989476,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9921640703524818,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9918988271830753,
+              0.9922587498259855,
+              0.9916118240099943,
+              0.9923294377437722,
+              0.9918650436682811,
+              0.9921589856894383,
+              0.9925689255012917,
+              0.9925623379364125
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              1.9414994787746513,
+              1.9550178969323921,
+              1.9434191075910978,
+              1.9432200324683018,
+              1.9338823743167604,
+              1.9435546345406938,
+              1.9416238850844059,
+              1.9505290044341843
+            ],
+            "residual_rms": 1.944102282840058,
+            "residual_abs_mean": 0.825226235732214,
+            "constraint_max_abs_error": 2.105426943899147e-11,
+            "kkt_relative_residual": 8.476753633183017e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 23.22122239996679
+          }
+        },
+        "fft": {
+          "z_score": -0.8851713610187062,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -2453.220120553582,
+            "Adobe Firefly": -6745.541366571408,
+            "GigaGAN": -5710.014014290269,
+            "GPT-Image 1/1.5": -4034.8064770604833,
+            "Grok": -1767.0806269683333,
+            "Midjourney v6": -4093.6985405516975,
+            "Nano Banana v1/Pro/2": -2032.4455868459834,
+            "ProGAN": -4144.734939771391,
+            "Stable Diffusion 1.5": -5360.686345488999,
+            "Stable Diffusion 3": -3771.5145898666383,
+            "Stable Diffusion XL": -3541.6630398559782,
+            "StyleGAN2": -4296.965026995266,
+            "StyleGAN3": -6090.506680710619,
+            "Real": -1290.3741793334239
+          },
+          "seconds": 1.3014663000358269,
+          "diagnostics": {
+            "input_height": 768,
+            "input_width": 1280,
+            "raw_residual_shape": [
+              754,
+              1266
+            ],
+            "raw_residual_rms_channels": [
+              3.0797338107727863,
+              3.105358963504856,
+              3.0831090817255826,
+              3.0852021016565505,
+              3.0604139183054695,
+              3.077452224426322,
+              3.0653119415936274,
+              3.1071689544253522
+            ],
+            "raw_residual_rms": 3.0830084740989476,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9921640703524818,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9918988271830753,
+              0.9922587498259855,
+              0.9916118240099943,
+              0.9923294377437722,
+              0.9918650436682811,
+              0.9921589856894383,
+              0.9925689255012917,
+              0.9925623379364125
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              1.9414994787746513,
+              1.9550178969323921,
+              1.9434191075910978,
+              1.9432200324683018,
+              1.9338823743167604,
+              1.9435546345406938,
+              1.9416238850844059,
+              1.9505290044341843
+            ],
+            "residual_rms": 1.944102282840058,
+            "residual_abs_mean": 0.825226235732214,
+            "constraint_max_abs_error": 1.2426948359234302e-11,
+            "kkt_relative_residual": 9.04143514709513e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.2711320000234991
+          }
+        }
+      }
+    },
+    {
+      "image_id": "synthbuster_081c8399f77fa9b7",
+      "source": "Stable Diffusion XL",
+      "label": 1,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\synthbuster\\stable_diffusion_xl\\synthbuster_081c8399f77fa9b7.png",
+      "texture_selection_metric": 16.314468503937007,
+      "condition": "blur_sigma20",
+      "processed_size": [
+        1280,
+        768
+      ],
+      "relative_l2": 4.61515397018645e-12,
+      "max_abs_difference": 3.028022277362652e-11,
+      "absolute_z_difference": 5.95736793229662e-11,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 4.904541128780693e-08,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -7.187591699580492,
+          "attribution_prediction": "Nano Banana v1/Pro/2",
+          "attribution_loglik": {
+            "DALL-E 3": -4130.443489265292,
+            "Adobe Firefly": -4209.503173667907,
+            "GigaGAN": -7392.775899408772,
+            "GPT-Image 1/1.5": -7379.094172640744,
+            "Grok": -1549.3884242669776,
+            "Midjourney v6": -3154.447180756338,
+            "Nano Banana v1/Pro/2": -139.0216474206174,
+            "ProGAN": -8921.404300008928,
+            "Stable Diffusion 1.5": -3405.9938471736127,
+            "Stable Diffusion 3": -5385.814484213288,
+            "Stable Diffusion XL": -3608.4135155431723,
+            "StyleGAN2": -7075.603837800132,
+            "StyleGAN3": -6602.093552285492,
+            "Real": -3647.2273710666896
+          },
+          "seconds": 23.64814830000978,
+          "diagnostics": {
+            "input_height": 768,
+            "input_width": 1280,
+            "raw_residual_shape": [
+              754,
+              1266
+            ],
+            "raw_residual_rms_channels": [
+              0.5177735796800677,
+              0.5019494909608805,
+              0.5170621915708736,
+              0.5122430968949631,
+              0.5189252285386246,
+              0.5084650015727491,
+              0.5070304273926021,
+              0.5057393655475114
+            ],
+            "raw_residual_rms": 0.5111826095393626,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9962790886076651,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9964113362840843,
+              0.9961913194021749,
+              0.9964517071766344,
+              0.9962696498021424,
+              0.9962062415610273,
+              0.9961578818296708,
+              0.9961016038200704,
+              0.9964018519854696
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.23718934824899154,
+              0.2359330146590269,
+              0.23703761674592913,
+              0.23685189255233363,
+              0.23688718490550034,
+              0.23624036645902569,
+              0.23637457960910335,
+              0.23607033538906866
+            ],
+            "residual_rms": 0.23657346093241455,
+            "residual_abs_mean": 0.17241767286560067,
+            "constraint_max_abs_error": 1.1324274851176597e-13,
+            "kkt_relative_residual": 4.1121332090751815e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 23.609782200073823
+          }
+        },
+        "fft": {
+          "z_score": -7.187591699520918,
+          "attribution_prediction": "Nano Banana v1/Pro/2",
+          "attribution_loglik": {
+            "DALL-E 3": -4130.443489234017,
+            "Adobe Firefly": -4209.503173647568,
+            "GigaGAN": -7392.775899367097,
+            "GPT-Image 1/1.5": -7379.094172600343,
+            "Grok": -1549.3884242588372,
+            "Midjourney v6": -3154.447180744028,
+            "Nano Banana v1/Pro/2": -139.02164742521057,
+            "ProGAN": -8921.404299959882,
+            "Stable Diffusion 1.5": -3405.9938471484734,
+            "Stable Diffusion 3": -5385.81448418096,
+            "Stable Diffusion XL": -3608.413515544385,
+            "StyleGAN2": -7075.60383775378,
+            "StyleGAN3": -6602.0935522504205,
+            "Real": -3647.2273710324757
+          },
+          "seconds": 1.4082182000856847,
+          "diagnostics": {
+            "input_height": 768,
+            "input_width": 1280,
+            "raw_residual_shape": [
+              754,
+              1266
+            ],
+            "raw_residual_rms_channels": [
+              0.5177735796800677,
+              0.5019494909608805,
+              0.5170621915708736,
+              0.5122430968949631,
+              0.5189252285386246,
+              0.5084650015727491,
+              0.5070304273926021,
+              0.5057393655475114
+            ],
+            "raw_residual_rms": 0.5111826095393626,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9962790886076651,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9964113362840843,
+              0.9961913194021749,
+              0.9964517071766344,
+              0.9962696498021424,
+              0.9962062415610273,
+              0.9961578818296708,
+              0.9961016038200704,
+              0.9964018519854696
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.23718934824899154,
+              0.2359330146590269,
+              0.23703761674592913,
+              0.23685189255233363,
+              0.23688718490550034,
+              0.23624036645902569,
+              0.23637457960910335,
+              0.23607033538906866
+            ],
+            "residual_rms": 0.23657346093241455,
+            "residual_abs_mean": 0.17241767286560067,
+            "constraint_max_abs_error": 2.1826984664130578e-13,
+            "kkt_relative_residual": 4.01505399776266e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.3838489000918344
+          }
+        }
+      }
+    },
+    {
+      "image_id": "synthbuster_081c8399f77fa9b7",
+      "source": "Stable Diffusion XL",
+      "label": 1,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\synthbuster\\stable_diffusion_xl\\synthbuster_081c8399f77fa9b7.png",
+      "texture_selection_metric": 16.314468503937007,
+      "condition": "resize_025",
+      "processed_size": [
+        320,
+        192
+      ],
+      "relative_l2": 2.124441053184134e-10,
+      "max_abs_difference": 1.4868297704140332e-09,
+      "absolute_z_difference": 2.3733792708924284e-10,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 4.424346116138622e-07,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -1.1283436265231415,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -3166.5868631554763,
+            "Adobe Firefly": -5555.055772398563,
+            "GigaGAN": -4168.130964018803,
+            "GPT-Image 1/1.5": -3555.826878027292,
+            "Grok": -2946.56419001522,
+            "Midjourney v6": -2907.621921452882,
+            "Nano Banana v1/Pro/2": -2735.252188854619,
+            "ProGAN": -4636.996177012323,
+            "Stable Diffusion 1.5": -4145.240956428804,
+            "Stable Diffusion 3": -2816.95810818935,
+            "Stable Diffusion XL": -3162.6143941674577,
+            "StyleGAN2": -3868.2285626665334,
+            "StyleGAN3": -4499.138663686242,
+            "Real": -791.9454470404302
+          },
+          "seconds": 25.06030579993967,
+          "diagnostics": {
+            "input_height": 192,
+            "input_width": 320,
+            "raw_residual_shape": [
+              178,
+              306
+            ],
+            "raw_residual_rms_channels": [
+              6.921183051369505,
+              7.027509573009372,
+              7.008501179007696,
+              6.918283168935375,
+              6.980589850438878,
+              6.99973120537096,
+              6.998930249654781,
+              6.985884644893498
+            ],
+            "raw_residual_rms": 6.980176188050479,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.902297159912632,
+            "native_residual_patch_hf_fraction_channels": [
+              0.8993214757543122,
+              0.9040598316339313,
+              0.9000748903907423,
+              0.9040424922069511,
+              0.9004948957360206,
+              0.9018639083276115,
+              0.9018370449988771,
+              0.9065854463450959
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              4.456067080167099,
+              4.500111543982628,
+              4.484709910972684,
+              4.4573549597729905,
+              4.472252403082717,
+              4.485664421213078,
+              4.498707627080113,
+              4.4810425794979825
+            ],
+            "residual_rms": 4.479516069343635,
+            "residual_abs_mean": 1.9633483065584054,
+            "constraint_max_abs_error": 1.1191048088221578e-13,
+            "kkt_relative_residual": 3.0808757428966807e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 24.99351099994965
+          }
+        },
+        "fft": {
+          "z_score": -1.1283436262858035,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -3166.586863033847,
+            "Adobe Firefly": -5555.055772840998,
+            "GigaGAN": -4168.130964140668,
+            "GPT-Image 1/1.5": -3555.8268780212916,
+            "Grok": -2946.564189819638,
+            "Midjourney v6": -2907.621921359682,
+            "Nano Banana v1/Pro/2": -2735.252188926265,
+            "ProGAN": -4636.996176664987,
+            "Stable Diffusion 1.5": -4145.240956711333,
+            "Stable Diffusion 3": -2816.958108030844,
+            "Stable Diffusion XL": -3162.6143940153347,
+            "StyleGAN2": -3868.2285625006343,
+            "StyleGAN3": -4499.138663766841,
+            "Real": -791.9454468795999
+          },
+          "seconds": 1.3879186999984086,
+          "diagnostics": {
+            "input_height": 192,
+            "input_width": 320,
+            "raw_residual_shape": [
+              178,
+              306
+            ],
+            "raw_residual_rms_channels": [
+              6.921183051369505,
+              7.027509573009372,
+              7.008501179007696,
+              6.918283168935375,
+              6.980589850438878,
+              6.99973120537096,
+              6.998930249654781,
+              6.985884644893498
+            ],
+            "raw_residual_rms": 6.980176188050479,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.902297159912632,
+            "native_residual_patch_hf_fraction_channels": [
+              0.8993214757543122,
+              0.9040598316339313,
+              0.9000748903907423,
+              0.9040424922069511,
+              0.9004948957360206,
+              0.9018639083276115,
+              0.9018370449988771,
+              0.9065854463450959
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              4.456067080167099,
+              4.500111543982628,
+              4.484709910972684,
+              4.4573549597729905,
+              4.472252403082717,
+              4.485664421213078,
+              4.498707627080113,
+              4.4810425794979825
+            ],
+            "residual_rms": 4.479516069343635,
+            "residual_abs_mean": 1.9633483065584054,
+            "constraint_max_abs_error": 2.682298827494378e-13,
+            "kkt_relative_residual": 3.1726132163328585e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.356248200056143
+          }
+        }
+      }
+    },
+    {
+      "image_id": "synthbuster_081c8399f77fa9b7",
+      "source": "Stable Diffusion XL",
+      "label": 1,
+      "kind": "dataset",
+      "path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\data\\images\\synthbuster\\stable_diffusion_xl\\synthbuster_081c8399f77fa9b7.png",
+      "texture_selection_metric": 16.314468503937007,
+      "condition": "jpeg_q50",
+      "processed_size": [
+        1280,
+        768
+      ],
+      "relative_l2": 8.973770644183094e-12,
+      "max_abs_difference": 1.3327572379040475e-10,
+      "absolute_z_difference": 4.955702515019311e-11,
+      "attribution_prediction_identical": true,
+      "max_attribution_loglik_abs_difference": 1.549906301079318e-07,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -1.1731773705987187,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -2975.911328820023,
+            "Adobe Firefly": -7551.207459853161,
+            "GigaGAN": -5629.029790592182,
+            "GPT-Image 1/1.5": -3888.561522687268,
+            "Grok": -2705.895264247401,
+            "Midjourney v6": -4119.715270022029,
+            "Nano Banana v1/Pro/2": -3204.4560242498405,
+            "ProGAN": -4415.6693098484175,
+            "Stable Diffusion 1.5": -6123.176869627971,
+            "Stable Diffusion 3": -3962.080604347849,
+            "Stable Diffusion XL": -3117.98403744171,
+            "StyleGAN2": -4438.08862953806,
+            "StyleGAN3": -6200.487440798309,
+            "Real": -1330.7603972845973
+          },
+          "seconds": 23.68928869999945,
+          "diagnostics": {
+            "input_height": 768,
+            "input_width": 1280,
+            "raw_residual_shape": [
+              754,
+              1266
+            ],
+            "raw_residual_rms_channels": [
+              2.508317565753704,
+              2.5275759915965255,
+              2.5114702124265835,
+              2.5153809232943543,
+              2.511331360923944,
+              2.517018334693839,
+              2.5167894302278726,
+              2.5246933819084654
+            ],
+            "raw_residual_rms": 2.516579857451555,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9758728305328799,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9764895964859914,
+              0.9745721201476664,
+              0.9754849104342808,
+              0.9764961593750109,
+              0.976040734907685,
+              0.9754316882504935,
+              0.9761721999685821,
+              0.9761464068122873
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              1.696755482774938,
+              1.7010416158464317,
+              1.6970744698621827,
+              1.6954001636725846,
+              1.6936540006389005,
+              1.698491533321471,
+              1.6972147526174997,
+              1.6955560571535713
+            ],
+            "residual_rms": 1.6968997775540844,
+            "residual_abs_mean": 0.6193005272463692,
+            "constraint_max_abs_error": 1.8541612689659814e-11,
+            "kkt_relative_residual": 8.029762967936581e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 23.571702799992636
+          }
+        },
+        "fft": {
+          "z_score": -1.1731773706482758,
+          "attribution_prediction": "Real",
+          "attribution_loglik": {
+            "DALL-E 3": -2975.9113287727523,
+            "Adobe Firefly": -7551.207459709926,
+            "GigaGAN": -5629.029790489694,
+            "GPT-Image 1/1.5": -3888.5615227075377,
+            "Grok": -2705.8952641689584,
+            "Midjourney v6": -4119.71527000731,
+            "Nano Banana v1/Pro/2": -3204.456024129277,
+            "ProGAN": -4415.669309875175,
+            "Stable Diffusion 1.5": -6123.176869472981,
+            "Stable Diffusion 3": -3962.0806043402513,
+            "Stable Diffusion XL": -3117.9840373829516,
+            "StyleGAN2": -4438.088629539677,
+            "StyleGAN3": -6200.487440733519,
+            "Real": -1330.7603972829652
+          },
+          "seconds": 2.006860699970275,
+          "diagnostics": {
+            "input_height": 768,
+            "input_width": 1280,
+            "raw_residual_shape": [
+              754,
+              1266
+            ],
+            "raw_residual_rms_channels": [
+              2.508317565753704,
+              2.5275759915965255,
+              2.5114702124265835,
+              2.5153809232943543,
+              2.511331360923944,
+              2.517018334693839,
+              2.5167894302278726,
+              2.5246933819084654
+            ],
+            "raw_residual_rms": 2.516579857451555,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9758728305328799,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9764895964859914,
+              0.9745721201476664,
+              0.9754849104342808,
+              0.9764961593750109,
+              0.976040734907685,
+              0.9754316882504935,
+              0.9761721999685821,
+              0.9761464068122873
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              1.696755482774938,
+              1.7010416158464317,
+              1.6970744698621827,
+              1.6954001636725846,
+              1.6936540006389005,
+              1.698491533321471,
+              1.6972147526174997,
+              1.6955560571535713
+            ],
+            "residual_rms": 1.6968997775540844,
+            "residual_abs_mean": 0.6193005272463692,
+            "constraint_max_abs_error": 1.6968204619161043e-11,
+            "kkt_relative_residual": 8.139910766102018e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.9068902999861166
+          }
+        }
+      }
+    }
+  ],
+  "tolerances": {
+    "relative_l2": 0.0001,
+    "absolute_z_difference": 0.001
+  },
+  "passed": true,
+  "state": "complete",
+  "expected_pairs": 16,
+  "completed_pairs": 16
+}

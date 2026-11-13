@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "completed": 175,
+  "expected": 175,
+  "errors": 0,
+  "numeric_failures": 0,
+  "elapsed_seconds": 8744.843999999925,
+  "updated_utc": "2026-11-08T11:20:30.848177+00:00"
+}

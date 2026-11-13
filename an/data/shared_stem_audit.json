@@ -1,0 +1,24 @@
+{
+  "distinct_member_stems": 181,
+  "shared_member_stems": {
+    "r1986e42bt": 2,
+    "r0150031ft": 2,
+    "r1694427et": 2,
+    "r0518cf5dt": 2,
+    "r0e1a6e2ft": 2,
+    "r07e594d6t": 2,
+    "r177dd68et": 2,
+    "r134ba6abt": 2,
+    "r0670f47ft": 3,
+    "r048c50d0t": 2,
+    "r066b256at": 2,
+    "r1ad9cd64t": 2,
+    "r08cbbab9t": 2,
+    "r191488c6t": 2,
+    "r1db1c478t": 2,
+    "r180bcbd7t": 2,
+    "r1011a436t": 2,
+    "r163317d6t": 2
+  },
+  "interpretation": "Repeated archive stems may identify shared reference content across generators; they are distinct image bytes. Main bootstrap clusters only processing variants of the same original image."
+}

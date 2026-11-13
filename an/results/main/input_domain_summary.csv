@@ -1,0 +1,6 @@
+source,label,input_encoding,originals,median_width,median_height
+Adobe Firefly,1,jpeg,50,2304.0,1792.0
+COCO2017,0,jpeg,100,640.0,447.5
+DALL-E 3,1,png,50,1024.0,1024.0
+GLIDE,1,png,50,256.0,256.0
+Stable Diffusion XL,1,png,50,1088.0,928.0

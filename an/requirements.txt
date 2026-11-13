@@ -1,0 +1,10 @@
+# Install torch separately from the CUDA 12.8 index; see README.md.
+numpy>=2.0,<3
+scipy>=1.17,<2
+pillow>=12.1,<13
+scikit-learn>=1.8,<2
+matplotlib>=3.10,<4
+pandas>=2.2,<4
+requests>=2.32,<3
+tqdm>=4.67,<5
+psutil>=7,<8

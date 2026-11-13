@@ -1,0 +1,170 @@
+{
+  "torch": "2.10.0+cu128",
+  "device": "cuda",
+  "image": "assets\\teaser.jpg",
+  "weights": "an\\weights\\v1.2.0",
+  "config": {
+    "kernel_size": 11,
+    "num_scales": 3,
+    "resize_mode": "resize_and_crop",
+    "max_size": 64
+  },
+  "results": {
+    "upstream": {
+      "seconds_including_score": 1.551242099958472,
+      "raw_score": -7568.004084296474,
+      "z_score": -10.658864290110277,
+      "peak_allocated_mb": 1940.8369140625,
+      "diagnostics": {}
+    },
+    "tiled": {
+      "seconds_including_score": 1.6379749999614432,
+      "raw_score": -7568.004084295721,
+      "z_score": -10.658864290109213,
+      "peak_allocated_mb": 1940.84375,
+      "diagnostics": {
+        "input_height": 1632,
+        "input_width": 8865,
+        "raw_residual_shape": [
+          1618,
+          8851
+        ],
+        "raw_residual_rms_channels": [
+          10.072234567279326,
+          10.076535431306917,
+          10.116474507429325,
+          10.029012790516317,
+          10.094150311789111,
+          10.073914906786015,
+          10.006473594409414,
+          10.048288964910082
+        ],
+        "raw_residual_rms": 10.064690050323158,
+        "native_residual_patch_shape": [
+          128,
+          128
+        ],
+        "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+        "native_residual_patch_hf_fraction": 0.9917168614505999,
+        "native_residual_patch_hf_fraction_channels": [
+          0.9917567901589405,
+          0.9918762696089665,
+          0.9915511614255859,
+          0.9917187250470378,
+          0.9913766637044232,
+          0.991567865355053,
+          0.9918872537523606,
+          0.9919881272605761
+        ],
+        "residual_shape": [
+          64,
+          64
+        ],
+        "residual_rms_channels": [
+          9.47458209795216,
+          9.398680048177392,
+          9.521125731759579,
+          9.542667371600649,
+          9.48461359745596,
+          9.30371574371558,
+          9.45607773178314,
+          9.445597184698368
+        ],
+        "residual_rms": 9.453643228418896,
+        "residual_abs_mean": 3.487300060780698,
+        "constraint_max_abs_error": 7.149836278586008e-14,
+        "kkt_relative_residual": 3.799459468848346e-15,
+        "method": "tiled",
+        "dtype": "float64",
+        "samples": 5376,
+        "feature_dim": 960,
+        "lambda_reg": 1e-05,
+        "num_scales": 3,
+        "max_size": 64,
+        "seconds": 1.6321069999830797
+      }
+    },
+    "fft": {
+      "seconds_including_score": 1.4711586000630632,
+      "raw_score": -7568.004084295774,
+      "z_score": -10.658864290109287,
+      "peak_allocated_mb": 1940.84375,
+      "diagnostics": {
+        "input_height": 1632,
+        "input_width": 8865,
+        "raw_residual_shape": [
+          1618,
+          8851
+        ],
+        "raw_residual_rms_channels": [
+          10.072234567279326,
+          10.076535431306917,
+          10.116474507429325,
+          10.029012790516317,
+          10.094150311789111,
+          10.073914906786015,
+          10.006473594409414,
+          10.048288964910082
+        ],
+        "raw_residual_rms": 10.064690050323158,
+        "native_residual_patch_shape": [
+          128,
+          128
+        ],
+        "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+        "native_residual_patch_hf_fraction": 0.9917168614505999,
+        "native_residual_patch_hf_fraction_channels": [
+          0.9917567901589405,
+          0.9918762696089665,
+          0.9915511614255859,
+          0.9917187250470378,
+          0.9913766637044232,
+          0.991567865355053,
+          0.9918872537523606,
+          0.9919881272605761
+        ],
+        "residual_shape": [
+          64,
+          64
+        ],
+        "residual_rms_channels": [
+          9.47458209795216,
+          9.398680048177392,
+          9.521125731759579,
+          9.542667371600649,
+          9.48461359745596,
+          9.30371574371558,
+          9.45607773178314,
+          9.445597184698368
+        ],
+        "residual_rms": 9.453643228418896,
+        "residual_abs_mean": 3.487300060780698,
+        "constraint_max_abs_error": 7.815970093361102e-14,
+        "kkt_relative_residual": 3.801434989143374e-15,
+        "method": "fft",
+        "dtype": "float64",
+        "samples": 5376,
+        "feature_dim": 960,
+        "lambda_reg": 1e-05,
+        "num_scales": 3,
+        "max_size": 64,
+        "seconds": 1.4653818000806496
+      }
+    }
+  },
+  "comparisons": {
+    "tiled_vs_upstream": {
+      "relative_l2": 1.384378901172667e-13,
+      "max_abs_difference": 3.9013237085328e-13,
+      "absolute_z_score_difference": 1.06403774680075e-12,
+      "passed": true
+    },
+    "fft_vs_upstream": {
+      "relative_l2": 1.3988233098457005e-13,
+      "max_abs_difference": 4.214406601477094e-13,
+      "absolute_z_score_difference": 9.894307595459395e-13,
+      "passed": true
+    }
+  },
+  "passed": true
+}

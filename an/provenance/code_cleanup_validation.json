@@ -1,0 +1,104 @@
+{
+  "formatter": "26.10.1",
+  "line_length": 100,
+  "checks": [
+    {
+      "path": "acquire_coco.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "analyze_results.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "download_data.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "download_weights.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "merge_runs.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "monitor_run.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "prepare_manifest.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "robustness/analysis.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "robustness/content_sensitivity.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "robustness/data.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "robustness/extractor.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "robustness/residual_gallery.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "robustness/transforms.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "run_experiment.py",
+      "executable_ast_identical": true,
+      "tooling_only_change": false
+    },
+    {
+      "path": "snapshot_provenance.py",
+      "executable_ast_identical": false,
+      "tooling_only_change": true
+    },
+    {
+      "path": "verify_results.py",
+      "executable_ast_identical": false,
+      "tooling_only_change": true
+    }
+  ],
+  "tooling_changes": {
+    "snapshot_provenance.py": "Adds --output defaulting to an/provenance/source_snapshot.json; default stage current-working-tree; excludes maintenance/provenance directories; creates destination parent; supports absolute destination reporting.",
+    "verify_results.py": "Adds optional --output preserving original default; creates destination parent, explicit UTF-8; removes unused sys import."
+  },
+  "tests": {
+    "command": "an/.venv/Scripts/python.exe -m unittest discover -s an/tests",
+    "passed": true,
+    "tests_run": 38,
+    "reported_seconds": 4.273
+  },
+  "snapshot_cli_check": {
+    "command": "an/.venv/Scripts/python.exe an/snapshot_provenance.py --stage cleanup-validation --output an/.maintenance/source_snapshot_check.json",
+    "passed": true,
+    "official_fsd_files": 11,
+    "tracked_changes": [],
+    "expected_original_runtime_hash_mismatch_after_formatting": true
+  },
+  "verification_cli_help_passed": true
+}

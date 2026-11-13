@@ -1,0 +1,34 @@
+{
+  "maintenance_date": "2026-11-13",
+  "scope": "Source edits and cleanup are confined to an/. A copy of the report package to the user-requested Project 2 folder is separately authorized.",
+  "preserved_artifacts": {
+    "checked": 13392,
+    "unchanged": 13391,
+    "intentional_updates": [
+      {
+        "path": "paper_cvpr2026/output/robustness_latex_source.zip",
+        "status": "changed"
+      }
+    ],
+    "note": "The LaTeX ZIP now includes the revised README; PDF, TeX, table, figure, metrics, records, features, data and weights are unchanged."
+  },
+  "code_validation": {
+    "test_suite": {
+      "passed": true,
+      "tests_run": 45,
+      "reported_seconds": 2.446
+    },
+    "computational_ast_check": "14 computational/acquisition/analysis modules unchanged after ignoring docstrings; see code_cleanup_validation.json.",
+    "baseline_formatting": "18 baseline/test files had AST-identical formatting; the subsequent explicit archive-verification option is documented and tested separately."
+  },
+  "documentation_links_checked": 95,
+  "python_syntax_valid": true,
+  "tracked_repository_changes_outside_an": [],
+  "pdf_visually_checked": true,
+  "historical_audits_preserved": true,
+  "verification_report": "provenance/cleanup_result_verification.json",
+  "removal_inventory": "provenance/cleanup_removals.json",
+  "maintenance_records": "provenance/maintenance_records.zip",
+  "maintenance_archive_verification": "provenance/maintenance_archive_verification.json",
+  "external_delivery_receipt": "provenance/delivery_verification.json"
+}

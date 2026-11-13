@@ -1,0 +1,2 @@
+condition,n,mean_seconds,median_seconds,max_cuda_mb
+clean,100,1.0783558730024378,1.0961000499664806,770.759765625

@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "created_utc": "2026-11-08T08:20:14.229849+00:00",
+  "originals": 400,
+  "test_originals": 300,
+  "calibration_originals": 100,
+  "scored_pairs": 5800,
+  "test_conditions": 19,
+  "test_originals_per_condition": 300,
+  "missing_or_duplicate_cases": 0,
+  "phase_errors": 0,
+  "byte_unique_originals": 400,
+  "test_source_counts": {
+    "COCO2017": 100,
+    "DALL-E 3": 50,
+    "Adobe Firefly": 50,
+    "Stable Diffusion XL": 50,
+    "GLIDE": 50
+  },
+  "source_folder_labels_match": true,
+  "record_identity_fields_match_frozen_manifests": true,
+  "frozen_manifest_sha256": {
+    "manifest_real.csv": "bf8d2ff63b05e459b495ffd65614819748304dc3bfb00eaf33dba5477c8c9050",
+    "manifest_fake.csv": "d5fd7bd2e98585e1b8142f2b5ef77277b0d3d0104ddac4498d06523a5f3476d0"
+  },
+  "merged_record_hash_matches": true,
+  "phase_snapshot_and_original_file_hashes_checked": 6,
+  "source_mapping": {
+    "COCO2017": "Real",
+    "DALL-E 3": "DALL-E 3",
+    "Adobe Firefly": "Adobe Firefly",
+    "Stable Diffusion XL": "Stable Diffusion XL"
+  },
+  "unmapped_unknown_generator": "GLIDE",
+  "raise_included": false,
+  "verification_passed": true,
+  "verified_figures": 14,
+  "verified_report_links": 28,
+  "source_snapshot_refreshed": false
+}

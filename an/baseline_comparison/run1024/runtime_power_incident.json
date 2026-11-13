@@ -1,0 +1,15 @@
+{
+  "incident_recorded": true,
+  "analysis_time_utc": "2026-11-08T11:24:31.296322+00:00",
+  "timing_window_start_utc": "2026-11-08T10:01:28.410029+00:00",
+  "timing_window_end_utc": "2026-11-08T10:11:01.037496+00:00",
+  "effective_window_end_utc": "2026-11-08T10:11:01.037496+00:00",
+  "window_open_at_analysis": false,
+  "case_interval_policy": "Inclusive overlap of the entire case started_utc/finished_utc interval with the conservative incident window; equality at either boundary is flagged",
+  "all_cases": 175,
+  "overlapping_cases": 5,
+  "nonoverlapping_cases": 170,
+  "cases_excluded_from_numeric_or_task_analysis": 0,
+  "all_case_runtime_preserved": true,
+  "limitation": "Case-level overlap cannot identify which method's timed section was power-limited. Nonoverlap means outside the recorded window, not continuous proof of AC power. Strata are descriptive and not a randomized estimate of battery-power effects."
+}

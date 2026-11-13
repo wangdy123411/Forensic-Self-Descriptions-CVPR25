@@ -1,0 +1,83 @@
+[
+  {
+    "path": "complete_run.py",
+    "files": 1,
+    "bytes": 3969
+  },
+  {
+    "path": "keep_awake.py",
+    "files": 1,
+    "bytes": 1474
+  },
+  {
+    "path": "baseline_comparison/complete_comparison.py",
+    "files": 1,
+    "bytes": 2030
+  },
+  {
+    "path": "paper_cvpr2026/build",
+    "files": 233,
+    "bytes": 9012025
+  },
+  {
+    "path": "paper_cvpr2026/revisions",
+    "files": 10,
+    "bytes": 1519850
+  },
+  {
+    "path": "paper_cvpr2026/table_rows.tex",
+    "files": 1,
+    "bytes": 292
+  },
+  {
+    "path": "results/analysis_render_qa_fixture_only",
+    "files": 24,
+    "bytes": 2009147
+  },
+  {
+    "path": "results/gallery_render_qa",
+    "files": 23,
+    "bytes": 9441720
+  },
+  {
+    "path": "results/gpu_telemetry.stop",
+    "files": 1,
+    "bytes": 36
+  },
+  {
+    "path": "baseline_comparison/gpu_telemetry.stop",
+    "files": 1,
+    "bytes": 32
+  },
+  {
+    "path": ".cache/pip",
+    "files": 225,
+    "bytes": 2973454204
+  },
+  {
+    "path": "__pycache__",
+    "files": 8,
+    "bytes": 101015
+  },
+  {
+    "path": "robustness/__pycache__",
+    "files": 7,
+    "bytes": 153479
+  },
+  {
+    "path": "tests/__pycache__",
+    "files": 9,
+    "bytes": 109325
+  },
+  {
+    "path": "baseline_comparison/__pycache__",
+    "files": 4,
+    "bytes": 127733
+  },
+  {
+    "path": ".maintenance",
+    "files": 474,
+    "bytes": 14852265,
+    "preserved_non_tooling_records": "provenance/maintenance_records.zip"
+  }
+]

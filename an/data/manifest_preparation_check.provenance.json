@@ -1,0 +1,27 @@
+{
+  "manifest": "an/data/manifest_preparation_check.csv",
+  "manifest_sha256": "922ed23dd011c5dacd99b052040147eb9b41398af10b6f88564b143eb942fd67",
+  "original_count": 19,
+  "requested_counts": {
+    "synthetic_test_per_source": 3,
+    "coco_test": 4,
+    "coco_calibration": 3,
+    "raise_test": 0,
+    "raise_calibration": 0
+  },
+  "actual_counts": {
+    "Adobe Firefly | test | JPEG": 3,
+    "COCO2017 | calibration | JPEG": 3,
+    "COCO2017 | test | JPEG": 4,
+    "DALL-E 3 | test | PNG": 3,
+    "GLIDE | test | PNG": 3,
+    "Stable Diffusion XL | test | PNG": 3
+  },
+  "input_manifest_snapshots_sha256": {
+    "an/data/manifest_synthbuster.csv": "a9222e05cb4ae652bf82839f1138c5564ac81c936c9e7779d314e5783494d041",
+    "an/data/manifest_coco.csv": "ab381991f8c6bd8499a9a6f0d8ba062eb6c8a996602d12c237bb2005c3a1aaae"
+  },
+  "selection": "First requested count per source/split in acquisition's pre-existing deterministic seeded rank; no repartitioning",
+  "validation": "Unique image IDs, resolved original paths and SHA256; recorded hashes/dimensions verified against native image bytes; real-only calibration",
+  "limitations": "Not the FSD paper's unpublished ID split; overlap with released pretrained source models is unknown"
+}

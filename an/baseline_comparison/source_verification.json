@@ -1,0 +1,240 @@
+{
+  "recorded_utc": "2026-11-08T09:00:51.794793+00:00",
+  "upstream_repository": "https://github.com/ductai199x/Forensic-Self-Descriptions-CVPR25",
+  "local_remote": "https://github.com/wangdy123411/Forensic-Self-Descriptions-CVPR25.git",
+  "official_ref_observation": {
+    "method": "Read-only git ls-remote successfully executed by root agent in this session",
+    "reported_refs": {
+      "HEAD": "50f2eae06efdac2e5a33f407ca9a27a2295133ac",
+      "refs/heads/main": "50f2eae06efdac2e5a33f407ca9a27a2295133ac",
+      "refs/tags/v1.2.0": "5b317a00251988b5ec5a47317f4d82e5bdfd009d"
+    },
+    "tag_type": "lightweight; no peeled tag reference was returned",
+    "evidence_scope": "Root-agent tool observation; this script does not repeat network access",
+    "subagent_network_note": "Sandbox request failed with Bad access; escalated retry remained pending for 1274.7 seconds and was interrupted. Root separately completed the remote lookup."
+  },
+  "local_head": "50f2eae06efdac2e5a33f407ca9a27a2295133ac",
+  "local_head_equals_observed_official_main": true,
+  "tag_commit": "5b317a00251988b5ec5a47317f4d82e5bdfd009d",
+  "tag_is_ancestor_of_main": true,
+  "main_is_exact_tag_commit": false,
+  "fsd_working_tree_clean": true,
+  "fsd_file_count": 11,
+  "core_autocrlf": "true",
+  "source_identity_conclusion": "All 11 fsd Git blobs match the observed official main commit. Canonical snapshots preserve exact Git bytes; Windows working files use Git newline conversion and are not claimed raw-byte identical.",
+  "tag_differing_files": [
+    "fsd/__init__.py",
+    "fsd/attribution.py",
+    "fsd/weights.py"
+  ],
+  "weights": {
+    "release": "v1.2.0",
+    "explicit_directory": "an/weights/v1.2.0",
+    "config_sha256": "7cc34433045adb998762e00de7de25c50f9c1e10dbac1c18899c6c63c4cfafe4",
+    "config": {
+      "fre": {
+        "in_channels": 1,
+        "out_channels": 8,
+        "kernel_size": 15,
+        "weights_file": "fre.pt"
+      },
+      "fsd": {
+        "kernel_size": 11,
+        "num_scales": 3,
+        "max_size": 1024,
+        "resize_mode": "resize_and_crop"
+      },
+      "gmm": {
+        "n_components": 5,
+        "covariance_type": "tied",
+        "weights_file": "gmm.pt"
+      },
+      "transforms": {
+        "weights_file": "fsd_transforms.pt"
+      },
+      "scoring": {
+        "train_mean": -42.25325127289017,
+        "train_std": 706.0556010649537,
+        "default_threshold": -2.0
+      },
+      "attribution": {
+        "weights_file": "attribution_transforms.pt",
+        "source_gmms_file": "source_gmms.pt"
+      }
+    }
+  },
+  "primary_source_links": [
+    "https://github.com/ductai199x/Forensic-Self-Descriptions-CVPR25/commit/50f2eae06efdac2e5a33f407ca9a27a2295133ac",
+    "https://github.com/ductai199x/Forensic-Self-Descriptions-CVPR25/tree/50f2eae06efdac2e5a33f407ca9a27a2295133ac/fsd",
+    "https://github.com/ductai199x/Forensic-Self-Descriptions-CVPR25/tree/v1.2.0/fsd",
+    "https://github.com/ductai199x/Forensic-Self-Descriptions-CVPR25/compare/5b317a00251988b5ec5a47317f4d82e5bdfd009d...50f2eae06efdac2e5a33f407ca9a27a2295133ac",
+    "https://github.com/ductai199x/Forensic-Self-Descriptions-CVPR25/releases/tag/v1.2.0"
+  ],
+  "files": [
+    {
+      "path": "fsd/__init__.py",
+      "official_main_git_blob_sha1": "8eff52e676d7b7294361430174792186b6334369",
+      "local_head_git_blob_sha1": "8eff52e676d7b7294361430174792186b6334369",
+      "working_tree_filtered_git_blob_sha1": "8eff52e676d7b7294361430174792186b6334369",
+      "tag_git_blob_sha1": "5f84b5766a6880bf82a052653ed62079dddf702c",
+      "main_equals_tag_blob": false,
+      "canonical_main_sha256": "cd55645d42b65b390780a99fcf1d1280ae7c5c111a15e6260978dd662a129449",
+      "canonical_tag_sha256": "94ca312e651a0fb83fe9c63882f2cde0b0c2aa927b8cacd62fa0345e8a654a15",
+      "raw_working_tree_sha256": "160d372ec1807f49800c3dd0cc09e0e787fbed47e08f9937755cb337798d70cb",
+      "raw_working_tree_equals_canonical_blob": false,
+      "working_tree_equals_main_after_git_filters": true,
+      "canonical_main_snapshot": "source_snapshots/main_50f2eae/fsd/__init__.py",
+      "canonical_tag_snapshot": "source_snapshots/tag_v1.2.0_5b317a0/fsd/__init__.py"
+    },
+    {
+      "path": "fsd/attribution.py",
+      "official_main_git_blob_sha1": "13e40b5ce36779c0c76fb7af26a6e991c8f76a1c",
+      "local_head_git_blob_sha1": "13e40b5ce36779c0c76fb7af26a6e991c8f76a1c",
+      "working_tree_filtered_git_blob_sha1": "13e40b5ce36779c0c76fb7af26a6e991c8f76a1c",
+      "tag_git_blob_sha1": "9c4fdab511ecf4754bc7c57b89441cb04aa34f23",
+      "main_equals_tag_blob": false,
+      "canonical_main_sha256": "a1904196cfb0c26deff4aefdad6aad6b5d1576a906a9f3da095a12c6c7f51861",
+      "canonical_tag_sha256": "50556cbae870525efec5e3627178e11532be7ea8673273355c27c856b57b8f97",
+      "raw_working_tree_sha256": "b8d62b9ec1de2d9a48a7584c5ba94ce54ddb16fef2a8b847af27298f9de6ef61",
+      "raw_working_tree_equals_canonical_blob": false,
+      "working_tree_equals_main_after_git_filters": true,
+      "canonical_main_snapshot": "source_snapshots/main_50f2eae/fsd/attribution.py",
+      "canonical_tag_snapshot": "source_snapshots/tag_v1.2.0_5b317a0/fsd/attribution.py"
+    },
+    {
+      "path": "fsd/cli.py",
+      "official_main_git_blob_sha1": "185a3bb8d39a948f3cc30b0546bd9f7565ac6d52",
+      "local_head_git_blob_sha1": "185a3bb8d39a948f3cc30b0546bd9f7565ac6d52",
+      "working_tree_filtered_git_blob_sha1": "185a3bb8d39a948f3cc30b0546bd9f7565ac6d52",
+      "tag_git_blob_sha1": "185a3bb8d39a948f3cc30b0546bd9f7565ac6d52",
+      "main_equals_tag_blob": true,
+      "canonical_main_sha256": "63578dd8435f14dda9473aa2d449c899f5df9578fd1b0407673b056dd8c9839a",
+      "canonical_tag_sha256": "63578dd8435f14dda9473aa2d449c899f5df9578fd1b0407673b056dd8c9839a",
+      "raw_working_tree_sha256": "c281f9ab216eb58161325e8f5d0ab45978772317a263dd1ff0fc22395412cc10",
+      "raw_working_tree_equals_canonical_blob": false,
+      "working_tree_equals_main_after_git_filters": true,
+      "canonical_main_snapshot": "source_snapshots/main_50f2eae/fsd/cli.py",
+      "canonical_tag_snapshot": "source_snapshots/tag_v1.2.0_5b317a0/fsd/cli.py"
+    },
+    {
+      "path": "fsd/cli_ray.py",
+      "official_main_git_blob_sha1": "13853e4bcf3eff903be0bd8198357546a6c8f148",
+      "local_head_git_blob_sha1": "13853e4bcf3eff903be0bd8198357546a6c8f148",
+      "working_tree_filtered_git_blob_sha1": "13853e4bcf3eff903be0bd8198357546a6c8f148",
+      "tag_git_blob_sha1": "13853e4bcf3eff903be0bd8198357546a6c8f148",
+      "main_equals_tag_blob": true,
+      "canonical_main_sha256": "e98bff1c8c1971799a859c32b73aa31f43a7d80c44cbbdff6f346c24af22bd4d",
+      "canonical_tag_sha256": "e98bff1c8c1971799a859c32b73aa31f43a7d80c44cbbdff6f346c24af22bd4d",
+      "raw_working_tree_sha256": "d3b8feb86e162259173d4e6929109c5f6ad288e0b5776d3ac89ec69f9c73cb29",
+      "raw_working_tree_equals_canonical_blob": false,
+      "working_tree_equals_main_after_git_filters": true,
+      "canonical_main_snapshot": "source_snapshots/main_50f2eae/fsd/cli_ray.py",
+      "canonical_tag_snapshot": "source_snapshots/tag_v1.2.0_5b317a0/fsd/cli_ray.py"
+    },
+    {
+      "path": "fsd/detector.py",
+      "official_main_git_blob_sha1": "511df15081d2da07cf93abc3e72a8242300ba990",
+      "local_head_git_blob_sha1": "511df15081d2da07cf93abc3e72a8242300ba990",
+      "working_tree_filtered_git_blob_sha1": "511df15081d2da07cf93abc3e72a8242300ba990",
+      "tag_git_blob_sha1": "511df15081d2da07cf93abc3e72a8242300ba990",
+      "main_equals_tag_blob": true,
+      "canonical_main_sha256": "8d8ddbce2fc36b03ba5d13df64b442585b13f2dd8b25fa10c7266782150f2b0a",
+      "canonical_tag_sha256": "8d8ddbce2fc36b03ba5d13df64b442585b13f2dd8b25fa10c7266782150f2b0a",
+      "raw_working_tree_sha256": "e57c604560606ced63f43310df5e98883ba6a180f889e278ce8acbc9dc7d6049",
+      "raw_working_tree_equals_canonical_blob": false,
+      "working_tree_equals_main_after_git_filters": true,
+      "canonical_main_snapshot": "source_snapshots/main_50f2eae/fsd/detector.py",
+      "canonical_tag_snapshot": "source_snapshots/tag_v1.2.0_5b317a0/fsd/detector.py"
+    },
+    {
+      "path": "fsd/fre.py",
+      "official_main_git_blob_sha1": "bc87bba97da4ccdb9d8348425a1d6cf3449361ab",
+      "local_head_git_blob_sha1": "bc87bba97da4ccdb9d8348425a1d6cf3449361ab",
+      "working_tree_filtered_git_blob_sha1": "bc87bba97da4ccdb9d8348425a1d6cf3449361ab",
+      "tag_git_blob_sha1": "bc87bba97da4ccdb9d8348425a1d6cf3449361ab",
+      "main_equals_tag_blob": true,
+      "canonical_main_sha256": "351d4e41c6a46e55b156870336c192a08f5d4b5c72af169a978f1cb7a7073acb",
+      "canonical_tag_sha256": "351d4e41c6a46e55b156870336c192a08f5d4b5c72af169a978f1cb7a7073acb",
+      "raw_working_tree_sha256": "0361b13b9f54692e343f2d87bd4da6ef4d397403c8f7fdd023ae9d0ea4cb498b",
+      "raw_working_tree_equals_canonical_blob": false,
+      "working_tree_equals_main_after_git_filters": true,
+      "canonical_main_snapshot": "source_snapshots/main_50f2eae/fsd/fre.py",
+      "canonical_tag_snapshot": "source_snapshots/tag_v1.2.0_5b317a0/fsd/fre.py"
+    },
+    {
+      "path": "fsd/fsd_computation.py",
+      "official_main_git_blob_sha1": "089f1da7a20d9b9409b3d389ebfba68378758efd",
+      "local_head_git_blob_sha1": "089f1da7a20d9b9409b3d389ebfba68378758efd",
+      "working_tree_filtered_git_blob_sha1": "089f1da7a20d9b9409b3d389ebfba68378758efd",
+      "tag_git_blob_sha1": "089f1da7a20d9b9409b3d389ebfba68378758efd",
+      "main_equals_tag_blob": true,
+      "canonical_main_sha256": "f60d4d6d7f26b31cae53e82b32e5747602cbc242089c793f964ca715af4eabc6",
+      "canonical_tag_sha256": "f60d4d6d7f26b31cae53e82b32e5747602cbc242089c793f964ca715af4eabc6",
+      "raw_working_tree_sha256": "80a4f1a5b4f07faf7779203786eca90cb36be38cfe17abb6db16dc68fa605c64",
+      "raw_working_tree_equals_canonical_blob": false,
+      "working_tree_equals_main_after_git_filters": true,
+      "canonical_main_snapshot": "source_snapshots/main_50f2eae/fsd/fsd_computation.py",
+      "canonical_tag_snapshot": "source_snapshots/tag_v1.2.0_5b317a0/fsd/fsd_computation.py"
+    },
+    {
+      "path": "fsd/gmm.py",
+      "official_main_git_blob_sha1": "274b84ac2f67a6dff930e8cb9a94f5f27a034e77",
+      "local_head_git_blob_sha1": "274b84ac2f67a6dff930e8cb9a94f5f27a034e77",
+      "working_tree_filtered_git_blob_sha1": "274b84ac2f67a6dff930e8cb9a94f5f27a034e77",
+      "tag_git_blob_sha1": "274b84ac2f67a6dff930e8cb9a94f5f27a034e77",
+      "main_equals_tag_blob": true,
+      "canonical_main_sha256": "a6c476732fe783726d25cf0eb3ea2262bb3c23c69185a0b4d46b18148d9fa35d",
+      "canonical_tag_sha256": "a6c476732fe783726d25cf0eb3ea2262bb3c23c69185a0b4d46b18148d9fa35d",
+      "raw_working_tree_sha256": "14b2f0f14221abc8c2e2eeaeb09038155bbd73a5e6ba3d82911924837bbd8e10",
+      "raw_working_tree_equals_canonical_blob": false,
+      "working_tree_equals_main_after_git_filters": true,
+      "canonical_main_snapshot": "source_snapshots/main_50f2eae/fsd/gmm.py",
+      "canonical_tag_snapshot": "source_snapshots/tag_v1.2.0_5b317a0/fsd/gmm.py"
+    },
+    {
+      "path": "fsd/projection.py",
+      "official_main_git_blob_sha1": "dce61abef5f40cd781e415d32e16edbd6198943b",
+      "local_head_git_blob_sha1": "dce61abef5f40cd781e415d32e16edbd6198943b",
+      "working_tree_filtered_git_blob_sha1": "dce61abef5f40cd781e415d32e16edbd6198943b",
+      "tag_git_blob_sha1": "dce61abef5f40cd781e415d32e16edbd6198943b",
+      "main_equals_tag_blob": true,
+      "canonical_main_sha256": "336dd6a59e41c84676846e5a23f77f8674268a739997a75ffcbcf01e80306bba",
+      "canonical_tag_sha256": "336dd6a59e41c84676846e5a23f77f8674268a739997a75ffcbcf01e80306bba",
+      "raw_working_tree_sha256": "bb0d2ee192fc90064c87c090c6863e187367d11b90f8ab8392e2d1e028b79e24",
+      "raw_working_tree_equals_canonical_blob": false,
+      "working_tree_equals_main_after_git_filters": true,
+      "canonical_main_snapshot": "source_snapshots/main_50f2eae/fsd/projection.py",
+      "canonical_tag_snapshot": "source_snapshots/tag_v1.2.0_5b317a0/fsd/projection.py"
+    },
+    {
+      "path": "fsd/serve.py",
+      "official_main_git_blob_sha1": "066b22f9171cc5da991d04c787e5549716b3cd06",
+      "local_head_git_blob_sha1": "066b22f9171cc5da991d04c787e5549716b3cd06",
+      "working_tree_filtered_git_blob_sha1": "066b22f9171cc5da991d04c787e5549716b3cd06",
+      "tag_git_blob_sha1": "066b22f9171cc5da991d04c787e5549716b3cd06",
+      "main_equals_tag_blob": true,
+      "canonical_main_sha256": "8f7da92972edf1d2402cdbe5afd692e12d1ad7e00efa7587ebaf14f2846f41c2",
+      "canonical_tag_sha256": "8f7da92972edf1d2402cdbe5afd692e12d1ad7e00efa7587ebaf14f2846f41c2",
+      "raw_working_tree_sha256": "e41ae14e0365dd43c85f6c4b51d452637dc3766051ef6bc2bf9ebb5b43895e90",
+      "raw_working_tree_equals_canonical_blob": false,
+      "working_tree_equals_main_after_git_filters": true,
+      "canonical_main_snapshot": "source_snapshots/main_50f2eae/fsd/serve.py",
+      "canonical_tag_snapshot": "source_snapshots/tag_v1.2.0_5b317a0/fsd/serve.py"
+    },
+    {
+      "path": "fsd/weights.py",
+      "official_main_git_blob_sha1": "efabaf8b0ea69624ff752e36e0a076b755f0015f",
+      "local_head_git_blob_sha1": "efabaf8b0ea69624ff752e36e0a076b755f0015f",
+      "working_tree_filtered_git_blob_sha1": "efabaf8b0ea69624ff752e36e0a076b755f0015f",
+      "tag_git_blob_sha1": "844763977e7a6ec4f0df61902dce26ffc09a89b0",
+      "main_equals_tag_blob": false,
+      "canonical_main_sha256": "6a1413c0a9fc50318729d941c1c4639d0b4e4b6950ae6cc596a5308178fb98ad",
+      "canonical_tag_sha256": "29dbbf516ddef38902ee820295a819adcb1e6800831c7a4d7faf2c91754d0a35",
+      "raw_working_tree_sha256": "f30a9152c90fcb0fda9627b0b4058557b9edfd60b4654882be14ff01ce146ba5",
+      "raw_working_tree_equals_canonical_blob": false,
+      "working_tree_equals_main_after_git_filters": true,
+      "canonical_main_snapshot": "source_snapshots/main_50f2eae/fsd/weights.py",
+      "canonical_tag_snapshot": "source_snapshots/tag_v1.2.0_5b317a0/fsd/weights.py"
+    }
+  ]
+}

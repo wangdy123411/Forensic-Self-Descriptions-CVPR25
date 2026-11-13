@@ -1,0 +1,1451 @@
+{
+  "created_utc": "2026-11-08T11:24:32.476581+00:00",
+  "status": "complete",
+  "expected_cases": 175,
+  "completed_cases": 175,
+  "missing_cases": [],
+  "originals": 25,
+  "source_counts": {
+    "DALL-E 3": 5,
+    "GLIDE": 5,
+    "COCO2017": 5,
+    "Adobe Firefly": 5,
+    "Stable Diffusion XL": 5
+  },
+  "conditions": [
+    "clean",
+    "jpeg_q50",
+    "resize_050",
+    "crop_area025",
+    "blur_sigma20",
+    "sharpen_200",
+    "resize050_jpeg50"
+  ],
+  "max_differences": {
+    "upstream_vs_an_raw_max_abs": 8.382741992774001e-07,
+    "upstream_vs_an_raw_relative_l2": 3.4001689157701017e-07,
+    "upstream_vs_an_projected_max_abs": 8.394644829823328e-07,
+    "upstream_vs_an_projected_relative_l2": 3.4003073211262633e-07,
+    "upstream_vs_an_attribution_max_abs": 8.398655106378605e-07,
+    "upstream_vs_an_attribution_relative_l2": 3.400237292386648e-07,
+    "upstream_vs_an_z_score_abs": 3.541793922035019e-07,
+    "upstream_vs_an_raw_score_abs": 0.0002500703436680851,
+    "upstream_vs_an_anomaly_score_abs": 3.541793922035019e-07,
+    "upstream_vs_an_attribution_confidence_abs": 9.356616625932901e-08,
+    "upstream_vs_an_loglik_max_abs": 0.0017108823199123435,
+    "upstream_vs_an_probabilities_max_abs": 1.8183205272026548e-07,
+    "upstream_vs_main_raw_max_abs": 8.382741992774001e-07,
+    "upstream_vs_main_raw_relative_l2": 3.4001689157701017e-07,
+    "upstream_vs_main_projected_max_abs": 8.394644829823328e-07,
+    "upstream_vs_main_projected_relative_l2": 3.4003073211262633e-07,
+    "upstream_vs_main_attribution_max_abs": 8.398655106378605e-07,
+    "upstream_vs_main_attribution_relative_l2": 3.400237292386648e-07,
+    "upstream_vs_main_z_score_abs": 3.541793922035019e-07,
+    "upstream_vs_main_raw_score_abs": 0.0002500703436680851,
+    "upstream_vs_main_anomaly_score_abs": 3.541793922035019e-07,
+    "upstream_vs_main_attribution_confidence_abs": 9.356616625932901e-08,
+    "upstream_vs_main_loglik_max_abs": 0.0017108823199123435,
+    "upstream_vs_main_probabilities_max_abs": 1.8183205272026548e-07,
+    "an_vs_main_raw_max_abs": 0.0,
+    "an_vs_main_raw_relative_l2": 0.0,
+    "an_vs_main_projected_max_abs": 0.0,
+    "an_vs_main_projected_relative_l2": 0.0,
+    "an_vs_main_attribution_max_abs": 0.0,
+    "an_vs_main_attribution_relative_l2": 0.0,
+    "an_vs_main_z_score_abs": 0.0,
+    "an_vs_main_raw_score_abs": 0.0,
+    "an_vs_main_anomaly_score_abs": 0.0,
+    "an_vs_main_attribution_confidence_abs": 0.0,
+    "an_vs_main_loglik_max_abs": 0.0,
+    "an_vs_main_probabilities_max_abs": 0.0
+  },
+  "agreement": {
+    "upstream_vs_an_released_decision_match": {
+      "matched": 175,
+      "total": 175,
+      "all_match": true
+    },
+    "upstream_vs_an_calibrated_decision_match": {
+      "matched": 175,
+      "total": 175,
+      "all_match": true
+    },
+    "upstream_vs_an_source_match": {
+      "matched": 175,
+      "total": 175,
+      "all_match": true
+    },
+    "upstream_vs_main_released_decision_match": {
+      "matched": 175,
+      "total": 175,
+      "all_match": true
+    },
+    "upstream_vs_main_calibrated_decision_match": {
+      "matched": 175,
+      "total": 175,
+      "all_match": true
+    },
+    "upstream_vs_main_source_match": {
+      "matched": 175,
+      "total": 175,
+      "all_match": true
+    },
+    "an_vs_main_released_decision_match": {
+      "matched": 175,
+      "total": 175,
+      "all_match": true
+    },
+    "an_vs_main_calibrated_decision_match": {
+      "matched": 175,
+      "total": 175,
+      "all_match": true
+    },
+    "an_vs_main_source_match": {
+      "matched": 175,
+      "total": 175,
+      "all_match": true
+    }
+  },
+  "independently_recomputed_numeric_pass": {
+    "upstream_vs_an_numeric_pass": true,
+    "upstream_vs_main_numeric_pass": true,
+    "an_vs_main_numeric_pass": true
+  },
+  "max_matched_task_metric_differences": {
+    "auroc": 0.0,
+    "released_tpr": 0.0,
+    "released_fpr": 0.0,
+    "released_balanced_accuracy": 0.0,
+    "calibrated_tpr": 0.0,
+    "calibrated_fpr": 0.0,
+    "mapped_attribution_accuracy": 0.0
+  },
+  "released_z_threshold": -2.0,
+  "calibrated_anomaly_threshold": 0.9939028181080122,
+  "calibration_notice": "Frozen threshold inherited from 100 separate COCO calibration originals in main; no comparison test score fits a threshold",
+  "metric_cohort_notice": "Both implementations use exactly the same completed original-condition cases; main 300-test-original headline metrics are not compared to this 25-original cohort",
+  "timer_notes": {
+    "per_method": "Synchronized FSD extraction + original detection/attribution components + additional14-source raw-likelihood diagnostic pass; CPU output copies included; image processing, feature disk writes, differences and public API checks excluded.",
+    "an_extra": "AN extraction includes its production residual/numerical diagnostics; upstream compute_fsd does not.",
+    "allocator": "Timed method order alternates by fixed planned case index: even upstream then AN; odd AN then upstream. The schedule is unchanged by resume. CUDA cache is retained normally, and reserved memory can include preceding method allocations. Allocated/reserved are logical PyTorch memory, not resident physical VRAM; WDDM/system-memory fallback can permit values above6GiB.",
+    "reference": "Saved main seconds used a different timer and are not the paired method timing.",
+    "processed_pixels": "Literal upstream and fresh AN receive the exact same RGB PIL pixels and share the recorded pixel hash. Saved main has no stored processed pixel hash; reconstruction is linked through unchanged original-byte and transformation-code hashes."
+  },
+  "tolerances": {
+    "feature_relative_l2": 0.0001,
+    "z_score_absolute": 0.001,
+    "probabilities_absolute": 0.0001
+  },
+  "version_comparison": {
+    "torch": {
+      "main": "2.10.0+cu128",
+      "comparison": "2.10.0+cu128",
+      "matches": true
+    },
+    "numpy": {
+      "main": "2.5.4",
+      "comparison": "2.5.4",
+      "matches": true
+    },
+    "pillow": {
+      "main": "12.3.0",
+      "comparison": "12.3.0",
+      "matches": true
+    },
+    "device": {
+      "main": "cuda:0",
+      "comparison": "cuda",
+      "matches": true
+    },
+    "dtype": {
+      "main": "float64",
+      "comparison": "float64",
+      "matches": true
+    }
+  },
+  "version_warnings": [],
+  "processed_pixel_hashes_reconstructed_and_verified": 175,
+  "hash_checks": [
+    {
+      "path": "an\\baseline_comparison\\manifest.csv",
+      "sha256": "4e35b9a5aa687008fe73e4eba94a1c0ab6a3a8adb919d6c8462ecbab4aa17150",
+      "check": "frozen comparison manifest"
+    },
+    {
+      "path": "an\\results\\main\\records.jsonl",
+      "sha256": "ad2b760a9319b5cdb3d01845150d402c320b3346257057ee6e77b2a6c8777735",
+      "check": "main records"
+    },
+    {
+      "path": "an\\results\\main\\run_metadata.json",
+      "sha256": "23570ceb2f6a64ca6a64b2dbd00cc242966c306aaabb6b977faaf2bb81e301eb",
+      "check": "main metadata"
+    },
+    {
+      "path": "an\\results\\main\\analysis_summary.json",
+      "sha256": "a793cae6e1de400e2da754496a36e7054ec266fa7143ae83020179b94fd04215",
+      "check": "main analysis summary"
+    },
+    {
+      "path": "an\\baseline_comparison\\compare_upstream.py",
+      "sha256": "e117f72aefdcda867274551053331b694a10437cfe95e06a8b27a85682846565",
+      "check": "scoring code"
+    },
+    {
+      "path": "fsd\\detector.py",
+      "sha256": "e57c604560606ced63f43310df5e98883ba6a180f889e278ce8acbc9dc7d6049",
+      "check": "scoring code"
+    },
+    {
+      "path": "fsd\\fsd_computation.py",
+      "sha256": "80a4f1a5b4f07faf7779203786eca90cb36be38cfe17abb6db16dc68fa605c64",
+      "check": "scoring code"
+    },
+    {
+      "path": "fsd\\fre.py",
+      "sha256": "0361b13b9f54692e343f2d87bd4da6ef4d397403c8f7fdd023ae9d0ea4cb498b",
+      "check": "scoring code"
+    },
+    {
+      "path": "fsd\\projection.py",
+      "sha256": "bb0d2ee192fc90064c87c090c6863e187367d11b90f8ab8392e2d1e028b79e24",
+      "check": "scoring code"
+    },
+    {
+      "path": "fsd\\gmm.py",
+      "sha256": "14b2f0f14221abc8c2e2eeaeb09038155bbd73a5e6ba3d82911924837bbd8e10",
+      "check": "scoring code"
+    },
+    {
+      "path": "fsd\\attribution.py",
+      "sha256": "b8d62b9ec1de2d9a48a7584c5ba94ce54ddb16fef2a8b847af27298f9de6ef61",
+      "check": "scoring code"
+    },
+    {
+      "path": "an\\robustness\\extractor.py",
+      "sha256": "475143c755e5ea6380b3b795c1ee29ebc39668f325f6b534e9f8cf34a0a60369",
+      "check": "scoring code"
+    },
+    {
+      "path": "an\\robustness\\transforms.py",
+      "sha256": "4ac018213e80c8000c14ebe7c48dacfda801fdbc0ee1191bc0594755a7f93f0d",
+      "check": "scoring code"
+    },
+    {
+      "path": "an\\run_experiment.py",
+      "sha256": "8f40af07b1b740fa0873b4eb7d6082cd36b2b5b45b4cc5d51502f4121d4cd294",
+      "check": "scoring code"
+    },
+    {
+      "path": "an\\weights\\v1.2.0\\attribution_transforms.pt",
+      "sha256": "90fab44761c138a70ec7de585d4ec998ce1fe1db8a36fd8631b5988207067605",
+      "check": "released weights"
+    },
+    {
+      "path": "an\\weights\\v1.2.0\\config.json",
+      "sha256": "7cc34433045adb998762e00de7de25c50f9c1e10dbac1c18899c6c63c4cfafe4",
+      "check": "released weights"
+    },
+    {
+      "path": "an\\weights\\v1.2.0\\fre.pt",
+      "sha256": "d95b9c50837dbf7b660bbefa20cdaa5db5e59601a9d6544573c10e78e04906bb",
+      "check": "released weights"
+    },
+    {
+      "path": "an\\weights\\v1.2.0\\fsd_transforms.pt",
+      "sha256": "1e87d792b413101e58d9de71551182a1fab8b879ca6f6ba9780b6adcb9a5a699",
+      "check": "released weights"
+    },
+    {
+      "path": "an\\weights\\v1.2.0\\gmm.pt",
+      "sha256": "0f9fa030a3d5816266d0329fd0fb614b65e322d4bda6d083613c713bfe9bc829",
+      "check": "released weights"
+    },
+    {
+      "path": "an\\weights\\v1.2.0\\source_gmms.pt",
+      "sha256": "42b5e4110a4ff867503983a806b2c7c8674c545994d59ff5c4f01369c54e82d0",
+      "check": "released weights"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\dall_e_3\\synthbuster_59d7b980131c06dc.png",
+      "sha256": "a3ad27a3e2958f787ce56d30b13732cfee756ddd163ad2c75010778e5cf82652",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\glide\\synthbuster_79b911e16f23e0ac.png",
+      "sha256": "8550a0dba0b68c8d55172a59b26dbdb8c37bfd41a895bfd88b6c2242276468ac",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\coco2017\\000000344059.jpg",
+      "sha256": "633eed113cdef492bb09c27d838ee82b81623be11e5a35019404380fe7bd320b",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\coco2017\\000000187144.jpg",
+      "sha256": "ecda88adbae1ca905ecf37007ef2ce11013109523964dca9bf1ed856f26cbcfb",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\adobe_firefly\\synthbuster_b66eea22fc3bafc5.png",
+      "sha256": "6e321b1261f9d3f91e6451b63a86950d6bb802e60fd5e664fa06301837add399",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\coco2017\\000000490125.jpg",
+      "sha256": "e59b0329626d914f7ebdbc2d9215e2559e4ac3938dfddc309c1bf9f1390ce7c6",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\coco2017\\000000340894.jpg",
+      "sha256": "3e3b877390b6f0cf1873444eae7912dea498ea6515ee60bd0a2fa6b7d5fc52fa",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\glide\\synthbuster_6e26bcf710c666bb.png",
+      "sha256": "ec2fb752758bb1a0a1f23e302732e5548c07b7b1093961200e335af3b0188dd6",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\coco2017\\000000132116.jpg",
+      "sha256": "5f68d0c7c06169c086a71966090c325af62cd9f13b8e60967b5559f0fc24268c",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\glide\\synthbuster_929b5c7dd72e99ba.png",
+      "sha256": "29a67f8eb735ce59bae81872eca6c02f128249abd43d1ca45305591fb05ebc0a",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\adobe_firefly\\synthbuster_f0b722f655f8efb1.png",
+      "sha256": "ecf46b3a9c9d6cc492bc4effd81b35fccda2deef8c79c8fe25a359dd65a31ce0",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\glide\\synthbuster_f01a6d84223ab23c.png",
+      "sha256": "f5b797b035462504f61be0284168f38c1ee435a19373e998c723b7f8bba3b2c2",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\glide\\synthbuster_cab0be8d788ba938.png",
+      "sha256": "29e52629578cb0c57c43b17c7cbe95faeddb667edc64bbe69b339920cb75ba83",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\stable_diffusion_xl\\synthbuster_c26c24108e9ee1ca.png",
+      "sha256": "074296435cd3f373d1725742e1b1badaf2dabd7c6b4b72fe56b0386a5671cd11",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\adobe_firefly\\synthbuster_4f7c5acf55e93c14.png",
+      "sha256": "7ba9122d1dfe9c87b57faf50ba5569bae856b84889b03fc6a4cdf5531e0c06ba",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\stable_diffusion_xl\\synthbuster_e84e4872e51b3602.png",
+      "sha256": "0b163857e430d53c992fa636c3f7dde251695976c924465320e6e5aa5708dbe7",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\dall_e_3\\synthbuster_15b06a756cb7d9e4.png",
+      "sha256": "3c8772638872f7c1a2eb26548b016ddb9db6f0b22b1f7589c6427d6918dbe75a",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\dall_e_3\\synthbuster_bf8a82337278e468.png",
+      "sha256": "1ce115ea51ecfc72c02126b18e3467f1d65b40114003e9f5e931badac7b9bba8",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\adobe_firefly\\synthbuster_a655b0bac25390b0.png",
+      "sha256": "0dd02869a0f75349664c8c729993997a1d5021f84ebca8a797a387442ed860e0",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\stable_diffusion_xl\\synthbuster_0fd9b3cf41edaa59.png",
+      "sha256": "d9a124f4b2b8d63d548e8e2a1e48077117f0e01a92bf409e818d5cfb04853275",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\stable_diffusion_xl\\synthbuster_7d3067e81619f219.png",
+      "sha256": "1d604318e1a91ab30b9212e01f6788786f639b2ba1867465f4cb7994c1f03cf7",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\dall_e_3\\synthbuster_281023e19781b422.png",
+      "sha256": "a71918e7b0e08c87e5b19da648b798725d05a4540e3f8c6e7c8f2f47cb95ca0a",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\dall_e_3\\synthbuster_1fba50af824bfc40.png",
+      "sha256": "910b16664444814f2687c430aade246e0e22fa8eb8eb488014cf87785800a8aa",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\adobe_firefly\\synthbuster_c9b927a13218a65b.png",
+      "sha256": "d64dbd0ef942f642d91492fe6aceb6574459d2f6b555f5ee6f7e1897d914ec60",
+      "check": "native original"
+    },
+    {
+      "path": "an\\data\\images\\synthbuster\\stable_diffusion_xl\\synthbuster_1d24309ecb4d7a05.png",
+      "sha256": "0aaec3be13873792d0d03d71cdab3504fc1b5c76cd6a126e2b96d747a70b593d",
+      "check": "native original"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_59d7b980131c06dc__clean.npz",
+      "sha256": "b38d9c0fc0694a40892cd4f81dc67d5429cd9da5347834d98efdf4d60ef853fa",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_59d7b980131c06dc__jpeg_q50.npz",
+      "sha256": "a75f802042bbb0c0257da50c123116f824b8af655839478185f3e20c6e398b13",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_59d7b980131c06dc__resize_050.npz",
+      "sha256": "630951fdd85776880884b33f07407b19fcb5ec53d43709676432c3e9c3942f4e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_59d7b980131c06dc__crop_area025.npz",
+      "sha256": "3b95d05b87743a9510dc7471351a7732699277057c01be3114ad7a464b3e3ac3",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_59d7b980131c06dc__blur_sigma20.npz",
+      "sha256": "0c773185a4709bfa0b80ec41f667d07c197804fd57776fe3541c81b5384c847f",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_59d7b980131c06dc__sharpen_200.npz",
+      "sha256": "319a71ebddeea058c1784e27c6dd847f28364485fc36d8addc40dcb301ec21bc",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_59d7b980131c06dc__resize050_jpeg50.npz",
+      "sha256": "07da3eb08630704ac07e7704be81c719e994417181b1b7cc070d2fc146d4ff6e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_79b911e16f23e0ac__clean.npz",
+      "sha256": "5dfd952139ad82e934e1d4f2e49819f8ad062f65fbab26a82b32481adbe9ca6c",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_79b911e16f23e0ac__jpeg_q50.npz",
+      "sha256": "8a6f646e004c6df88dd0524da4097ba1697b2fccc6b59458ce44b0fef5fd78ad",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_79b911e16f23e0ac__resize_050.npz",
+      "sha256": "1e39d7450dba73b9622ba46041c07c096f9afa708fc67abd41f83c56d81a9bb7",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_79b911e16f23e0ac__crop_area025.npz",
+      "sha256": "fda59669b4b64424a5ee37db0a71c85455badc5ce120e3cee20310c41d93d7d3",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_79b911e16f23e0ac__blur_sigma20.npz",
+      "sha256": "2698f262fd7ab9bc01ebd729c91006f8e4761a3e446743b0b81ea83e3d807249",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_79b911e16f23e0ac__sharpen_200.npz",
+      "sha256": "4da10d994a0f7faffb40a34944478836844134695b01ea5b1c8d0720da6eb3b3",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_79b911e16f23e0ac__resize050_jpeg50.npz",
+      "sha256": "71df8b4f8fc119b6e4636ef9293e0ca88056e4fcf4aa0e440efdbee9ce1b56ca",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000344059__clean.npz",
+      "sha256": "33d3d32336fc4515588573106245f5fe87da75cb5cc3e4dda03348ca8cc2efa2",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000344059__jpeg_q50.npz",
+      "sha256": "ff5b2b19bae83d779574f2760c8970da5865df283c1da9a42738f2e941960d64",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000344059__resize_050.npz",
+      "sha256": "19a024ea2389ec0af671f7089c6d0a3ac716d5880824ddbca2c17c53acea6eb8",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000344059__crop_area025.npz",
+      "sha256": "6f8179a2c7ba06f80eeeb2e95643ffd2a0aa75a8980a84111212706a0921b066",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000344059__blur_sigma20.npz",
+      "sha256": "5677aa464727dfe119cff34b750c12039878a21952fe9c141c9ffaf9b42fe68d",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000344059__sharpen_200.npz",
+      "sha256": "9bb4ad8bfbd30001782011fce43d6ffcc4bc100fdf5b5c7ad649b4c4464044c7",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000344059__resize050_jpeg50.npz",
+      "sha256": "02327a7005c16437ad47d8c1da7ccb2de91bb72d65529ed50fa468dfaf288b26",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000187144__clean.npz",
+      "sha256": "cd26d0707b94fdbc9530771fa83247f8bd0323b69a6ab58c081276e547796d05",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000187144__jpeg_q50.npz",
+      "sha256": "63046c4db4994638df4fa412dc6715655a292c1838bace98f83238d51264cbae",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000187144__resize_050.npz",
+      "sha256": "6d6e2741c6d19773c6ff742bf91afd2cafbbfd2e9009b0964e655e3f6eff3480",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000187144__crop_area025.npz",
+      "sha256": "ff9e5bba4e8c7c94a11fe9c1d0b5d1bf8ee8a276bf9da9ac27b09891fb5267fc",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000187144__blur_sigma20.npz",
+      "sha256": "8f50e190520b7b3efd0353a866afca0d7b5517021c9b1b2f37a55935d62050d2",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000187144__sharpen_200.npz",
+      "sha256": "b53fc675e24ae5aef541515f3a5fce23a2a80a5adc3557dc04f4086e3f005559",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000187144__resize050_jpeg50.npz",
+      "sha256": "19431a04741fec3d8a4c6a3b67e12b9443c8a1288c9e724fecc01c85f1feafe2",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_b66eea22fc3bafc5__clean.npz",
+      "sha256": "ad525220b71b2e72bf5e4e737cea185563e77c444ab2d8ea2e3961cdb7da3650",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_b66eea22fc3bafc5__jpeg_q50.npz",
+      "sha256": "c31150919ab539e0a954f916efffd4ae3da111a9ee61d7bc6b0eb14669f5c295",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_b66eea22fc3bafc5__resize_050.npz",
+      "sha256": "40af545d0cd318a30452764ec90984700fd949753bc63aa21d1505db560b1e11",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_b66eea22fc3bafc5__crop_area025.npz",
+      "sha256": "210494d45829f5d416e94b2e4aaaea591f63243cd5ebb8bf0133dd9699d0e077",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_b66eea22fc3bafc5__blur_sigma20.npz",
+      "sha256": "73eb24c313db2554fa0cc21d33089d61d8bfd107c76ba1601b17c83817afad8f",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_b66eea22fc3bafc5__sharpen_200.npz",
+      "sha256": "516333b9be712d50a33018cfdd2dd8004a185250421e38f213ee658457cad70a",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_b66eea22fc3bafc5__resize050_jpeg50.npz",
+      "sha256": "43b4510b5ddd3d459775b55b982249f5145b68869d7ad52bcac0e274fed9da0d",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000490125__clean.npz",
+      "sha256": "da5831ea9a86806f35b5c4caeb0f5463ed303f24c56242067e40751b38703fe8",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000490125__jpeg_q50.npz",
+      "sha256": "fd37e3ebcd0d1577726b2cb44f8a71a4482417ddab70558248fe9d3d68f673a2",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000490125__resize_050.npz",
+      "sha256": "f861a9e592b1c3bb24416503584f3469b985cdd611948bcb10ddc8139c2f6d1b",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000490125__crop_area025.npz",
+      "sha256": "0aca292d715f0e9181cb0ad82901d18e2e0d38a31afe991ed96e4cffe3b3968f",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000490125__blur_sigma20.npz",
+      "sha256": "977601ca2491df59d04cd29cffabaa54770fb2d046c90de50aec2eaacd2b215e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000490125__sharpen_200.npz",
+      "sha256": "600174fcc95f3c8ef118a20712adc3d2f9adc81f129af9d99984da7ead81cea8",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000490125__resize050_jpeg50.npz",
+      "sha256": "58336cbf5ac53e216d6a66eab3e8274de45027ab2babbeb6c831d7aa6d8f00d5",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000340894__clean.npz",
+      "sha256": "360a92c1a3aa5c0229daf83ff83a7e4a9c9e7fba882c48f7ad1a58a68f83530d",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000340894__jpeg_q50.npz",
+      "sha256": "d8669266087e3c9df2c0aaf355106023a7aeb3de5d203f53e19f470716f0dd6b",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000340894__resize_050.npz",
+      "sha256": "aa9a31c561ce3c2c8ebaadb25006201f628aaa2b334e8c8edf932bfc97869517",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000340894__crop_area025.npz",
+      "sha256": "dd0d7dad7837fc6faff4df536dca7cb551350edf475d18f72bbef5c32d1c4a5b",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000340894__blur_sigma20.npz",
+      "sha256": "97802ea6e7ae41a8f7355e9b944e4d2b8f3001df93e2afb92762da261402ce5b",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000340894__sharpen_200.npz",
+      "sha256": "50565c429869724cb117d23ec7177aa8622108973a29bfb4eea9666cb7a9153d",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000340894__resize050_jpeg50.npz",
+      "sha256": "31ccf183c47ac84abab908fb8c190d5c87f6ece33a0b1142c2c655fe4e2cf01e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_6e26bcf710c666bb__clean.npz",
+      "sha256": "550d6618f4b0814bbbb350cf174fc6a5ac1ac1fd1ed004d822a3710aa86d4912",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_6e26bcf710c666bb__jpeg_q50.npz",
+      "sha256": "a4bbd2eb7a58759f29fabdb9ee318473f6f5ead52281af50e88c457e9c078363",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_6e26bcf710c666bb__resize_050.npz",
+      "sha256": "53747e4a99815bbd00ae6342012ec662a34d087ea67a86d5ccd968cf49cdbfd9",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_6e26bcf710c666bb__crop_area025.npz",
+      "sha256": "8ebe167f323f287914f553de78241ddcdd4f9f94255dba4150dd07eea315c31d",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_6e26bcf710c666bb__blur_sigma20.npz",
+      "sha256": "90f62511c5d3266105c948414b0ee8cfb83967bec79e73b5053fe6c4db9f9a81",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_6e26bcf710c666bb__sharpen_200.npz",
+      "sha256": "d2ff167f849fdfcb560f23225c6a9b3072b7f73a534500059c0d1e3437b850b3",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_6e26bcf710c666bb__resize050_jpeg50.npz",
+      "sha256": "1079a7d01c3f495392f3922605ef9ae33bfcefdcbf24048c44c6c98151525610",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000132116__clean.npz",
+      "sha256": "132fbc3b3f4dc57198ac1e183af239dbbf62e59376b36a51c4ac0a98fae82f68",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000132116__jpeg_q50.npz",
+      "sha256": "f7196ed5b421290da7fdbce9961ade6ec7a29e6f4388877764bcd7b638bc8782",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000132116__resize_050.npz",
+      "sha256": "c4527392830f6750b6eaad2d428e94694393f4a8597857c99d7f9dd3c6c6ddc6",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000132116__crop_area025.npz",
+      "sha256": "c6f79041259832d65c8280013efac2ed1e3ad963a9fb9c6f9c09adc3055237be",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000132116__blur_sigma20.npz",
+      "sha256": "5591972173a681330783027ef25e7c9dfc4b160b3360d40a99800002f887bda0",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000132116__sharpen_200.npz",
+      "sha256": "8a36ec67e9134fd371f101e0cd0bff33d6fa34d066b8f551345c5480d192c8f2",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\coco2017_000000132116__resize050_jpeg50.npz",
+      "sha256": "4f8ce4672a64e403562c3e35b44e1af7aec6a84823ce5267b81ab71702f8a5e8",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_929b5c7dd72e99ba__clean.npz",
+      "sha256": "e447f6b5a4f9c9bc0e172edf5af0ec94fdc4e39f61cee9b1bd36a73e95968c8a",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_929b5c7dd72e99ba__jpeg_q50.npz",
+      "sha256": "d7d2d5a55243aa9b89f3948abc5243f3346deff59a870990c485bd424691f3d8",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_929b5c7dd72e99ba__resize_050.npz",
+      "sha256": "10374af5c8aea20cf80edb97abaf69872552d1d0e013ea077b864702ae677ff8",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_929b5c7dd72e99ba__crop_area025.npz",
+      "sha256": "a121ca30dcd74cb6ce3467822974e6992000bab2a2ab4a7f4f0417dd2d75c21e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_929b5c7dd72e99ba__blur_sigma20.npz",
+      "sha256": "2a158705c0321cf5534adbb34292f5e4bd37bef94fdb7e09515e651b6fa70dcc",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_929b5c7dd72e99ba__sharpen_200.npz",
+      "sha256": "dee2475663d53ed2270cb824fcc138c01441adbe2f1ad4f7ec800fd355ba4105",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_929b5c7dd72e99ba__resize050_jpeg50.npz",
+      "sha256": "a35b67deefb86e65c91ac8cfafd0d8ace425183323692aa62fb087a9927f6583",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f0b722f655f8efb1__clean.npz",
+      "sha256": "969555c0b13368a379dd3a3ae3a706980e01821032bb47d6faa3eb927acfa19a",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f0b722f655f8efb1__jpeg_q50.npz",
+      "sha256": "c4258ae9cd03b91f5fd8bad53f3457067265f6ed73036cf09965fa55d260d434",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f0b722f655f8efb1__resize_050.npz",
+      "sha256": "c748506ddbccda76f59b4b50608460caf34b9f99f3c4f1e15351979e914114c7",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f0b722f655f8efb1__crop_area025.npz",
+      "sha256": "4bc4b6aa2be210eacda9ff5a979ac63d13eb1472613425af86d01b34f5e4883f",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f0b722f655f8efb1__blur_sigma20.npz",
+      "sha256": "32df14573a603133d79727be1972e8b7abcf15da284fdd59276655b1d7c71c61",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f0b722f655f8efb1__sharpen_200.npz",
+      "sha256": "1a956ded84025a590add78242d1c9f75d674ebf3b3bb5996ab7839a9c42f1eeb",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f0b722f655f8efb1__resize050_jpeg50.npz",
+      "sha256": "44087cf617b7f94fdb9a89b1efa825bb8d0125209d86e1d83134ce3ad98a855e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f01a6d84223ab23c__clean.npz",
+      "sha256": "3319b8dc370539edf45cd6df5a34a7448d03abc39eeb905e1c9a257e5f4f686e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f01a6d84223ab23c__jpeg_q50.npz",
+      "sha256": "3b9c4909f4e5c933b12cc4de96d4a8e7e317831f9269e2412801fbf069654d8c",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f01a6d84223ab23c__resize_050.npz",
+      "sha256": "1ba595c6717f41ca7f5fc473423d6e95d8c158770990f671a878be418185135f",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f01a6d84223ab23c__crop_area025.npz",
+      "sha256": "9ca5b7a242cc75a721040a95bf3cc5c392bc4a7cd158b63f5c6c1d65558f61d2",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f01a6d84223ab23c__blur_sigma20.npz",
+      "sha256": "25565b72df95b1c7a8a7965994995c3f1f7c810a4d3033c050a678ab29e98f2b",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f01a6d84223ab23c__sharpen_200.npz",
+      "sha256": "a67ee2f8691c59d9134d6e64b6aa1cce3330b445b1c8023bcbd337428059fb6f",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_f01a6d84223ab23c__resize050_jpeg50.npz",
+      "sha256": "7a7e86c01c057800a6aa3370ca020e220d0b57bb4ecaa031e218462214e45f1c",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_cab0be8d788ba938__clean.npz",
+      "sha256": "96f64318c229ee597aa87c2cd66cfdcb056b20a0216059a0274b6d8fb12ffde1",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_cab0be8d788ba938__jpeg_q50.npz",
+      "sha256": "0f0e2cf7cfed0487c30ab69c587d4ef6a6794716189ecb762143562d5c377fe1",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_cab0be8d788ba938__resize_050.npz",
+      "sha256": "334e9867487faee5b471168fdb995b6d07d8c17a9288c6cd100b4ed8a49beaf7",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_cab0be8d788ba938__crop_area025.npz",
+      "sha256": "58fb492896a368d60e4ecd157c4aa2c88de78420bf1c6ec233cf58e9ea1ad552",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_cab0be8d788ba938__blur_sigma20.npz",
+      "sha256": "e9f90b8550285f2715634534685eed46ea340c0f86177f5c78c9adfbf731d912",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_cab0be8d788ba938__sharpen_200.npz",
+      "sha256": "2dba75e40521f74486115dfd56488650dd55e9b9c77eb668917c19aee1aba450",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_cab0be8d788ba938__resize050_jpeg50.npz",
+      "sha256": "d8cc9c22094af4b88c07169cc25732808048fa2a1adcb12e5901b0ff397cc5ca",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c26c24108e9ee1ca__clean.npz",
+      "sha256": "1c0a528f673dfc107bf73476ab35b6fe7891668018140235e8f7b3728432a7e7",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c26c24108e9ee1ca__jpeg_q50.npz",
+      "sha256": "aa34f1f730145231ae802f784206954c477151790ceabacd9a1672d5110bf1cb",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c26c24108e9ee1ca__resize_050.npz",
+      "sha256": "2c5648c97ac13eb59094914e52a20e6732e07ece54722dcb658621da2ac626e7",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c26c24108e9ee1ca__crop_area025.npz",
+      "sha256": "0a606c0b080fa0fcc7c00f6edea20318249d189c83b1abbde872ca2bb9580f42",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c26c24108e9ee1ca__blur_sigma20.npz",
+      "sha256": "cf1a64d4ebfcd07830cadfafd2f42e007ef4a05423614ed8ccf9ae05cae05954",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c26c24108e9ee1ca__sharpen_200.npz",
+      "sha256": "27b3a9b9f93f7a811e13f3700bf49a26d0a326cd048f840b668c1faa0b6ee403",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c26c24108e9ee1ca__resize050_jpeg50.npz",
+      "sha256": "1e6b27b783ab8bb9b54f997f09236ee2ea9c03a7003906bf0f16431a857ca2ba",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_4f7c5acf55e93c14__clean.npz",
+      "sha256": "a443e586999040ec311e23ee4e1343beb524c2fe7e00d86cf80206be0045becc",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_4f7c5acf55e93c14__jpeg_q50.npz",
+      "sha256": "96246d1e52bea197aa3a8b50783d01bd08945c77b5f328dff47b76a9a90d3dd4",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_4f7c5acf55e93c14__resize_050.npz",
+      "sha256": "23f3cb7c0bf6f6fe8443099339287e56eaa3a487c331ee3da450ed920e3fa96f",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_4f7c5acf55e93c14__crop_area025.npz",
+      "sha256": "63e11a183ee39215cba3563ed3ff56d70b4129a6d142b9d18dabc36b2710ff90",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_4f7c5acf55e93c14__blur_sigma20.npz",
+      "sha256": "eb378a3f46447d6ed861c23fa71d5adfc9f5f47cb24e260ece4e309d1e61d811",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_4f7c5acf55e93c14__sharpen_200.npz",
+      "sha256": "b531e02966a1911e6be8684a88c5cfa9f4660e44ef8112ae0b477a04602225b6",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_4f7c5acf55e93c14__resize050_jpeg50.npz",
+      "sha256": "7317976efe6f8efd3cda5a3b856acedb2e4574a76706087ec6f432224ddfe79c",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_e84e4872e51b3602__clean.npz",
+      "sha256": "c74bd6eb50975b27f2e45015076398412a4e0dba49b4233687e960857751ee4e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_e84e4872e51b3602__jpeg_q50.npz",
+      "sha256": "8acab5a53f07ecce7ea3474a70afc1f8fa33fcc55e3784e1faf43bfcdc819398",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_e84e4872e51b3602__resize_050.npz",
+      "sha256": "015fbdb077224311c8c92d787f1a9f6e0f6853656ee3fbf54e2a8b0fd5f61cfb",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_e84e4872e51b3602__crop_area025.npz",
+      "sha256": "93760d9dccac1dcd65fe02aa16cbb1f930018ebf211fe5fdef62fb53b16c8d6c",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_e84e4872e51b3602__blur_sigma20.npz",
+      "sha256": "31b4c83391c22c89f23ff906a432467ddfaa3ae58228c9bf42495fbf03ed7a19",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_e84e4872e51b3602__sharpen_200.npz",
+      "sha256": "a808b3d4854cf31a6f0ebbcfba07cdb31334116ad654e64cc2732cef020f0bc0",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_e84e4872e51b3602__resize050_jpeg50.npz",
+      "sha256": "6154533748533b8bdc9acd538ea0f73699e46d901750cc8f81b81e6d1f8c4a74",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_15b06a756cb7d9e4__clean.npz",
+      "sha256": "f8b35e46b816b28b716fe47b7458e270a50339500bff6bc5bb274cfaafe1afc4",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_15b06a756cb7d9e4__jpeg_q50.npz",
+      "sha256": "5aa157dedabce035360d55041edf28fa1030afaee96d45e99e48ebd1e7385dca",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_15b06a756cb7d9e4__resize_050.npz",
+      "sha256": "220c64306718d333c69fb01585822cee34fffd817226ddbfbc88784d7967bd05",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_15b06a756cb7d9e4__crop_area025.npz",
+      "sha256": "e9039452273b4253780ffa94cfb3f2a015a7aa3d3c8c0b71aef3dbd5e475f026",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_15b06a756cb7d9e4__blur_sigma20.npz",
+      "sha256": "1249f793e7638187754e9841ccf81cfbbf0674c92b00c299cc0ef34530a9a3ed",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_15b06a756cb7d9e4__sharpen_200.npz",
+      "sha256": "c18fcfc3e3ec69798f0c172d0b314a75f4dfe044a73beb25d5be641b8b351901",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_15b06a756cb7d9e4__resize050_jpeg50.npz",
+      "sha256": "a7cbf6a1d097d9a3a3e5d0827b576c2053d3a34b9ca531852e454deab6a1e317",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_bf8a82337278e468__clean.npz",
+      "sha256": "0401e920991212cf406a7a47cc289d8f5c61bfbafbc28d3fc0ff4722e1adaf51",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_bf8a82337278e468__jpeg_q50.npz",
+      "sha256": "0bd5682eb5b240bf9ffcd1dc1b0064a61ddeaf16cb24c8931f3bcefed7c036aa",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_bf8a82337278e468__resize_050.npz",
+      "sha256": "f558b555230828920f809b5e114858d77dc8f18d3202bffe5c5682f00813b137",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_bf8a82337278e468__crop_area025.npz",
+      "sha256": "761fd7c5d5fc04ba64a98f172c8346d2cf3fcd0b45b780bb6c001a02d5059bb0",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_bf8a82337278e468__blur_sigma20.npz",
+      "sha256": "4c1a43c9d5915ecc8676a832149ba1784da2d834528623a146df47796063391a",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_bf8a82337278e468__sharpen_200.npz",
+      "sha256": "5d1ed84f07b346b8a5b8d6362d845c100962c3a2e1645d9a0db2ad98b7057879",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_bf8a82337278e468__resize050_jpeg50.npz",
+      "sha256": "d94116bb681513f045e2a1c79082be7196a0e830ee23082e124a17ed49014d84",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_a655b0bac25390b0__clean.npz",
+      "sha256": "7af53b21df28396bc6aedf1881273a23f596cbc6a5d3103c915a880dff7684dc",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_a655b0bac25390b0__jpeg_q50.npz",
+      "sha256": "c189baee40fd6e06ed41e5452fedcbcdd5f5fd79d9700cdaee95de2c7c0483c3",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_a655b0bac25390b0__resize_050.npz",
+      "sha256": "2dbb3d0c19cf9d0a4708ca07cdc0405c3e4fab50f26a71e3fe0336e112d94856",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_a655b0bac25390b0__crop_area025.npz",
+      "sha256": "c8ce09580d3a13574d406c83b5a639a2909453c7b44d78be13016123a6c12bac",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_a655b0bac25390b0__blur_sigma20.npz",
+      "sha256": "62e88de4de73b2331305c4efae539203a9ff4b695ed1f2c46b08c32a563a293b",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_a655b0bac25390b0__sharpen_200.npz",
+      "sha256": "21341ded7d2d0ef9f6a4574b3375138b90c81edd3b83e6ab0b3decd8f3187408",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_a655b0bac25390b0__resize050_jpeg50.npz",
+      "sha256": "13d3240f72f6ad6b0f6d6af5a345b31f239fb912e0d776f7d2f8edcbfddcc9e5",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_0fd9b3cf41edaa59__clean.npz",
+      "sha256": "50ef969deaaadd90f2f6748bfc5e14e767262a35207ed2ad79c4d2ca648d984c",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_0fd9b3cf41edaa59__jpeg_q50.npz",
+      "sha256": "5f81f25e85292b9e713cc6198343cfedc970b34884d8ece4926fc13f7b7fad2e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_0fd9b3cf41edaa59__resize_050.npz",
+      "sha256": "3304093901876243b0bd88ebb96cc8a802e9feb1802a8fe6ceda6b8988eedb8b",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_0fd9b3cf41edaa59__crop_area025.npz",
+      "sha256": "83f806bf64ce6fe59fd40d1911e2281d5ee598f65f00e263bb6ef13a62d32aac",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_0fd9b3cf41edaa59__blur_sigma20.npz",
+      "sha256": "561c391abbb35c8bb753e8c6246e7ea2279aec0f7c86340a24bb53e061d445e1",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_0fd9b3cf41edaa59__sharpen_200.npz",
+      "sha256": "10970d4b8a4219a4fe3a6f8d9b937ce8c2090c58d4e25dcd1546c5be8d5d5f2b",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_0fd9b3cf41edaa59__resize050_jpeg50.npz",
+      "sha256": "3952746983b60e6e84507bd5272b543e9abedf08bdd3141e5f5a0e37e768c072",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_7d3067e81619f219__clean.npz",
+      "sha256": "ef703d2d6ed95d5d65bc1c4cedf2ea563ca643560950cde3da3137b720599278",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_7d3067e81619f219__jpeg_q50.npz",
+      "sha256": "00967302d146448d3bace8560dbc020adbbaf84110d93b111745365812300df9",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_7d3067e81619f219__resize_050.npz",
+      "sha256": "2bc35e25ca04b21b890794b25779127998c38dba58a313a7e6867aeae980e049",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_7d3067e81619f219__crop_area025.npz",
+      "sha256": "627075872bf1aed59f40f99bbb037e345d95172b4f60ac2fd55420c04e34836b",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_7d3067e81619f219__blur_sigma20.npz",
+      "sha256": "bd38bb80bb15be34749ed992b85dce6bd9e826d0017e4ce3ed6ffa50ea729472",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_7d3067e81619f219__sharpen_200.npz",
+      "sha256": "0f502834efd5f575ba4bb8d1d0e54ee2b6e22e8cbd4bf9228438e6a22367b572",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_7d3067e81619f219__resize050_jpeg50.npz",
+      "sha256": "b24a3db59f65a30eddfebececf83152a98fef888d54e8a7a41617a7c3eecec78",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_281023e19781b422__clean.npz",
+      "sha256": "3b6188156327358a4baee8791224aee33c06ce7b9b75d106d94f8884e81f9609",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_281023e19781b422__jpeg_q50.npz",
+      "sha256": "a237826d9f629ddb33602b55588520ba1a1bc266c148e36e2009c92a595c00e9",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_281023e19781b422__resize_050.npz",
+      "sha256": "c1f759825ba60ea9b6b4076a9784b733253e6248960506ee143064dc0ad6ef4a",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_281023e19781b422__crop_area025.npz",
+      "sha256": "7a088cf157ec3e41a50d74aff82af1a44c11fb359f52a2dafa718e99ca4248af",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_281023e19781b422__blur_sigma20.npz",
+      "sha256": "5fbd00895b5cc346a642d7d163afd959ae1c777d27503e8026d63948cfd03612",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_281023e19781b422__sharpen_200.npz",
+      "sha256": "89ae413a153337c8ef6342b5efa1ebe903cfbe94ce6b9024641edb835685527a",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_281023e19781b422__resize050_jpeg50.npz",
+      "sha256": "3f2e32921a709844179986ce5aa82f4e9d66aae44beffe14473d104b1dd35532",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1fba50af824bfc40__clean.npz",
+      "sha256": "ab8394a787e984ce67fbe17683f02983c0eb52363b434d7a997602a03f994167",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1fba50af824bfc40__jpeg_q50.npz",
+      "sha256": "60e170eaa4cbc9a6a026352dbe7f5bfc25f690f6909977d0669c488f15529b4d",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1fba50af824bfc40__resize_050.npz",
+      "sha256": "9969acffb8c54c9efde46d5f54ced6ca7bc04a91d2bd9493ebdeff38465e9c0e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1fba50af824bfc40__crop_area025.npz",
+      "sha256": "00fe4451e4400615c31dd25382e97b3246cf3f6c79423db47779812bdbc38d4c",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1fba50af824bfc40__blur_sigma20.npz",
+      "sha256": "1657c3da8d4c73d110e66b0f4019dcfc9b6dbc6d2721ef8f01ebc605d387714d",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1fba50af824bfc40__sharpen_200.npz",
+      "sha256": "042981173a492442c4c2040ceb434916960fe185e0b26aa48f263e78a4072ea5",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1fba50af824bfc40__resize050_jpeg50.npz",
+      "sha256": "0560e4eff38113dbd2f81f2a3f360fa259e4227a37b38455010e09ec445efc9e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c9b927a13218a65b__clean.npz",
+      "sha256": "708519c04b47bc47724f4552c79229509068ed1cf0727d0d40286cc50baebb5e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c9b927a13218a65b__jpeg_q50.npz",
+      "sha256": "4c40c24cd6b987cd180adf9eea7cdcdd7c4bd751a8e2ba0d7bd76e588d849750",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c9b927a13218a65b__resize_050.npz",
+      "sha256": "04038a2a712df48d09d2a2b7f1893d8d61abb7fffa7c224994daf540b7ba6b7e",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c9b927a13218a65b__crop_area025.npz",
+      "sha256": "feaaa1d891b59d5db6a6525a81a6d8d3b213510fbaa54f9cca6c45812888dda0",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c9b927a13218a65b__blur_sigma20.npz",
+      "sha256": "be25aad359290b2ed311d42b5bdcb31e707d739fa894adc0f183dee3d171054f",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c9b927a13218a65b__sharpen_200.npz",
+      "sha256": "6267de20bfabe3d1e87ea350ea006f989198a16abe36e20100b17ecebe865a08",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_c9b927a13218a65b__resize050_jpeg50.npz",
+      "sha256": "54b2b933d1b8e2edd43140109e1fd138528c2f991ec77a86a6196dba9358d936",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1d24309ecb4d7a05__clean.npz",
+      "sha256": "5a6e60ca9906f97b79eda923fde1b89560351cfefc0e207c9fa48c7b73910f24",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1d24309ecb4d7a05__jpeg_q50.npz",
+      "sha256": "d608ab4643cd8e95b3fe7e0fa124280a1382a986acac00827bde5b6b9e342618",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1d24309ecb4d7a05__resize_050.npz",
+      "sha256": "07837126103aeb4a16b9c5d98e45d16a5c2beb75348ce5419cfdfc0fd793934d",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1d24309ecb4d7a05__crop_area025.npz",
+      "sha256": "352bcf4f4ac1b657ac4a57b1f67b489de200d61fa2dc95ab36769f03186448e7",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1d24309ecb4d7a05__blur_sigma20.npz",
+      "sha256": "5e9fe82dc4065752df1430873bab80217d448f026f8178d9f62ec28bfff9c958",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1d24309ecb4d7a05__sharpen_200.npz",
+      "sha256": "9d50d8d130b2176bd0a6574382e9b341b5b937854b714fdde707884322fe8691",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\results\\main\\features\\synthbuster_1d24309ecb4d7a05__resize050_jpeg50.npz",
+      "sha256": "29e0a41076c2fce4bffd9e37361239da38c4716e201aa3f2b5f811005737fd50",
+      "check": "main feature cache"
+    },
+    {
+      "path": "an\\baseline_comparison\\upstream_default1024_fake.json",
+      "sha256": "6355cd19d5795187d1dc3f4d2eb34bab9e81f84460be8c35711bad49a41e195b",
+      "check": "literal public API probe"
+    },
+    {
+      "path": "an\\baseline_comparison\\upstream_default1024_firefly.json",
+      "sha256": "b9ff8d8b725f24e2a8a518e109b2cb5e59af4d3151bcf5329432e0b6f94227c3",
+      "check": "literal public API probe"
+    },
+    {
+      "path": "an\\baseline_comparison\\upstream_default1024_glide_resize050.json",
+      "sha256": "05b684e610c39f121c7a2f7958505721bae3570aeb2e51d7c2c99cb37d659d8a",
+      "check": "literal public API probe"
+    },
+    {
+      "path": "an\\baseline_comparison\\upstream_default1024_real.json",
+      "sha256": "3eb3edf28723fe2f7759ab63214a3b1c75a796f0b81ba53b235e88b2b9f47e43",
+      "check": "literal public API probe"
+    },
+    {
+      "path": "an\\baseline_comparison\\upstream_default1024_sdxl_crop025.json",
+      "sha256": "39040a099e1f5307e2048cc4b6d11a119a2e69f8d46f0fc9dd21175db99ecc51",
+      "check": "literal public API probe"
+    }
+  ],
+  "figures": [
+    "plots/score_agreement.png",
+    "plots/matched_cohort_auroc.png",
+    "plots/runtime_memory.png"
+  ],
+  "errors_recorded": 0,
+  "runtime_power_stratification": {
+    "incident_recorded": true,
+    "analysis_time_utc": "2026-11-08T11:24:31.296322+00:00",
+    "timing_window_start_utc": "2026-11-08T10:01:28.410029+00:00",
+    "timing_window_end_utc": "2026-11-08T10:11:01.037496+00:00",
+    "effective_window_end_utc": "2026-11-08T10:11:01.037496+00:00",
+    "window_open_at_analysis": false,
+    "case_interval_policy": "Inclusive overlap of the entire case started_utc/finished_utc interval with the conservative incident window; equality at either boundary is flagged",
+    "all_cases": 175,
+    "overlapping_cases": 5,
+    "nonoverlapping_cases": 170,
+    "cases_excluded_from_numeric_or_task_analysis": 0,
+    "all_case_runtime_preserved": true,
+    "limitation": "Case-level overlap cannot identify which method's timed section was power-limited. Nonoverlap means outside the recorded window, not continuous proof of AC power. Strata are descriptive and not a randomized estimate of battery-power effects."
+  },
+  "power_incident_provenance": {
+    "path": "an/baseline_comparison/power_incident.json",
+    "sha256": "14bd3c36ff0d42f7fc21ba3e4e94da8a825ae66c8d8eadd52dc8317d4dee1451",
+    "incident": {
+      "status": "resolved_ac_restored",
+      "description": "The laptop switched to battery during the direct comparison; the GPU reported P8, 300MHz SM, 405MHz memory and a10W current power limit despite80W requested/default.",
+      "last_normal_telemetry_utc": "2026-11-08T10:01:28.410029+00:00",
+      "first_low_power_telemetry_utc": "2026-11-08T10:02:28.475510+00:00",
+      "first_confirmed_battery_utc": "2026-11-08T10:06:23.076567+00:00",
+      "battery_percent_at_confirmation": 87,
+      "timing_window_start_utc": "2026-11-08T10:01:28.410029+00:00",
+      "timing_window_end_utc": "2026-11-08T10:11:01.037496+00:00",
+      "timing_policy": "Retain all cases for numerical/task comparisons and report all-case timings. Supplementary timing should flag any case overlapping the conservative interruption window, from the last preceding normal telemetry sample until confirmed AC restoration plus60seconds. Do not silently exclude these cases.",
+      "source": "Local nvidia-smi, GPU telemetry CSV, and Windows GetSystemPowerStatus observations",
+      "software_or_driver_power_settings_changed": false,
+      "confirmed_ac_restore_utc": "2026-11-08T10:10:01.037496+00:00",
+      "restored_gpu_sm_mhz": 1860,
+      "restored_gpu_memory_mhz": 5500,
+      "restored_gpu_power_w": 66.15,
+      "user_confirmed_charger_reconnected": true
+    },
+    "status_log": {
+      "path": "an/baseline_comparison/power_status_log.jsonl",
+      "sha256_at_analysis": "902422eaec3226fd762b0be80ae784369b0b0bd43c3d394e7d0014dfb86fd7ed"
+    }
+  },
+  "public_api_record_checks": {
+    "score": {
+      "count": 2,
+      "labels": [
+        0,
+        1
+      ],
+      "max_raw_score_abs": 0.0,
+      "max_z_score_abs": 0.0,
+      "all_decisions_match": true,
+      "all_numeric_pass": true,
+      "checks": [
+        {
+          "raw_score_abs": 0.0,
+          "z_score_abs": 0.0,
+          "default_decision_match": true,
+          "image_id": "synthbuster_59d7b980131c06dc",
+          "condition": "clean",
+          "label": 1,
+          "numeric_pass": true
+        },
+        {
+          "raw_score_abs": 0.0,
+          "z_score_abs": 0.0,
+          "default_decision_match": true,
+          "image_id": "coco2017_000000344059",
+          "condition": "clean",
+          "label": 0,
+          "numeric_pass": true
+        }
+      ]
+    },
+    "attribute": {
+      "count": 5,
+      "max_z_score_abs": 0.0,
+      "max_probabilities_abs": 0.0,
+      "all_sources_match": true,
+      "all_decisions_match": true,
+      "all_numeric_pass": true,
+      "checks": [
+        {
+          "z_score_abs": 0.0,
+          "source_match": true,
+          "default_decision_match": true,
+          "confidence_abs": 0.0,
+          "probabilities_max_abs": 0.0,
+          "image_id": "synthbuster_59d7b980131c06dc",
+          "condition": "clean",
+          "probe_path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\baseline_comparison\\upstream_default1024_fake.json",
+          "numeric_pass": true
+        },
+        {
+          "z_score_abs": 0.0,
+          "source_match": true,
+          "default_decision_match": true,
+          "confidence_abs": 0.0,
+          "probabilities_max_abs": 0.0,
+          "image_id": "synthbuster_79b911e16f23e0ac",
+          "condition": "resize_050",
+          "probe_path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\baseline_comparison\\upstream_default1024_glide_resize050.json",
+          "numeric_pass": true
+        },
+        {
+          "z_score_abs": 0.0,
+          "source_match": true,
+          "default_decision_match": true,
+          "confidence_abs": 0.0,
+          "probabilities_max_abs": 0.0,
+          "image_id": "coco2017_000000344059",
+          "condition": "clean",
+          "probe_path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\baseline_comparison\\upstream_default1024_real.json",
+          "numeric_pass": true
+        },
+        {
+          "z_score_abs": 0.0,
+          "source_match": true,
+          "default_decision_match": true,
+          "confidence_abs": 0.0,
+          "probabilities_max_abs": 0.0,
+          "image_id": "synthbuster_b66eea22fc3bafc5",
+          "condition": "clean",
+          "probe_path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\baseline_comparison\\upstream_default1024_firefly.json",
+          "numeric_pass": true
+        },
+        {
+          "z_score_abs": 0.0,
+          "source_match": true,
+          "default_decision_match": true,
+          "confidence_abs": 0.0,
+          "probabilities_max_abs": 0.0,
+          "image_id": "synthbuster_c26c24108e9ee1ca",
+          "condition": "crop_area025",
+          "probe_path": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\baseline_comparison\\upstream_default1024_sdxl_crop025.json",
+          "numeric_pass": true
+        }
+      ]
+    }
+  },
+  "main_results_modified": false,
+  "public_api_probe_evidence": {
+    "path": "an/baseline_comparison/api_probe_audit.json",
+    "sha256": "dadc7cbbec3dd2ba4574947f61cc2dc70eddc4179ecf118db3a3099ae10cb2c0",
+    "passed": true,
+    "count": 5,
+    "max_absolute_z_difference": 9.455920491063807e-10,
+    "max_source_probability_difference": 2.4691065927950895e-09,
+    "all_source_matches": true,
+    "all_decision_matches": true
+  }
+}

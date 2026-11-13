@@ -1,0 +1,82 @@
+{"utc": "2026-11-08T10:08:53.712663+00:00", "okay": true, "ACLineStatus": 0, "BatteryFlag": 1, "BatteryLifePercent": 81, "SystemStatusFlag": 0, "BatteryLifeTime": 2133, "BatteryFullLifeTime": 4294967295}
+{"utc": "2026-11-08T10:10:46.805508+00:00", "okay": true, "ACLineStatus": 1, "BatteryFlag": 9, "BatteryLifePercent": 79, "SystemStatusFlag": 0, "BatteryLifeTime": 4294967295, "BatteryFullLifeTime": 4294967295}
+{"utc": "2026-11-08T10:11:11.011055+00:00", "okay": true, "ACLineStatus": 1, "BatteryFlag": 9, "BatteryLifePercent": 80, "SystemStatusFlag": 0, "BatteryLifeTime": 4294967295, "BatteryFullLifeTime": 4294967295}
+{"utc": "2026-11-08T10:12:01.382425+00:00", "okay": true, "ACLineStatus": 1, "BatteryFlag": 9, "BatteryLifePercent": 80, "SystemStatusFlag": 0, "BatteryLifeTime": 4294967295, "BatteryFullLifeTime": 4294967295}
+{"utc": "2026-11-08T10:12:51.728030+00:00", "okay": true, "ACLineStatus": 1, "BatteryFlag": 9, "BatteryLifePercent": 81, "SystemStatusFlag": 0, "BatteryLifeTime": 4294967295, "BatteryFullLifeTime": 4294967295}
+{"utc": "2026-11-08T10:13:42.067240+00:00", "okay": true, "ACLineStatus": 1, "BatteryFlag": 9, "BatteryLifePercent": 82, "SystemStatusFlag": 0, "BatteryLifeTime": 4294967295, "BatteryFullLifeTime": 4294967295}
+{"utc": "2026-11-08T10:14:32.440621+00:00", "okay": true, "ACLineStatus": 1, "BatteryFlag": 9, "BatteryLifePercent": 82, "SystemStatusFlag": 0, "BatteryLifeTime": 4294967295, "BatteryFullLifeTime": 4294967295}
+{"utc": "2026-11-08T10:15:22.805775+00:00", "okay": true, "ACLineStatus": 1, "BatteryFlag": 9, "BatteryLifePercent": 83, "SystemStatusFlag": 0, "BatteryLifeTime": 4294967295, "BatteryFullLifeTime": 4294967295}
+{"utc": "2026-11-08T10:16:13.209358+00:00", "okay": true, "ACLineStatus": 1, "BatteryFlag": 9, "BatteryLifePercent": 83, "SystemStatusFlag": 0, "BatteryLifeTime": 4294967295, "BatteryFullLifeTime": 4294967295}
+{"utc": "2026-11-08T10:17:03.590404+00:00", "okay": true, "ACLineStatus": 1, "BatteryFlag": 9, "BatteryLifePercent": 84, "SystemStatusFlag": 0, "BatteryLifeTime": 4294967295, "BatteryFullLifeTime": 4294967295}
+{"utc": "2026-11-08T10:17:54.030701+00:00", "okay": true, "ACLineStatus": 1, "BatteryFlag": 9, "BatteryLifePercent": 84, "SystemStatusFlag": 0, "BatteryLifeTime": 4294967295, "BatteryFullLifeTime": 4294967295}
+{"utc": "2026-11-08T10:20:35.913547+00:00", "okay": true, "ACLineStatus": 1, "BatteryFlag": 9, "BatteryLifePercent": 85, "SystemStatusFlag": 0, "BatteryLifeTime": 4294967295, "BatteryFullLifeTime": 4294967295}
+{"utc": "2026-11-08T10:21:26.282520+00:00", "okay": true, "ACLineStatus": 1, "BatteryFlag": 9, "BatteryLifePercent": 85, "SystemStatusFlag": 0, "BatteryLifeTime": 4294967295, "BatteryFullLifeTime": 4294967295}
+{"utc":"2026-11-08T10:22:55.381008+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":86,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:23:45.932141+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":86,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:24:25.231843+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":87,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:25:15.754304+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":87,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:26:06.275596+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":87,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:26:56.788592+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":88,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:27:47.304195+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":88,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:28:37.832579+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":89,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:29:28.344152+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":89,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:30:18.876908+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":89,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:31:09.389662+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":90,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:31:59.924908+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":90,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:32:50.497072+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":90,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:33:40.995015+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":91,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:34:51.322616+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":91,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:35:37.716053+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":92,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:36:28.252863+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":92,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:37:18.774922+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":92,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:38:09.300002+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":93,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:38:59.845341+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":93,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:39:50.353458+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":93,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:40:40.868361+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":93,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:41:31.366148+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":93,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:42:21.856316+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":94,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:43:12.407874+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":94,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:44:02.915082+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":94,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:44:53.410968+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":94,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:45:56.154963+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":95,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:46:46.685636+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":95,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:47:37.182927+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":95,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:48:27.700859+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":95,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:49:18.249345+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":95,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:50:08.799647+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":96,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:50:59.292386+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":96,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:51:49.825735+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":96,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:52:40.882076+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":96,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:53:31.422814+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":97,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:54:21.977968+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":97,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:55:12.533774+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":97,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:56:22.670059+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":97,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:57:13.205765+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":97,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:58:04.147155+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":97,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:58:54.673182+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":97,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T10:59:45.188309+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":97,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:00:35.772848+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":97,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:01:26.279786+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":97,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:02:16.771976+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":97,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:03:07.289390+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:03:57.897613+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:04:48.398135+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:05:38.920061+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:06:54.589015+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:07:45.141687+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:08:35.684006+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:09:26.274315+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:10:16.778235+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:11:07.332114+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:11:57.891343+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:12:48.380839+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:13:38.887321+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:14:29.383486+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:15:19.889945+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:16:10.434283+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:17:13.118037+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:18:03.768620+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:18:54.280610+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:19:44.805995+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:20:35.378228+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}
+{"utc":"2026-11-08T11:21:25.846852+00:00","okay":true,"ACLineStatus":1,"BatteryFlag":9,"BatteryLifePercent":99,"SystemStatusFlag":0,"BatteryLifeTime":4294967295,"BatteryFullLifeTime":4294967295}

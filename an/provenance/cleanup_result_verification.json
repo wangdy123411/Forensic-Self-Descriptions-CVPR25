@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "scored_pairs": 5800,
+  "originals": 400,
+  "test_originals": 300,
+  "calibration_originals": 100,
+  "condition_counts": {
+    "clean": 300,
+    "jpeg_q95": 300,
+    "jpeg_q75": 300,
+    "jpeg_q50": 300,
+    "resize_075": 300,
+    "resize_050": 300,
+    "resize_025": 300,
+    "crop_area075": 300,
+    "crop_area050": 300,
+    "crop_area025": 300,
+    "blur_sigma05": 300,
+    "blur_sigma10": 300,
+    "blur_sigma20": 300,
+    "sharpen_050": 300,
+    "sharpen_100": 300,
+    "sharpen_200": 300,
+    "resize075_jpeg75": 300,
+    "resize050_jpeg75": 300,
+    "resize050_jpeg50": 300
+  },
+  "source_counts": {
+    "COCO2017": 100,
+    "Adobe Firefly": 50,
+    "DALL-E 3": 50,
+    "GLIDE": 50,
+    "Stable Diffusion XL": 50
+  },
+  "max_z_normalization_error": 0.0,
+  "max_feature_constraint_error": 5.246079126663972e-10,
+  "verified_figures": 14,
+  "report_links_checked": 28,
+  "seconds": 11.054631599996355
+}

@@ -1,0 +1,11 @@
+{
+  "url": "http://images.cocodataset.org/zips/val2017.zip",
+  "dataset_page": "https://cocodataset.org/#download",
+  "original_split": "val2017",
+  "archive_bytes": 815585330,
+  "calibration": 100,
+  "test": 200,
+  "seed": 20261108,
+  "selection": "SHA256(seed:archive_member) ascending, calibration first then test",
+  "caveat": "Original JPEG files; checkpoint training image IDs unavailable, overlap cannot be excluded."
+}

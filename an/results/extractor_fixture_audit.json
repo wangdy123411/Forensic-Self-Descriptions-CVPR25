@@ -1,0 +1,1478 @@
+{
+  "purpose": "implementation validation, not accuracy evaluation",
+  "torch": "2.10.0+cu128",
+  "device": "cuda",
+  "fsd_config": {
+    "kernel_size": 11,
+    "num_scales": 3,
+    "max_size": 1024,
+    "resize_mode": "resize_and_crop"
+  },
+  "results": [
+    {
+      "image_id": "fixture_constant",
+      "source": "numerical_fixture",
+      "kind": "fixture",
+      "condition": "clean",
+      "processed_size": [
+        256,
+        256
+      ],
+      "relative_l2": 0.0,
+      "max_abs_difference": 0.0,
+      "absolute_z_difference": 0.0,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": 0.16133677682469094,
+          "seconds": 14.475166999967769,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641401e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "raw_residual_rms": 8.81760346231236e-14,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.0,
+            "native_residual_patch_hf_fraction_channels": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "residual_rms": 8.81760346231236e-14,
+            "residual_abs_mean": 7.460698725481052e-14,
+            "constraint_max_abs_error": 1.1102230246251565e-16,
+            "kkt_relative_residual": 7.850462293961888e-17,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 14.41796200000681
+          }
+        },
+        "fft": {
+          "z_score": 0.16133677682469094,
+          "seconds": 1.4383422000100836,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641401e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "raw_residual_rms": 8.81760346231236e-14,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.0,
+            "native_residual_patch_hf_fraction_channels": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "residual_rms": 8.81760346231236e-14,
+            "residual_abs_mean": 7.460698725481052e-14,
+            "constraint_max_abs_error": 1.1102230246251565e-16,
+            "kkt_relative_residual": 7.850462293961888e-17,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.432612600037828
+          }
+        }
+      }
+    },
+    {
+      "image_id": "fixture_constant",
+      "source": "numerical_fixture",
+      "kind": "fixture",
+      "condition": "blur_sigma20",
+      "processed_size": [
+        256,
+        256
+      ],
+      "relative_l2": 0.0,
+      "max_abs_difference": 0.0,
+      "absolute_z_difference": 0.0,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": 0.16133677682469094,
+          "seconds": 14.125427799997851,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641401e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "raw_residual_rms": 8.81760346231236e-14,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.0,
+            "native_residual_patch_hf_fraction_channels": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "residual_rms": 8.81760346231236e-14,
+            "residual_abs_mean": 7.460698725481052e-14,
+            "constraint_max_abs_error": 1.1102230246251565e-16,
+            "kkt_relative_residual": 7.850462293961888e-17,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 14.118593699997291
+          }
+        },
+        "fft": {
+          "z_score": 0.16133677682469094,
+          "seconds": 0.8055708999745548,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641401e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "raw_residual_rms": 8.81760346231236e-14,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.0,
+            "native_residual_patch_hf_fraction_channels": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "residual_rms": 8.81760346231236e-14,
+            "residual_abs_mean": 7.460698725481052e-14,
+            "constraint_max_abs_error": 1.1102230246251565e-16,
+            "kkt_relative_residual": 7.850462293961888e-17,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 0.799071199959144
+          }
+        }
+      }
+    },
+    {
+      "image_id": "fixture_constant",
+      "source": "numerical_fixture",
+      "kind": "fixture",
+      "condition": "crop_area025",
+      "processed_size": [
+        128,
+        128
+      ],
+      "relative_l2": 0.0,
+      "max_abs_difference": 0.0,
+      "absolute_z_difference": 0.0,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": 0.16133677682469094,
+          "seconds": 15.243914899998344,
+          "diagnostics": {
+            "input_height": 128,
+            "input_width": 128,
+            "raw_residual_shape": [
+              114,
+              114
+            ],
+            "raw_residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "raw_residual_rms": 8.81760346231236e-14,
+            "native_residual_patch_shape": [
+              114,
+              114
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.0,
+            "native_residual_patch_hf_fraction_channels": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "residual_rms": 8.81760346231236e-14,
+            "residual_abs_mean": 7.460698725481052e-14,
+            "constraint_max_abs_error": 1.1102230246251565e-16,
+            "kkt_relative_residual": 7.850462293961888e-17,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 15.236894799978472
+          }
+        },
+        "fft": {
+          "z_score": 0.16133677682469094,
+          "seconds": 0.8734736999031156,
+          "diagnostics": {
+            "input_height": 128,
+            "input_width": 128,
+            "raw_residual_shape": [
+              114,
+              114
+            ],
+            "raw_residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "raw_residual_rms": 8.81760346231236e-14,
+            "native_residual_patch_shape": [
+              114,
+              114
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.0,
+            "native_residual_patch_hf_fraction_channels": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "residual_rms": 8.81760346231236e-14,
+            "residual_abs_mean": 7.460698725481052e-14,
+            "constraint_max_abs_error": 1.1102230246251565e-16,
+            "kkt_relative_residual": 7.850462293961888e-17,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 0.8618460000725463
+          }
+        }
+      }
+    },
+    {
+      "image_id": "fixture_constant",
+      "source": "numerical_fixture",
+      "kind": "fixture",
+      "condition": "resize_025",
+      "processed_size": [
+        64,
+        64
+      ],
+      "relative_l2": 0.0,
+      "max_abs_difference": 0.0,
+      "absolute_z_difference": 0.0,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": 0.16133677682469094,
+          "seconds": 16.53008579998277,
+          "diagnostics": {
+            "input_height": 64,
+            "input_width": 64,
+            "raw_residual_shape": [
+              50,
+              50
+            ],
+            "raw_residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "raw_residual_rms": 8.81760346231236e-14,
+            "native_residual_patch_shape": [
+              50,
+              50
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.0,
+            "native_residual_patch_hf_fraction_channels": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "residual_rms": 8.81760346231236e-14,
+            "residual_abs_mean": 7.460698725481052e-14,
+            "constraint_max_abs_error": 1.1102230246251565e-16,
+            "kkt_relative_residual": 7.850462293961888e-17,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 16.523554799961857
+          }
+        },
+        "fft": {
+          "z_score": 0.16133677682469094,
+          "seconds": 0.9953794000903144,
+          "diagnostics": {
+            "input_height": 64,
+            "input_width": 64,
+            "raw_residual_shape": [
+              50,
+              50
+            ],
+            "raw_residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "raw_residual_rms": 8.81760346231236e-14,
+            "native_residual_patch_shape": [
+              50,
+              50
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.0,
+            "native_residual_patch_hf_fraction_channels": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "residual_rms": 8.81760346231236e-14,
+            "residual_abs_mean": 7.460698725481052e-14,
+            "constraint_max_abs_error": 1.1102230246251565e-16,
+            "kkt_relative_residual": 7.850462293961888e-17,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 0.988761099986732
+          }
+        }
+      }
+    },
+    {
+      "image_id": "fixture_constant",
+      "source": "numerical_fixture",
+      "kind": "fixture",
+      "condition": "jpeg_q50",
+      "processed_size": [
+        256,
+        256
+      ],
+      "relative_l2": 0.0,
+      "max_abs_difference": 0.0,
+      "absolute_z_difference": 0.0,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": 0.16133677682469094,
+          "seconds": 17.194969599950127,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641401e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "raw_residual_rms": 8.81760346231236e-14,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.0,
+            "native_residual_patch_hf_fraction_channels": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "residual_rms": 8.81760346231236e-14,
+            "residual_abs_mean": 7.460698725481052e-14,
+            "constraint_max_abs_error": 1.1102230246251565e-16,
+            "kkt_relative_residual": 7.850462293961888e-17,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 17.18761080002878
+          }
+        },
+        "fft": {
+          "z_score": 0.16133677682469094,
+          "seconds": 0.9630958000198007,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 256,
+            "raw_residual_shape": [
+              242,
+              242
+            ],
+            "raw_residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641401e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "raw_residual_rms": 8.81760346231236e-14,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.0,
+            "native_residual_patch_hf_fraction_channels": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              7.105427357601002e-14,
+              4.263256414560601e-14,
+              1.7053025658242404e-13,
+              8.526512829121202e-14,
+              0.0,
+              9.947598300641403e-14,
+              8.526512829121202e-14,
+              4.263256414560601e-14
+            ],
+            "residual_rms": 8.81760346231236e-14,
+            "residual_abs_mean": 7.460698725481052e-14,
+            "constraint_max_abs_error": 1.1102230246251565e-16,
+            "kkt_relative_residual": 7.850462293961888e-17,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 0.9533337000757456
+          }
+        }
+      }
+    },
+    {
+      "image_id": "fixture_low_texture",
+      "source": "numerical_fixture",
+      "kind": "fixture",
+      "condition": "clean",
+      "processed_size": [
+        320,
+        256
+      ],
+      "relative_l2": 8.537923118325392e-12,
+      "max_abs_difference": 3.837996587208181e-11,
+      "absolute_z_difference": 2.474642712968489e-11,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -1.566089191108585,
+          "seconds": 18.88811339996755,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 320,
+            "raw_residual_shape": [
+              242,
+              306
+            ],
+            "raw_residual_rms_channels": [
+              0.9602584147325729,
+              0.920716306478104,
+              0.9545981902749684,
+              0.946670223713382,
+              0.9649283772729764,
+              0.9378956392648818,
+              0.9371571127093673,
+              0.9286363864234175
+            ],
+            "raw_residual_rms": 0.9439690774153586,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.998909343578236,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9989267399986985,
+              0.9988470008147008,
+              0.9989485562937672,
+              0.9989286233932042,
+              0.9989447596637178,
+              0.9988785296699653,
+              0.9988951328524677,
+              0.9988940205591049
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.40221600530158297,
+              0.40213426128537827,
+              0.4010867750513373,
+              0.4021379624549154,
+              0.4040596949537197,
+              0.40249196937947174,
+              0.40294661472784693,
+              0.4026214139540581
+            ],
+            "residual_rms": 0.40246261018646634,
+            "residual_abs_mean": 0.2921003224984167,
+            "constraint_max_abs_error": 1.3500311979441904e-13,
+            "kkt_relative_residual": 2.1373235292814163e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 18.880758799961768
+          }
+        },
+        "fft": {
+          "z_score": -1.5660891911333314,
+          "seconds": 1.2501027999678627,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 320,
+            "raw_residual_shape": [
+              242,
+              306
+            ],
+            "raw_residual_rms_channels": [
+              0.9602584147325729,
+              0.920716306478104,
+              0.9545981902749684,
+              0.946670223713382,
+              0.9649283772729764,
+              0.9378956392648818,
+              0.9371571127093673,
+              0.9286363864234175
+            ],
+            "raw_residual_rms": 0.9439690774153586,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.998909343578236,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9989267399986985,
+              0.9988470008147008,
+              0.9989485562937672,
+              0.9989286233932042,
+              0.9989447596637178,
+              0.9988785296699653,
+              0.9988951328524677,
+              0.9988940205591049
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.40221600530158297,
+              0.40213426128537827,
+              0.4010867750513373,
+              0.4021379624549154,
+              0.4040596949537197,
+              0.40249196937947174,
+              0.40294661472784693,
+              0.4026214139540581
+            ],
+            "residual_rms": 0.40246261018646634,
+            "residual_abs_mean": 0.2921003224984167,
+            "constraint_max_abs_error": 1.723066134218243e-13,
+            "kkt_relative_residual": 2.062367876922473e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.24345509998966
+          }
+        }
+      }
+    },
+    {
+      "image_id": "fixture_low_texture",
+      "source": "numerical_fixture",
+      "kind": "fixture",
+      "condition": "blur_sigma20",
+      "processed_size": [
+        320,
+        256
+      ],
+      "relative_l2": 1.2750565991523785e-11,
+      "max_abs_difference": 6.537670405037943e-11,
+      "absolute_z_difference": 2.2927437726139033e-11,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -1.5428907375946561,
+          "seconds": 19.910538899945095,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 320,
+            "raw_residual_shape": [
+              242,
+              306
+            ],
+            "raw_residual_rms_channels": [
+              0.39700507340413427,
+              0.3885940908227967,
+              0.3986830283559626,
+              0.39773988488702405,
+              0.3995756163571125,
+              0.39428604537019846,
+              0.397691163424847,
+              0.3937359054472859
+            ],
+            "raw_residual_rms": 0.39592801623614005,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9967506133284104,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9967320835263964,
+              0.9966339367578715,
+              0.9967318652576312,
+              0.9966840711985119,
+              0.9968716547150339,
+              0.9967135680237164,
+              0.9969331781397982,
+              0.9966769887897355
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.17957202939799405,
+              0.18009830322928752,
+              0.18023689461027165,
+              0.18109210317046176,
+              0.18050803963377296,
+              0.18048211150727705,
+              0.18154561551719242,
+              0.18111295739136352
+            ],
+            "residual_rms": 0.18058199639386563,
+            "residual_abs_mean": 0.13559388587569549,
+            "constraint_max_abs_error": 6.061817714453355e-14,
+            "kkt_relative_residual": 2.3356335637249773e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 19.90123799990397
+          }
+        },
+        "fft": {
+          "z_score": -1.5428907375717287,
+          "seconds": 1.1845555000472814,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 320,
+            "raw_residual_shape": [
+              242,
+              306
+            ],
+            "raw_residual_rms_channels": [
+              0.39700507340413427,
+              0.3885940908227967,
+              0.3986830283559626,
+              0.39773988488702405,
+              0.3995756163571125,
+              0.39428604537019846,
+              0.397691163424847,
+              0.3937359054472859
+            ],
+            "raw_residual_rms": 0.39592801623614005,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9967506133284104,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9967320835263964,
+              0.9966339367578715,
+              0.9967318652576312,
+              0.9966840711985119,
+              0.9968716547150339,
+              0.9967135680237164,
+              0.9969331781397982,
+              0.9966769887897355
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.17957202939799405,
+              0.18009830322928752,
+              0.18023689461027165,
+              0.18109210317046176,
+              0.18050803963377296,
+              0.18048211150727705,
+              0.18154561551719242,
+              0.18111295739136352
+            ],
+            "residual_rms": 0.18058199639386563,
+            "residual_abs_mean": 0.13559388587569549,
+            "constraint_max_abs_error": 1.438849039914203e-13,
+            "kkt_relative_residual": 2.4522493705541697e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.1708026999840513
+          }
+        }
+      }
+    },
+    {
+      "image_id": "fixture_low_texture",
+      "source": "numerical_fixture",
+      "kind": "fixture",
+      "condition": "crop_area025",
+      "processed_size": [
+        160,
+        128
+      ],
+      "relative_l2": 1.9312499832409365e-09,
+      "max_abs_difference": 2.640639817919066e-09,
+      "absolute_z_difference": 7.743362617773641e-10,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": 0.45409419486021396,
+          "seconds": 20.97988609992899,
+          "diagnostics": {
+            "input_height": 128,
+            "input_width": 160,
+            "raw_residual_shape": [
+              114,
+              146
+            ],
+            "raw_residual_rms_channels": [
+              0.9401573934092895,
+              0.9259298368504651,
+              0.9477375774508382,
+              0.9274497469331443,
+              0.9555252635147762,
+              0.9432133156813799,
+              0.9417824253199335,
+              0.9215999410544077
+            ],
+            "raw_residual_rms": 0.9379893397606822,
+            "native_residual_patch_shape": [
+              114,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9989139020154456,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9989275948586417,
+              0.9988521043698568,
+              0.9989541792213111,
+              0.9989349273782246,
+              0.9989477086983396,
+              0.9988831709005198,
+              0.9988965352496126,
+              0.9989040035958129
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.4007514961936882,
+              0.40129300885497804,
+              0.40077298585905513,
+              0.39902842503193137,
+              0.4021173602365362,
+              0.4043609171644171,
+              0.40479850048226307,
+              0.398998931193222
+            ],
+            "residual_rms": 0.40152033053366026,
+            "residual_abs_mean": 0.29137397551900274,
+            "constraint_max_abs_error": 3.0753177782116836e-14,
+            "kkt_relative_residual": 8.211493913393296e-16,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 20.97284529998433
+          }
+        },
+        "fft": {
+          "z_score": 0.4540941956345502,
+          "seconds": 1.1523205999983475,
+          "diagnostics": {
+            "input_height": 128,
+            "input_width": 160,
+            "raw_residual_shape": [
+              114,
+              146
+            ],
+            "raw_residual_rms_channels": [
+              0.9401573934092895,
+              0.9259298368504651,
+              0.9477375774508382,
+              0.9274497469331443,
+              0.9555252635147762,
+              0.9432133156813799,
+              0.9417824253199335,
+              0.9215999410544077
+            ],
+            "raw_residual_rms": 0.9379893397606822,
+            "native_residual_patch_shape": [
+              114,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9989139020154456,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9989275948586417,
+              0.9988521043698568,
+              0.9989541792213111,
+              0.9989349273782246,
+              0.9989477086983396,
+              0.9988831709005198,
+              0.9988965352496126,
+              0.9989040035958129
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.4007514961936882,
+              0.40129300885497804,
+              0.40077298585905513,
+              0.39902842503193137,
+              0.4021173602365362,
+              0.4043609171644171,
+              0.40479850048226307,
+              0.398998931193222
+            ],
+            "residual_rms": 0.40152033053366026,
+            "residual_abs_mean": 0.29137397551900274,
+            "constraint_max_abs_error": 5.3290705182007514e-14,
+            "kkt_relative_residual": 8.735099861896416e-16,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.1449546999065205
+          }
+        }
+      }
+    },
+    {
+      "image_id": "fixture_low_texture",
+      "source": "numerical_fixture",
+      "kind": "fixture",
+      "condition": "resize_025",
+      "processed_size": [
+        80,
+        64
+      ],
+      "relative_l2": 7.994257353184213e-08,
+      "max_abs_difference": 8.206282319650482e-08,
+      "absolute_z_difference": 7.337703000764861e-09,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": 0.2890696190845628,
+          "seconds": 21.29563579999376,
+          "diagnostics": {
+            "input_height": 64,
+            "input_width": 80,
+            "raw_residual_shape": [
+              50,
+              66
+            ],
+            "raw_residual_rms_channels": [
+              0.5238426226349002,
+              0.5225439143258299,
+              0.5218383141386949,
+              0.5125011837817116,
+              0.522924060710458,
+              0.5121845324044035,
+              0.5117277526803907,
+              0.5205255891082412
+            ],
+            "raw_residual_rms": 0.5185352779045967,
+            "native_residual_patch_shape": [
+              50,
+              66
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9986146940012541,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9986759057802318,
+              0.9986027848109579,
+              0.998525931771304,
+              0.9987955521225738,
+              0.9984920071644526,
+              0.9984436143771744,
+              0.9984793198223083,
+              0.998803636552516
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.223229160330183,
+              0.22730492753159326,
+              0.22434355996384464,
+              0.22306878076910847,
+              0.22187660419809596,
+              0.22319291626474197,
+              0.22363926339026008,
+              0.22944206091852248
+            ],
+            "residual_rms": 0.22452477223082895,
+            "residual_abs_mean": 0.16221432142833414,
+            "constraint_max_abs_error": 1.5210055437364645e-14,
+            "kkt_relative_residual": 6.878930692188339e-16,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 21.288695800001733
+          }
+        },
+        "fft": {
+          "z_score": 0.2890696117468598,
+          "seconds": 1.1547687000129372,
+          "diagnostics": {
+            "input_height": 64,
+            "input_width": 80,
+            "raw_residual_shape": [
+              50,
+              66
+            ],
+            "raw_residual_rms_channels": [
+              0.5238426226349002,
+              0.5225439143258299,
+              0.5218383141386949,
+              0.5125011837817116,
+              0.522924060710458,
+              0.5121845324044035,
+              0.5117277526803907,
+              0.5205255891082412
+            ],
+            "raw_residual_rms": 0.5185352779045967,
+            "native_residual_patch_shape": [
+              50,
+              66
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9986146940012541,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9986759057802318,
+              0.9986027848109579,
+              0.998525931771304,
+              0.9987955521225738,
+              0.9984920071644526,
+              0.9984436143771744,
+              0.9984793198223083,
+              0.998803636552516
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.223229160330183,
+              0.22730492753159326,
+              0.22434355996384464,
+              0.22306878076910847,
+              0.22187660419809596,
+              0.22319291626474197,
+              0.22363926339026008,
+              0.22944206091852248
+            ],
+            "residual_rms": 0.22452477223082895,
+            "residual_abs_mean": 0.16221432142833414,
+            "constraint_max_abs_error": 1.6653345369377348e-14,
+            "kkt_relative_residual": 7.334793637086409e-16,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.147785900044255
+          }
+        }
+      }
+    },
+    {
+      "image_id": "fixture_low_texture",
+      "source": "numerical_fixture",
+      "kind": "fixture",
+      "condition": "jpeg_q50",
+      "processed_size": [
+        320,
+        256
+      ],
+      "relative_l2": 7.510414006505997e-11,
+      "max_abs_difference": 6.38443298228708e-10,
+      "absolute_z_difference": 2.585021086076722e-10,
+      "passed": true,
+      "methods": {
+        "tiled": {
+          "z_score": -2.192066351172243,
+          "seconds": 21.580915799946524,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 320,
+            "raw_residual_shape": [
+              242,
+              306
+            ],
+            "raw_residual_rms_channels": [
+              0.19795527126305448,
+              0.1951349228051565,
+              0.19541308605498073,
+              0.19511141941237825,
+              0.19924607281124687,
+              0.1956882256069101,
+              0.19682295548047055,
+              0.19224697942086533
+            ],
+            "raw_residual_rms": 0.19596228073855426,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9646503081027891,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9644239675505878,
+              0.9651276429531258,
+              0.9635716636259251,
+              0.964502400757452,
+              0.9651048602562216,
+              0.9643990570216637,
+              0.9658792046716073,
+              0.964135538316714
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.11300965670800626,
+              0.11313563797768975,
+              0.11337121153029782,
+              0.11189347860349184,
+              0.11408281801502931,
+              0.1129825524231454,
+              0.11220342377468,
+              0.11142191974902182
+            ],
+            "residual_rms": 0.11276548467579457,
+            "residual_abs_mean": 0.06599267020353938,
+            "constraint_max_abs_error": 1.5365486660812167e-13,
+            "kkt_relative_residual": 3.1373178204309696e-15,
+            "method": "tiled",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 21.573202100000344
+          }
+        },
+        "fft": {
+          "z_score": -2.192066351430745,
+          "seconds": 1.183212999952957,
+          "diagnostics": {
+            "input_height": 256,
+            "input_width": 320,
+            "raw_residual_shape": [
+              242,
+              306
+            ],
+            "raw_residual_rms_channels": [
+              0.19795527126305448,
+              0.1951349228051565,
+              0.19541308605498073,
+              0.19511141941237825,
+              0.19924607281124687,
+              0.1956882256069101,
+              0.19682295548047055,
+              0.19224697942086533
+            ],
+            "raw_residual_rms": 0.19596228073855426,
+            "native_residual_patch_shape": [
+              128,
+              128
+            ],
+            "native_residual_patch_hf_cutoff_cycles_per_pixel": 0.25,
+            "native_residual_patch_hf_fraction": 0.9646503081027891,
+            "native_residual_patch_hf_fraction_channels": [
+              0.9644239675505878,
+              0.9651276429531258,
+              0.9635716636259251,
+              0.964502400757452,
+              0.9651048602562216,
+              0.9643990570216637,
+              0.9658792046716073,
+              0.964135538316714
+            ],
+            "residual_shape": [
+              1024,
+              1024
+            ],
+            "residual_rms_channels": [
+              0.11300965670800626,
+              0.11313563797768975,
+              0.11337121153029782,
+              0.11189347860349184,
+              0.11408281801502931,
+              0.1129825524231454,
+              0.11220342377468,
+              0.11142191974902182
+            ],
+            "residual_rms": 0.11276548467579457,
+            "residual_abs_mean": 0.06599267020353938,
+            "constraint_max_abs_error": 1.509903313490213e-13,
+            "kkt_relative_residual": 3.08027302678026e-15,
+            "method": "fft",
+            "dtype": "float64",
+            "samples": 1376256,
+            "feature_dim": 960,
+            "lambda_reg": 1e-05,
+            "num_scales": 3,
+            "max_size": 1024,
+            "seconds": 1.1759743000147864
+          }
+        }
+      }
+    }
+  ],
+  "tolerances": {
+    "relative_l2": 0.0001,
+    "absolute_z_difference": 0.001
+  },
+  "passed": true
+}

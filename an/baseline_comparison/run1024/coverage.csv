@@ -1,0 +1,36 @@
+condition,source,expected,completed,missing
+clean,DALL-E 3,5,5,0
+clean,GLIDE,5,5,0
+clean,COCO2017,5,5,0
+clean,Adobe Firefly,5,5,0
+clean,Stable Diffusion XL,5,5,0
+jpeg_q50,DALL-E 3,5,5,0
+jpeg_q50,GLIDE,5,5,0
+jpeg_q50,COCO2017,5,5,0
+jpeg_q50,Adobe Firefly,5,5,0
+jpeg_q50,Stable Diffusion XL,5,5,0
+resize_050,DALL-E 3,5,5,0
+resize_050,GLIDE,5,5,0
+resize_050,COCO2017,5,5,0
+resize_050,Adobe Firefly,5,5,0
+resize_050,Stable Diffusion XL,5,5,0
+crop_area025,DALL-E 3,5,5,0
+crop_area025,GLIDE,5,5,0
+crop_area025,COCO2017,5,5,0
+crop_area025,Adobe Firefly,5,5,0
+crop_area025,Stable Diffusion XL,5,5,0
+blur_sigma20,DALL-E 3,5,5,0
+blur_sigma20,GLIDE,5,5,0
+blur_sigma20,COCO2017,5,5,0
+blur_sigma20,Adobe Firefly,5,5,0
+blur_sigma20,Stable Diffusion XL,5,5,0
+sharpen_200,DALL-E 3,5,5,0
+sharpen_200,GLIDE,5,5,0
+sharpen_200,COCO2017,5,5,0
+sharpen_200,Adobe Firefly,5,5,0
+sharpen_200,Stable Diffusion XL,5,5,0
+resize050_jpeg50,DALL-E 3,5,5,0
+resize050_jpeg50,GLIDE,5,5,0
+resize050_jpeg50,COCO2017,5,5,0
+resize050_jpeg50,Adobe Firefly,5,5,0
+resize050_jpeg50,Stable Diffusion XL,5,5,0

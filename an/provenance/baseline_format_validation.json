@@ -1,0 +1,23 @@
+{
+  "files": [
+    "an\\baseline_comparison\\analyze_comparison.py",
+    "an\\baseline_comparison\\audit_api_probes.py",
+    "an\\baseline_comparison\\compare_upstream.py",
+    "an\\baseline_comparison\\complete_comparison.py",
+    "an\\baseline_comparison\\finalize_provenance.py",
+    "an\\baseline_comparison\\power_status.py",
+    "an\\baseline_comparison\\probe_upstream.py",
+    "an\\baseline_comparison\\verify_source.py",
+    "an\\tests\\audit_processed_extractor.py",
+    "an\\tests\\smoke_residual_gallery.py",
+    "an\\tests\\test_analysis.py",
+    "an\\tests\\test_baseline_comparison.py",
+    "an\\tests\\test_content_sensitivity.py",
+    "an\\tests\\test_data_acquisition.py",
+    "an\\tests\\test_extractor.py",
+    "an\\tests\\test_merge_runs.py",
+    "an\\tests\\test_transforms.py",
+    "an\\tests\\validate_extractor.py"
+  ],
+  "executable_ast_identical": true
+}

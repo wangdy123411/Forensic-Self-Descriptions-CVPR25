@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "purpose": "Literal upstream public API checks at default 1024; same original weights and processed inputs",
+  "probability_conversion": "AN raw source likelihoods converted with original temperature750 softmax",
+  "results": [
+    {
+      "probe": "upstream_default1024_fake.json",
+      "image_id": "synthbuster_59d7b980131c06dc",
+      "condition": "clean",
+      "upstream_z": -5.793113806031324,
+      "an_z": -5.793113805085732,
+      "absolute_z_difference": 9.455920491063807e-10,
+      "source_match": true,
+      "released_decision_match": true,
+      "maximum_source_probability_difference": 1.3783735264283337e-10,
+      "confidence_difference": 1.3783735264283337e-10,
+      "passed": true
+    },
+    {
+      "probe": "upstream_default1024_firefly.json",
+      "image_id": "synthbuster_b66eea22fc3bafc5",
+      "condition": "clean",
+      "upstream_z": -21.57461163419335,
+      "an_z": -21.574611634158817,
+      "absolute_z_difference": 3.453237695794087e-11,
+      "source_match": true,
+      "released_decision_match": true,
+      "maximum_source_probability_difference": 1.3073309795830212e-14,
+      "confidence_difference": 1.0769163338864018e-14,
+      "passed": true
+    },
+    {
+      "probe": "upstream_default1024_glide_resize050.json",
+      "image_id": "synthbuster_79b911e16f23e0ac",
+      "condition": "resize_050",
+      "upstream_z": 0.4943286176204703,
+      "an_z": 0.4943286169571368,
+      "absolute_z_difference": 6.633334992400819e-10,
+      "source_match": true,
+      "released_decision_match": true,
+      "maximum_source_probability_difference": 2.4691065927950895e-09,
+      "confidence_difference": 1.9875926460244386e-09,
+      "passed": true
+    },
+    {
+      "probe": "upstream_default1024_real.json",
+      "image_id": "coco2017_000000344059",
+      "condition": "clean",
+      "upstream_z": 0.4320717128275424,
+      "an_z": 0.4320717128304116,
+      "absolute_z_difference": 2.8692048736900233e-12,
+      "source_match": true,
+      "released_decision_match": true,
+      "maximum_source_probability_difference": 9.929626565430283e-13,
+      "confidence_difference": 2.5268676040468563e-13,
+      "passed": true
+    },
+    {
+      "probe": "upstream_default1024_sdxl_crop025.json",
+      "image_id": "synthbuster_c26c24108e9ee1ca",
+      "condition": "crop_area025",
+      "upstream_z": 0.301746214846993,
+      "an_z": 0.30174621484636704,
+      "absolute_z_difference": 6.259437412836633e-13,
+      "source_match": true,
+      "released_decision_match": true,
+      "maximum_source_probability_difference": 2.8321789358187743e-13,
+      "confidence_difference": 1.6153745008296028e-13,
+      "passed": true
+    }
+  ]
+}

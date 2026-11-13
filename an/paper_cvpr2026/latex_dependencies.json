@@ -1,0 +1,38 @@
+[
+  {
+    "package": "silence",
+    "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2025/tlnet-final/archive/silence.tar.xz",
+    "sha256": "b7496487b2a579a76b0ed12af20806c7f952f60abab14dfea41b7cafdc9e0530",
+    "bytes": 3604
+  },
+  {
+    "package": "caption",
+    "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2025/tlnet-final/archive/caption.tar.xz",
+    "sha256": "c10e09b6a2a9ad9b33f0803967280faa625ac7eaf3837b2dc9105a7b50934484",
+    "bytes": 61616
+  },
+  {
+    "package": "enumitem",
+    "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2025/tlnet-final/archive/enumitem.tar.xz",
+    "sha256": "887fa546b820d8345d801404978a57876afe9ed22debcca736bb24d4f8338618",
+    "bytes": 13816
+  },
+  {
+    "package": "cleveref",
+    "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2025/tlnet-final/archive/cleveref.tar.xz",
+    "sha256": "7417af430b88ad40e3f66cb890f629cb37fe8f5e4a1a0a64172565c4c8ce4c8a",
+    "bytes": 28484
+  },
+  {
+    "package": "lineno",
+    "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2025/tlnet-final/archive/lineno.tar.xz",
+    "sha256": "a2663d1feb6cd57699fc2caf4ad9ff1cd78a26175cf2dfb215db64a7eab2705b",
+    "bytes": 62936
+  },
+  {
+    "package": "grfext",
+    "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2025/tlnet-final/archive/grfext.tar.xz",
+    "sha256": "50e4e7e82a57bacf8bb9a00c9d90b9c07d9f9e0226cc3926e618d4d2d0ab8b29",
+    "bytes": 2328
+  }
+]

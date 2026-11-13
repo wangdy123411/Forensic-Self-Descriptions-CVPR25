@@ -1,0 +1,10 @@
+{
+  "stage": "complete",
+  "updated_utc": "2026-11-08T11:21:02.237398+00:00",
+  "report": "D:\\Code\\Forensic-Self-Descriptions-CVPR25\\an\\baseline_comparison\\run1024\\report.md",
+  "numeric_pass": {
+    "upstream_vs_an_numeric_pass": true,
+    "upstream_vs_main_numeric_pass": true,
+    "an_vs_main_numeric_pass": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "audit_result": "an/results/extractor_processed_audit.json",
+  "implementation_and_input_sha256": {
+    "an/data/manifest_audit.csv": "2e0605914e98e7605ac2c448a36203a8e5d3ddb1f07bd6a8e92600f35f1eb2f3",
+    "an/robustness/extractor.py": "475143c755e5ea6380b3b795c1ee29ebc39668f325f6b534e9f8cf34a0a60369",
+    "an/robustness/transforms.py": "4ac018213e80c8000c14ebe7c48dacfda801fdbc0ee1191bc0594755a7f93f0d",
+    "an/tests/audit_processed_extractor.py": "2b95a9f05938b7afefb60cdbc0c654c79c4578c3d7b6f1348a3f2e30a88808be",
+    "an/weights/v1.2.0/attribution_transforms.pt": "90fab44761c138a70ec7de585d4ec998ce1fe1db8a36fd8631b5988207067605",
+    "an/weights/v1.2.0/config.json": "7cc34433045adb998762e00de7de25c50f9c1e10dbac1c18899c6c63c4cfafe4",
+    "an/weights/v1.2.0/fre.pt": "d95b9c50837dbf7b660bbefa20cdaa5db5e59601a9d6544573c10e78e04906bb",
+    "an/weights/v1.2.0/fsd_transforms.pt": "1e87d792b413101e58d9de71551182a1fab8b879ca6f6ba9780b6adcb9a5a699",
+    "an/weights/v1.2.0/gmm.pt": "0f9fa030a3d5816266d0329fd0fb614b65e322d4bda6d083613c713bfe9bc829",
+    "an/weights/v1.2.0/source_gmms.pt": "42b5e4110a4ff867503983a806b2c7c8674c545994d59ff5c4f01369c54e82d0"
+  },
+  "note": "Snapshot hashes recorded immediately after completed16-pair audit; no extractor edits during audit. Conditions are generated in memory from original image bytes."
+}

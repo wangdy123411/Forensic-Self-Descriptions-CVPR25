@@ -1,0 +1,85 @@
+n_real,n_fake,auroc,released_tpr,released_fpr,released_balanced_accuracy,calibrated_tpr,calibrated_fpr,condition,implementation,group
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,clean,upstream,Adobe Firefly
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,clean,upstream,DALL-E 3
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,clean,upstream,GLIDE
+5,5,0.9600000000000001,0.8,0.0,0.9,0.8,0.0,clean,upstream,Stable Diffusion XL
+5,20,0.99,0.95,0.0,0.975,0.95,0.0,clean,upstream,pooled
+5,20,0.99,0.95,0.0,0.975,0.95,0.0,clean,upstream,macro
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,clean,main,Adobe Firefly
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,clean,main,DALL-E 3
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,clean,main,GLIDE
+5,5,0.9600000000000001,0.8,0.0,0.9,0.8,0.0,clean,main,Stable Diffusion XL
+5,20,0.99,0.95,0.0,0.975,0.95,0.0,clean,main,pooled
+5,20,0.99,0.95,0.0,0.975,0.95,0.0,clean,main,macro
+5,5,1.0,0.6,0.0,0.8,1.0,0.0,jpeg_q50,upstream,Adobe Firefly
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,jpeg_q50,upstream,DALL-E 3
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,jpeg_q50,upstream,GLIDE
+5,5,1.0,0.4,0.0,0.7,0.8,0.0,jpeg_q50,upstream,Stable Diffusion XL
+5,20,1.0,0.75,0.0,0.875,0.95,0.0,jpeg_q50,upstream,pooled
+5,20,1.0,0.75,0.0,0.875,0.95,0.0,jpeg_q50,upstream,macro
+5,5,1.0,0.6,0.0,0.8,1.0,0.0,jpeg_q50,main,Adobe Firefly
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,jpeg_q50,main,DALL-E 3
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,jpeg_q50,main,GLIDE
+5,5,1.0,0.4,0.0,0.7,0.8,0.0,jpeg_q50,main,Stable Diffusion XL
+5,20,1.0,0.75,0.0,0.875,0.95,0.0,jpeg_q50,main,pooled
+5,20,1.0,0.75,0.0,0.875,0.95,0.0,jpeg_q50,main,macro
+5,5,1.0,1.0,0.0,1.0,1.0,0.2,resize_050,upstream,Adobe Firefly
+5,5,1.0,1.0,0.0,1.0,1.0,0.2,resize_050,upstream,DALL-E 3
+5,5,0.28,0.0,0.0,0.5,0.0,0.2,resize_050,upstream,GLIDE
+5,5,0.36,0.0,0.0,0.5,0.0,0.2,resize_050,upstream,Stable Diffusion XL
+5,20,0.6599999999999999,0.5,0.0,0.75,0.5,0.2,resize_050,upstream,pooled
+5,20,0.66,0.5,0.0,0.75,0.5,0.2,resize_050,upstream,macro
+5,5,1.0,1.0,0.0,1.0,1.0,0.2,resize_050,main,Adobe Firefly
+5,5,1.0,1.0,0.0,1.0,1.0,0.2,resize_050,main,DALL-E 3
+5,5,0.28,0.0,0.0,0.5,0.0,0.2,resize_050,main,GLIDE
+5,5,0.36,0.0,0.0,0.5,0.0,0.2,resize_050,main,Stable Diffusion XL
+5,20,0.6599999999999999,0.5,0.0,0.75,0.5,0.2,resize_050,main,pooled
+5,20,0.66,0.5,0.0,0.75,0.5,0.2,resize_050,main,macro
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,crop_area025,upstream,Adobe Firefly
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,crop_area025,upstream,DALL-E 3
+5,5,0.28,0.0,0.0,0.5,0.0,0.0,crop_area025,upstream,GLIDE
+5,5,0.4,0.0,0.0,0.5,0.0,0.0,crop_area025,upstream,Stable Diffusion XL
+5,20,0.6699999999999999,0.5,0.0,0.75,0.5,0.0,crop_area025,upstream,pooled
+5,20,0.67,0.5,0.0,0.75,0.5,0.0,crop_area025,upstream,macro
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,crop_area025,main,Adobe Firefly
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,crop_area025,main,DALL-E 3
+5,5,0.28,0.0,0.0,0.5,0.0,0.0,crop_area025,main,GLIDE
+5,5,0.4,0.0,0.0,0.5,0.0,0.0,crop_area025,main,Stable Diffusion XL
+5,20,0.6699999999999999,0.5,0.0,0.75,0.5,0.0,crop_area025,main,pooled
+5,20,0.67,0.5,0.0,0.75,0.5,0.0,crop_area025,main,macro
+5,5,1.0,0.0,0.0,0.5,0.4,0.0,blur_sigma20,upstream,Adobe Firefly
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,blur_sigma20,upstream,DALL-E 3
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,blur_sigma20,upstream,GLIDE
+5,5,1.0,0.2,0.0,0.6,0.6,0.0,blur_sigma20,upstream,Stable Diffusion XL
+5,20,1.0,0.55,0.0,0.775,0.75,0.0,blur_sigma20,upstream,pooled
+5,20,1.0,0.55,0.0,0.775,0.75,0.0,blur_sigma20,upstream,macro
+5,5,1.0,0.0,0.0,0.5,0.4,0.0,blur_sigma20,main,Adobe Firefly
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,blur_sigma20,main,DALL-E 3
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,blur_sigma20,main,GLIDE
+5,5,1.0,0.2,0.0,0.6,0.6,0.0,blur_sigma20,main,Stable Diffusion XL
+5,20,1.0,0.55,0.0,0.775,0.75,0.0,blur_sigma20,main,pooled
+5,20,1.0,0.55,0.0,0.775,0.75,0.0,blur_sigma20,main,macro
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,sharpen_200,upstream,Adobe Firefly
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,sharpen_200,upstream,DALL-E 3
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,sharpen_200,upstream,GLIDE
+5,5,0.9600000000000001,0.6,0.0,0.8,0.8,0.0,sharpen_200,upstream,Stable Diffusion XL
+5,20,0.99,0.9,0.0,0.95,0.95,0.0,sharpen_200,upstream,pooled
+5,20,0.99,0.9,0.0,0.95,0.95,0.0,sharpen_200,upstream,macro
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,sharpen_200,main,Adobe Firefly
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,sharpen_200,main,DALL-E 3
+5,5,1.0,1.0,0.0,1.0,1.0,0.0,sharpen_200,main,GLIDE
+5,5,0.9600000000000001,0.6,0.0,0.8,0.8,0.0,sharpen_200,main,Stable Diffusion XL
+5,20,0.99,0.9,0.0,0.95,0.95,0.0,sharpen_200,main,pooled
+5,20,0.99,0.9,0.0,0.95,0.95,0.0,sharpen_200,main,macro
+5,5,0.9600000000000001,0.8,0.2,0.8,1.0,0.2,resize050_jpeg50,upstream,Adobe Firefly
+5,5,1.0,1.0,0.2,0.9,1.0,0.2,resize050_jpeg50,upstream,DALL-E 3
+5,5,0.039999999999999994,0.0,0.2,0.4,0.0,0.2,resize050_jpeg50,upstream,GLIDE
+5,5,0.31999999999999995,0.0,0.2,0.4,0.0,0.2,resize050_jpeg50,upstream,Stable Diffusion XL
+5,20,0.5800000000000001,0.45,0.2,0.625,0.5,0.2,resize050_jpeg50,upstream,pooled
+5,20,0.58,0.45,0.2,0.625,0.5,0.2,resize050_jpeg50,upstream,macro
+5,5,0.9600000000000001,0.8,0.2,0.8,1.0,0.2,resize050_jpeg50,main,Adobe Firefly
+5,5,1.0,1.0,0.2,0.9,1.0,0.2,resize050_jpeg50,main,DALL-E 3
+5,5,0.039999999999999994,0.0,0.2,0.4,0.0,0.2,resize050_jpeg50,main,GLIDE
+5,5,0.31999999999999995,0.0,0.2,0.4,0.0,0.2,resize050_jpeg50,main,Stable Diffusion XL
+5,20,0.5800000000000001,0.45,0.2,0.625,0.5,0.2,resize050_jpeg50,main,pooled
+5,20,0.58,0.45,0.2,0.625,0.5,0.2,resize050_jpeg50,main,macro

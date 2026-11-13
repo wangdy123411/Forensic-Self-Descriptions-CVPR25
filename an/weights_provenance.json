@@ -1,0 +1,42 @@
+{
+  "repository": "ductai199x/Forensic-Self-Descriptions-CVPR25",
+  "release": "v1.2.0",
+  "files": [
+    {
+      "file": "config.json",
+      "url": "https://github.com/ductai199x/Forensic-Self-Descriptions-CVPR25/releases/download/v1.2.0/config.json",
+      "bytes": 634,
+      "sha256": "7cc34433045adb998762e00de7de25c50f9c1e10dbac1c18899c6c63c4cfafe4"
+    },
+    {
+      "file": "fre.pt",
+      "url": "https://github.com/ductai199x/Forensic-Self-Descriptions-CVPR25/releases/download/v1.2.0/fre.pt",
+      "bytes": 9861,
+      "sha256": "d95b9c50837dbf7b660bbefa20cdaa5db5e59601a9d6544573c10e78e04906bb"
+    },
+    {
+      "file": "gmm.pt",
+      "url": "https://github.com/ductai199x/Forensic-Self-Descriptions-CVPR25/releases/download/v1.2.0/gmm.pt",
+      "bytes": 14786229,
+      "sha256": "0f9fa030a3d5816266d0329fd0fb614b65e322d4bda6d083613c713bfe9bc829"
+    },
+    {
+      "file": "fsd_transforms.pt",
+      "url": "https://github.com/ductai199x/Forensic-Self-Descriptions-CVPR25/releases/download/v1.2.0/fsd_transforms.pt",
+      "bytes": 42177409,
+      "sha256": "1e87d792b413101e58d9de71551182a1fab8b879ca6f6ba9780b6adcb9a5a699"
+    },
+    {
+      "file": "attribution_transforms.pt",
+      "url": "https://github.com/ductai199x/Forensic-Self-Descriptions-CVPR25/releases/download/v1.2.0/attribution_transforms.pt",
+      "bytes": 26253901,
+      "sha256": "90fab44761c138a70ec7de585d4ec998ce1fe1db8a36fd8631b5988207067605"
+    },
+    {
+      "file": "source_gmms.pt",
+      "url": "https://github.com/ductai199x/Forensic-Self-Descriptions-CVPR25/releases/download/v1.2.0/source_gmms.pt",
+      "bytes": 206992755,
+      "sha256": "42b5e4110a4ff867503983a806b2c7c8674c545994d59ff5c4f01369c54e82d0"
+    }
+  ]
+}

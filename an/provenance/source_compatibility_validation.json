@@ -1,0 +1,32 @@
+{
+  "test_suite": {
+    "passed": true,
+    "tests_run": 45,
+    "reported_seconds": 2.446
+  },
+  "fresh_check_only": {
+    "passed": true,
+    "originals": 25,
+    "cases": 175,
+    "archive": "an/provenance/pre_cleanup_source.zip",
+    "source_files_verified": 3,
+    "no_inference": true
+  },
+  "rejection_checks": [
+    {
+      "check": "default_rejects_cleaned_source",
+      "passed": true,
+      "expected_error": "Main implementation hash changed"
+    },
+    {
+      "check": "historical_output_cannot_resume_with_changed_signature",
+      "passed": true,
+      "expected_error": "Existing output signature differs"
+    }
+  ],
+  "protected_file_sha256": {
+    "an\\results\\main\\records.jsonl": "ad2b760a9319b5cdb3d01845150d402c320b3346257057ee6e77b2a6c8777735",
+    "an\\baseline_comparison\\run1024\\records.jsonl": "398b208964916efe1f26632de5db4b52171d0908e24014694caf5645ce1c406d",
+    "an\\baseline_comparison\\run1024\\run_metadata.json": "901a86969c18e90aafd0d4a6eb6745cb15dddd78464119a89cf5db56b7ed0ada"
+  }
+}
